@@ -167,9 +167,9 @@ with st.sidebar:
 
     emp_bs = emp_b if filtro_status=="Todos" else emp_b[emp_b["status"]==filtro_status]
     l_raw = sorted(emp_bs["linha"].unique())
-    l_opts = ["Todas"] + l_raw
+    l_opts = ["Todos"] + l_raw
     if st.session_state.get("_ls") != filtro_status_lbl:
-        st.session_state["fl"] = "Todas"
+        st.session_state["fl"] = "Todos"
     st.session_state["_ls"] = filtro_status_lbl
     filtro_linha = st.selectbox("Linha de Produto", l_opts, key="fl")
 
@@ -179,7 +179,7 @@ pg = st.session_state.pg
 emp_f = emp.copy()
 if filtro_bairro!="Todos": emp_f=emp_f[emp_f["bairro"]==filtro_bairro]
 if filtro_status!="Todos": emp_f=emp_f[emp_f["status"]==filtro_status]
-if filtro_linha !="Todas": emp_f=emp_f[emp_f["linha"]==filtro_linha]
+if filtro_linha !="Todos": emp_f=emp_f[emp_f["linha"]==filtro_linha]
 
 ids_f  = emp_f["id"].tolist()
 vend_f = vendas[vendas["id_empreendimento"].isin(ids_f)]
