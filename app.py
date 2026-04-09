@@ -884,21 +884,48 @@ elif "FP&A" in pg:
     st.markdown("---")
     hdr("Variação de EBITDA: Budget vs Realizado — por Empreendimento",
         "Quais empreendimentos estão performando acima ou abaixo do orçamento. "
-        "Desvios negativos requerem análise detalhada de receita e custos.")
-    bud_emp=bud_f[bud_f["categoria"]=="EBITDA"].sort_values("variacao_pct",ascending=True)
-    cv=[C_VERDE if v>=0 else C_VERM for v in bud_emp["variacao_pct"]]
-    fig5=go.Figure(go.Bar(
-        x=bud_emp["variacao_pct"],y=bud_emp["nome"],orientation="h",
+        "Empreendimentos em fase inicial de obra (<10% POC) são excluídos: o EBITDA é estruturalmente "
+        "negativo nessa fase (despesas já correm, receita POC ainda mínima) — comparação orçamentária não é válida.")
+
+    bud_emp_all = bud_f[bud_f["categoria"]=="EBITDA"].copy()
+    # Separar comparáveis dos em fase inicial
+    bud_comp  = bud_emp_all[bud_emp_all["fase_inicial"]==False].dropna(subset=["variacao_pct"])
+    bud_fase  = bud_emp_all[bud_emp_all["fase_inicial"]==True]
+    bud_comp  = bud_comp.sort_values("variacao_pct", ascending=True)
+
+    cv = [C_VERDE if v>=0 else C_VERM for v in bud_comp["variacao_pct"]]
+    fig5 = go.Figure(go.Bar(
+        x=bud_comp["variacao_pct"], y=bud_comp["nome"], orientation="h",
         marker_color=cv,
-        text=[f"{v:+.1f}%" for v in bud_emp["variacao_pct"]],
-        textposition="outside",textfont=dict(size=10,color=C_MUTED),
+        text=[f"{v:+.1f}%" for v in bud_comp["variacao_pct"]],
+        textposition="outside", textfont=dict(size=10, color=C_MUTED),
+        hovertemplate="<b>%{y}</b><br>Variação EBITDA: %{x:+.1f}%<br>Orçado: %{customdata[0]}<br>Realizado: %{customdata[1]}<extra></extra>",
+        customdata=list(zip(bud_comp["orcado"].apply(fM), bud_comp["realizado"].apply(fM))),
     ))
-    fig5.add_vline(x=0,line_color=C_MUTED,line_width=1)
-    fig5.update_layout(**L(h=400),xaxis=AX(title="Variação EBITDA vs Orçado (%)"),yaxis=AXH())
+    fig5.add_vline(x=0, line_color=C_MUTED, line_width=1)
+    fig5.add_vline(x=-20, line_dash="dash", line_color=C_VERM, line_width=1,
+                   annotation_text="Alerta: -20%", annotation_font_size=9, annotation_font_color=C_VERM)
+    fig5.add_vline(x=20, line_dash="dash", line_color=C_VERDE, line_width=1,
+                   annotation_text="Destaque: +20%", annotation_font_size=9, annotation_font_color=C_VERDE)
+    fig5.update_layout(**L(h=max(300, len(bud_comp)*28)),
+                       xaxis=AX(title="Variação EBITDA vs Orçado (%)", rng=[-65, 65]),
+                       yaxis=AXH())
     st.plotly_chart(fig5, use_container_width=True)
-    melhor_bud=bud_emp.iloc[-1]; pior_bud=bud_emp.iloc[0]
-    ins(f"Melhor desempenho vs budget: <strong>{melhor_bud['nome']}</strong> com EBITDA <strong>{melhor_bud['variacao_pct']:+.1f}%</strong> acima do orçado.", "ok")
-    ins(f"Maior desvio negativo: <strong>{pior_bud['nome']}</strong> com EBITDA <strong>{pior_bud['variacao_pct']:+.1f}%</strong> vs orçado. Revisar estrutura de custos.", "bad")
+
+    if len(bud_fase) > 0:
+        nomes_fase = ", ".join(bud_fase["nome"].tolist())
+        ins(f"<strong>{len(bud_fase)} empreendimentos excluídos da comparação orçamentária</strong> por estarem em fase inicial de obra (POC < 10%): {nomes_fase}. "
+            f"Nessa fase, o EBITDA negativo é estrutural — despesas comerciais e administrativas já correm enquanto a receita POC ainda é mínima. "
+            f"A comparação orçamentária passa a ser válida a partir de ~15% de avanço físico.", "info")
+
+    if len(bud_comp) > 0:
+        melhor_bud = bud_comp.iloc[-1]
+        pior_bud   = bud_comp.iloc[0]
+        n_acima = len(bud_comp[bud_comp["variacao_pct"] >= 0])
+        n_abaixo= len(bud_comp[bud_comp["variacao_pct"] < 0])
+        ins(f"<strong>{n_acima} empreendimentos</strong> acima do orçamento. Destaque: <strong>{melhor_bud['nome']}</strong> com EBITDA <strong>{melhor_bud['variacao_pct']:+.1f}%</strong> acima do planejado.", "ok")
+        if n_abaixo > 0:
+            ins(f"<strong>{n_abaixo} empreendimentos</strong> abaixo do orçamento. Maior desvio: <strong>{pior_bud['nome']}</strong> com <strong>{pior_bud['variacao_pct']:+.1f}%</strong> vs orçado — revisar estrutura de custos de obra e despesas.", "bad")
 
     # Projeção 12 meses
     st.markdown("---")
