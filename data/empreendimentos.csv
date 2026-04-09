@@ -1,0 +1,9 @@
+id,nome,bairro,vgv_total,unidades,lancamento,entrega_prevista,status
+EMP001,Alto Vista Brooklin,Brooklin,96000000,80,2021-03-01,2024-06-01,entregue
+EMP002,Infinity Pinheiros,Pinheiros,124000000,96,2022-05-01,2025-09-01,entregue
+EMP003,Inside Chácara Klabin,Chácara Klabin,88000000,64,2022-09-01,2025-12-01,em_obra
+EMP004,Verdi Campo Belo,Campo Belo,152000000,112,2023-02-01,2026-05-01,em_obra
+EMP005,Reserva Mooca,Mooca,74000000,58,2023-08-01,2026-10-01,em_obra
+EMP006,Santana Classic,Santana,68000000,52,2024-01-01,2027-03-01,em_obra
+EMP007,Aclimação Heights,Aclimação,112000000,88,2024-06-01,2027-08-01,lancamento
+EMP008,Brooklin Prime,Brooklin,186000000,128,2025-01-01,2028-02-01,lancamento
