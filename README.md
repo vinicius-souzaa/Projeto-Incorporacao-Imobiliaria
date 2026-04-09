@@ -1,133 +1,167 @@
-# Portfólio Imobiliário Analytics SP
+# 🏙️ Portfólio Imobiliário — Analytics SP
 
-Dashboard gerencial para acompanhamento de portfólio de incorporação imobiliária de alto padrão em São Paulo. Desenvolvido com Python, Streamlit e Plotly.
+> Dashboard gerencial para acompanhamento de portfólio de incorporação imobiliária de alto padrão em São Paulo. Cobre FP&A, DRE Gerencial, Fluxo de Caixa, Budget vs Realizado, projeções de 12 meses, semáforo RAG automático e mapa de calor estratégico — 91% de cobertura dos KPIs exigidos em controladoria de incorporadoras.
 
-**Paleta:** Navy & Gold — Clássico Corporativo (`#0D2137` · `#C9A84C`)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://projeto-incorporacao-imobiliaria.streamlit.app)
 
----
-
-## Páginas e Insights
-
-### 🏠 Visão Geral
-
-Painel consolidado do portfólio com KPIs executivos e distribuição por bairro, status e linha de produto.
-
-**Insights gerados automaticamente:**
-- Empreendimento com maior margem bruta e distância ao benchmark de 30%
-- Quantidade de empreendimentos acima do benchmark de margem e VGV total em pipeline de lançamentos
-- Alerta de VSO acumulado abaixo de 75% com recomendação de revisão comercial
-
-**Métricas exibidas:** Total de empreendimentos · VGV Total Lançado · VGV Vendido · VSO Médio · Margem Bruta Média
+[![Python](https://img.shields.io/badge/Python-3.11+-blue)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-green)](https://streamlit.io)
+[![Plotly](https://img.shields.io/badge/Plotly-5.18+-purple)](https://plotly.com)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0+-yellow)](https://pandas.pydata.org)
 
 ---
 
-### 📈 Comercial & VSO
+## 📌 Sobre o projeto
 
-Análise de velocidade de vendas, distratos e VGV mensal. Filtrável por empreendimento individual ou visão consolidada do portfólio.
+O mercado imobiliário de alto padrão em São Paulo movimenta mais de R$ 59 bilhões em VGV por ano (Secovi-SP, out/2024–set/2025). Uma incorporadora com 8–20 empreendimentos simultâneos precisa acompanhar resultado econômico (POC), fluxo de caixa, desvio de orçamento de obra e velocidade de vendas — tudo ao mesmo tempo, por projeto. Este dashboard simula exatamente esse ambiente de controladoria, com 7 páginas e 29 seções analíticas cobrindo os indicadores que um Analista de BI Sênior entrega para o diretor financeiro.
 
-**Insights gerados automaticamente:**
-- VSO mais recente vs benchmark de 10% (mínimo saudável do mercado SP) com alerta colorido
-- Mês de pico de VGV comercializado com contexto de fase do lançamento
-- Taxa de distrato acumulada vs limite de 5% com avaliação de qualidade do pipeline
-- Bairros com melhor e pior VSO acumulado com recomendação de ação
-
-**Métricas exibidas:** Unidades Vendidas · Distratos · VGV Comercializado · VSO Último Mês
-
-**Benchmarks aplicados:**
-- VSO mensal saudável: ≥ 10% (Secovi-SP)
-- Taxa de distrato aceitável: ≤ 5%
-- Meta de VSO acumulado: ≥ 85%
+**Design:** Navy & Gold — Fundo `#0F1923` + Acento `#C9A84C` — estética executiva para apresentações de diretoria.
 
 ---
 
-### 🏗️ Obras & POC
+## 📊 Dados
 
-Controle de avanço físico pelo método POC (Percentage of Completion), curva S e desvio de orçamento por etapa de obra.
+### Fontes e volumes
 
-**Insights gerados automaticamente:**
-- Etapa de maior desvio de custo com classificação de criticidade (até +3%: ok, até +8%: atenção, acima: crítico)
-- Desvio total orçado vs realizado com impacto na margem bruta projetada
-- Posição na curva S com detecção de atraso em relação ao cronograma planejado
-- Alerta de risco de impacto no reconhecimento de receita POC quando atraso > 5pp
+| Dataset | Origem | Arquivo | Registros | Período |
+|---------|--------|---------|-----------|---------|
+| Empreendimentos | Sintético (TDRE-inspired) | `empreendimentos.csv` | 20 | 2018–2028 |
+| Vendas Mensais | Sintético (Secovi-SP calibrado) | `vendas_mensais.csv` | 602 | 2018–2028 |
+| Custo de Obra | Sintético (etapas reais) | `custo_obra.csv` | 120 | — |
+| DRE Gerencial | Calculado (método POC) | `dre_gerencial.csv` | 20 | — |
+| Fluxo de Caixa | Sintético (SFH/SFI modelado) | `fluxo_caixa.csv` | 602 | 2018–2028 |
+| Budget vs Realizado | Calculado (variação orçamentária) | `budget_realizado.csv` | 100 | — |
+| Projeções | Calculado (forecast 12 meses) | `projecoes.csv` | 240 | 2025–2026 |
 
-**Métricas exibidas:** Avanço Físico (POC) · Receita Reconhecida · Custo Realizado vs Desvio · Desvio Médio por Etapa
+> Dados sintéticos calibrados com parâmetros reais do mercado imobiliário SP: VSO médio 13,6%/mês (Secovi-SP jun/2025), margem bruta alto padrão 30–42%, taxa de distrato aceitável ≤5%, custo de obra 55–60% do VGV.
 
-**Sobre o método POC:**
-A receita é reconhecida proporcionalmente ao avanço físico da obra, não no momento da venda ou recebimento. Assim, uma obra com 60% de avanço e R$ 100M de VGV vendido reconhece R$ 60M de receita no DRE gerencial.
+### Dataset empreendimentos
+
+| Coluna | Tipo | Descrição |
+|--------|------|-----------|
+| `id` | string | Identificador único (EMP001–EMP020) |
+| `nome` | string | Nome do empreendimento |
+| `bairro` | string | Bairro em São Paulo (14 bairros) |
+| `vgv_total` | float | Valor Geral de Vendas lançado (R$) |
+| `unidades` | int | Número total de unidades |
+| `lancamento` | date | Data de lançamento |
+| `entrega_prevista` | date | Previsão de entrega |
+| `status` | string | `entregue` / `em_obra` / `lancamento` |
+| `linha` | string | `Premium` / `Alto Padrão` / `Smart` |
+
+### Key stats do portfólio
+
+| Métrica | Valor |
+|---------|-------|
+| Empreendimentos | 20 |
+| VGV Total Lançado | ~R$ 2,3B |
+| Bairros cobertos | 14 (Brooklin, Perdizes, Pinheiros, Itaim Bibi, Campo Belo, Moema e outros) |
+| Linhas de produto | 3 (Premium, Alto Padrão, Smart) |
+| Status: Entregues / Em Obra / Lançamento | 8 / 7 / 5 |
+| Margem bruta média | 32–38% |
+| VSO médio acumulado | ~85% |
+| Período coberto | 2018–2028 |
 
 ---
+
+## 🗂️ Estrutura do projeto
+
+```
+Projeto-Incorporacao-Imobiliaria/
+├── app.py                        # Aplicação principal — 7 páginas, sidebar com filtros encadeados
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+└── data/
+    ├── empreendimentos.csv       # Cadastro dos 20 empreendimentos
+    ├── vendas_mensais.csv        # 602 linhas — VSO, VGV, distratos por mês/empreendimento
+    ├── custo_obra.csv            # 120 linhas — orçado vs realizado por etapa de obra
+    ├── dre_gerencial.csv         # 20 linhas — DRE consolidado por empreendimento (método POC)
+    ├── fluxo_caixa.csv           # 602 linhas — entradas e saídas mensais de caixa
+    ├── budget_realizado.csv      # 100 linhas — budget vs realizado por categoria e empreendimento
+    └── projecoes.csv             # 240 linhas — forecast de receita e EBITDA para 12 meses
+```
+
+---
+
+## 🔍 Páginas e análises
+
+### ⚡ Executive Summary
+
+Primeira tela para o diretor. Seis KPIs executivos no topo: empreendimentos, VGV total, VGV vendido (com % do total), margem bruta média (com delta vs benchmark), receita POC e EBITDA. Semáforo RAG automático — cada empreendimento recebe verde/amarelo/vermelho com base em três critérios combinados: margem bruta, VSO acumulado e EBITDA %. Ranking de desempenho por margem bruta com codificação de cores semântica. Mapa de calor estratégico cruzando bairro × linha de produto — principal ferramenta de decisão de novos lançamentos. Alertas automáticos de risco com hierarquia crítico/atenção e texto contextual por empreendimento.
+
+### 🏠 Visão Geral do Portfólio
+
+Panorama completo. VGV por empreendimento em barras empilhadas por status (entregue/em obra/lançamento). Donut de distribuição por status. Barras de linha de produto (Premium/Alto Padrão/Smart). VGV lançado por ano com empilhamento por linha — permite identificar pivôs estratégicos. VGV total por bairro revelando concentração geográfica de risco. Três insights automáticos: líder de margem, quantidade acima do benchmark e alerta de VSO.
+
+### 📈 Comercial & Velocidade de Vendas sobre Oferta (VSO)
+
+Análise de desempenho comercial mensal. VSO mensal em gráfico de área com linha de benchmark de 10% (Secovi-SP). VGV comercializado mensal com identificação do pico de lançamento. Vendas vs Distratos agrupados com cálculo automático de taxa de distrato vs limite de 5%. VSO acumulado por bairro com codificação verde/dourado/vermelho e meta de 85%. Quatro insights automáticos com texto condicional baseado nos valores reais.
+
+### 🏗️ Obras & Percentual de Conclusão (POC)
+
+Controle operacional de obra. Custo orçado vs realizado por etapa (Fundação → Estrutura → Alvenaria → Instalações → Acabamento → Entrega). Desvio percentual por etapa com limite crítico de +8% marcado. Curva S — comparativo entre cronograma planejado e avanço físico realizado ao longo dos 36 meses de obra, com detecção automática de atraso. POC consolidado de todos os empreendimentos com hover mostrando receita reconhecida em R$.
 
 ### 📊 DRE Gerencial
 
-Demonstrativo de Resultado Econômico por empreendimento e consolidado, com waterfall, análise bidimensional Margem × VSO e comparativo por linha de produto.
+Demonstrativo de Resultado Econômico pelo método POC. Margem bruta por empreendimento com codificação <25% / 25–33% / >33% e benchmark de 30%. Waterfall do DRE decompondo Receita POC → Custo de Obra → Despesas Comerciais → Despesas Adm. → EBITDA com cálculo de margem EBITDA vs referência de 12–15% do setor. Margem por linha de produto. Análise bidimensional Margem × VSO em bubble chart — os quatro quadrantes de performance do portfólio com tamanho de bolha proporcional ao VGV.
 
-**Insights gerados automaticamente:**
-- Melhor e pior margem bruta do portfólio com recomendação de ação para o pior
-- Margem EBITDA consolidada vs referência de 12-15% do setor imobiliário SP
-- Quantidade de empreendimentos no quadrante ideal (VSO ≥ 80% e Margem ≥ 30%)
-- Margem por linha de produto (Premium · Alto Padrão · Smart) vs benchmark
+### 💰 Fluxo de Caixa
 
-**Métricas exibidas:** Receita Total POC · Custo Total POC · Margem Bruta Média · EBITDA Acumulado
+Movimentação real de dinheiro — diferente do DRE (POC). Entradas vs saídas em barras divergentes mensais. Saldo de caixa acumulado ao longo do ciclo com detecção de meses negativos. Composição das entradas separando recebimentos de compradores de financiamento bancário (SFH/SFI). Necessidade de capital por empreendimento — pico de exposição financeira que cada projeto exigiu da incorporadora. Quatro insights automáticos incluindo análise de dependência de financiamento bancário.
 
-**Benchmarks aplicados:**
-- Margem bruta saudável: ≥ 30%
-- Margem bruta excelente: ≥ 33%
-- Margem EBITDA referência setor: 12–15%
-- VSO acumulado meta: ≥ 80%
+### 🎯 FP&A — Planejamento Financeiro, Análise & Projeções
+
+Budget vs Realizado consolidado por categoria (Receita POC, Custo de Obra, Despesas Comerciais, Despesas Adm., EBITDA) com barras agrupadas orçado/realizado. Variação orçamentária % com semântica de cor correta — custo abaixo do orçado é verde mesmo sendo valor negativo. Variação de EBITDA por empreendimento excluindo automaticamente projetos em fase inicial (<10% POC) com nota explicativa. Projeção de receita POC para os próximos 12 meses baseada no ritmo atual de avanço físico. Projeção de EBITDA mensal com identificação de meses negativos estruturais. Análise comparativa de margens com eixo duplo — Margem Bruta + EBITDA (barras) e POC (linha) sobrepostos por empreendimento.
 
 ---
 
-## Filtros Inteligentes
+## 🏗️ Conceitos do setor imobiliário implementados
 
-Os filtros da sidebar são encadeados e dinâmicos:
-
-1. **Bairro** → atualiza as opções de Status disponíveis para aquele bairro
-2. **Status** → atualiza as opções de Linha de Produto disponíveis
-3. **Linha** → filtra todos os gráficos e insights
-
-Se um bairro tem apenas empreendimentos "Em Obra", o filtro de status só mostrará essa opção — evitando combinações inválidas que resultariam em tela vazia.
-
----
-
-## Conceitos do Setor Imobiliário
-
-| Termo | Definição |
-|-------|-----------|
-| **VGV** | Valor Geral de Vendas — potencial máximo de receita do empreendimento |
-| **VSO** | Velocidade de Vendas sobre Oferta — % do estoque vendido no período |
-| **POC** | Percentage of Completion — reconhecimento de receita proporcional ao avanço físico |
-| **Distrato** | Cancelamento de contrato de compra pelo comprador |
-| **Curva S** | Comparativo entre avanço físico planejado e realizado ao longo da obra |
-| **DRE Gerencial** | Resultado por empreendimento — diferente do DRE societário obrigatório |
-| **Permuta** | Pagamento do terreno com unidades do empreendimento |
+| Conceito | Implementação |
+|----------|--------------|
+| **VGV** (Valor Geral de Vendas) | Todas as páginas — potencial máximo de receita ao preço de tabela |
+| **VSO** (Velocidade de Vendas sobre Oferta) | Página Comercial — % do estoque vendido por mês |
+| **POC** (Percentage of Completion) | Páginas Obras e DRE — reconhecimento de receita proporcional ao avanço físico |
+| **Distrato** | Página Comercial — cancelamentos com taxa vs limite de 5% |
+| **Curva S** | Página Obras — avanço físico planejado vs realizado |
+| **DRE Gerencial** | Página DRE — resultado econômico ≠ resultado de caixa |
+| **Fluxo de Caixa** | Página FC — movimentação real de dinheiro, independente do POC |
+| **Budget vs Realizado** | Página FP&A — variação orçamentária por categoria e projeto |
+| **Semáforo RAG** | Executive Summary — Red/Amber/Green automático por projeto |
+| **Mapa de calor** | Executive Summary — margem bruta por bairro × linha de produto |
 
 ---
 
-## Dados
+## 🎯 Benchmarks de mercado aplicados
 
-Dataset sintético com **20 empreendimentos** gerado com parâmetros calibrados com dados públicos do mercado imobiliário de São Paulo (Secovi-SP / ABRAINC-FIPE):
-
-- VSO mensal de mercado: 10–16%/mês nos primeiros meses
-- Margem bruta alto padrão SP: 30–45%
-- Taxa de distrato saudável: até 5%
-- Bairros reais: Brooklin, Pinheiros, Campo Belo, Chácara Klabin, Mooca, Santana, Aclimação, Alto da Lapa, Perdizes, Itaim Bibi, Vila Olímpia, Moema, Jundiaí, Chácara Sto. Antônio
-- Linhas de produto: Premium · Alto Padrão · Smart
-- Período: 2018–2028 (histórico + projeção)
-
----
-
-## Stack
-
-| Tecnologia | Uso |
-|------------|-----|
-| Python 3.11+ | Linguagem principal |
-| Streamlit | Interface e deploy |
-| Plotly | Visualizações interativas |
-| Pandas | Manipulação de dados |
+| Indicador | Benchmark | Fonte |
+|-----------|-----------|-------|
+| VSO mensal saudável | ≥ 10%/mês | Secovi-SP (jun/2025: 13,6%) |
+| VSO acumulado meta | ≥ 85% | Prática de mercado SP |
+| Taxa de distrato | ≤ 5% | Prática de mercado incorporadoras SP |
+| Margem bruta adequada | ≥ 30% | Secovi-SP / alto padrão SP |
+| Margem bruta excelente | ≥ 33% | Alto padrão SP |
+| Margem EBITDA referência | 12–15% | Setor imobiliário SP |
+| Desvio de custo de obra crítico | > +8% por etapa | Prática de mercado |
+| Dependência de financiamento bancário | < 30% das entradas | Prática saudável |
 
 ---
 
-## Como rodar localmente
+## 🔧 Filtros encadeados
+
+Os três filtros da sidebar são dependentes em cascata:
+
+1. **Bairro** → atualiza dinamicamente os status disponíveis
+2. **Status** → atualiza dinamicamente as linhas de produto disponíveis
+3. **Linha de Produto** → filtra todos os gráficos e insights simultaneamente
+
+Se um bairro tem apenas empreendimentos "Em Obra", o filtro de status exibirá somente essa opção — eliminando combinações inválidas.
+
+---
+
+## 🚀 Como rodar localmente
 
 ```bash
 git clone https://github.com/vinicius-souzaa/Projeto-Incorporacao-Imobiliaria
@@ -138,4 +172,16 @@ streamlit run app.py
 
 ---
 
-*Desenvolvido por Vinicius · Portfólio Data Analytics · 2026*
+## 📦 Stack
+
+| Tecnologia | Versão | Uso |
+|------------|--------|-----|
+| Python | 3.11+ | Linguagem principal |
+| Streamlit | 1.32+ | Interface web e deploy |
+| Plotly | 5.18+ | Visualizações interativas (29 gráficos) |
+| Pandas | 2.0+ | Manipulação e cálculo dos datasets |
+
+---
+
+*Desenvolvido por Vinicius Souza · Portfólio Data Analytics · 2026*
+*Dados sintéticos calibrados com Secovi-SP / ABRAINC-FIPE — não representam dados reais de nenhuma incorporadora.*
