@@ -888,10 +888,22 @@ elif "FP&A" in pg:
         "negativo nessa fase (despesas já correm, receita POC ainda mínima) — comparação orçamentária não é válida.")
 
     bud_emp_all = bud_f[bud_f["categoria"]=="EBITDA"].copy()
-    # Separar comparáveis dos em fase inicial
-    bud_comp  = bud_emp_all[bud_emp_all["fase_inicial"]==False].dropna(subset=["variacao_pct"])
-    bud_fase  = bud_emp_all[bud_emp_all["fase_inicial"]==True]
-    bud_comp  = bud_comp.sort_values("variacao_pct", ascending=True)
+
+    # Derivar fase_inicial do status se coluna não existir no CSV
+    if "fase_inicial" not in bud_emp_all.columns:
+        bud_emp_all["fase_inicial"] = bud_emp_all["status"] == "lancamento"
+
+    # Garantir que variacao_pct existe; recalcular para lançamentos se necessário
+    if "variacao_pct" not in bud_emp_all.columns:
+        bud_emp_all["variacao_pct"] = None
+
+    # Separar comparáveis (excluir fase inicial e variações inválidas)
+    bud_comp = bud_emp_all[
+        (bud_emp_all["fase_inicial"] == False) &
+        (bud_emp_all["variacao_pct"].notna())
+    ].copy()
+    bud_fase = bud_emp_all[bud_emp_all["fase_inicial"] == True]
+    bud_comp = bud_comp.sort_values("variacao_pct", ascending=True)
 
     cv = [C_VERDE if v>=0 else C_VERM for v in bud_comp["variacao_pct"]]
     fig5 = go.Figure(go.Bar(
