@@ -11,895 +11,956 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ══════════════════════════════════════════════════════════════════
-#  PALETA NAVY & GOLD — Clássico Corporativo
-# ══════════════════════════════════════════════════════════════════
-C_NAVY    = "#0D2137"
-C_NAVY2   = "#152C47"
-C_NAVY3   = "#1A3555"
-C_GOLD    = "#C9A84C"
-C_GOLD_L  = "#E8C96A"
-C_BG      = "#0F1923"   # fundo escuro das páginas
-C_CARD    = "#162330"   # cards sobre fundo escuro
-C_BORDER  = "#1E3045"   # bordas
-C_TEXT    = "#E8EDF2"   # texto principal
-C_MUTED   = "#7A93A8"   # texto secundário
-C_VERDE   = "#2ECC71"
-C_VERM    = "#E74C3C"
-C_AZUL    = "#3498DB"
-C_PLOT_BG = "#162330"   # fundo dos gráficos (escuro)
-C_GRID    = "#1E3045"   # grid dos gráficos
+# ══════════════════════════════════════════════════════════════
+#  PALETA NAVY & GOLD
+# ══════════════════════════════════════════════════════════════
+C_NAVY   = "#0D2137"
+C_NAVY2  = "#152C47"
+C_NAVY3  = "#1A3555"
+C_GOLD   = "#C9A84C"
+C_GOLD_L = "#E8C96A"
+C_BG     = "#0F1923"
+C_CARD   = "#162330"
+C_BORDER = "#1E3045"
+C_TEXT   = "#E8EDF2"
+C_MUTED  = "#7A93A8"
+C_VERDE  = "#2ECC71"
+C_VERM   = "#E74C3C"
+C_AZUL   = "#3498DB"
+C_PLOT   = "#162330"
+C_GRID   = "#1E3045"
 
-STATUS_LABELS = {
-    "entregue":   "Entregue",
-    "em_obra":    "Em Obra",
-    "lancamento": "Lançamento",
-}
-STATUS_CORES  = {"Entregue": C_VERDE, "Em Obra": C_AZUL, "Lançamento": C_GOLD}
-LINHA_CORES   = {"Premium": C_GOLD, "Alto Padrão": C_AZUL, "Smart": C_MUTED}
+STATUS_LABELS = {"entregue":"Entregue","em_obra":"Em Obra","lancamento":"Lançamento"}
+STATUS_CORES  = {"Entregue":C_VERDE,"Em Obra":C_AZUL,"Lançamento":C_GOLD}
+LINHA_CORES   = {"Premium":C_GOLD,"Alto Padrão":C_AZUL,"Smart":C_MUTED}
 
-# ── CSS ───────────────────────────────────────────────────────────
+# ── CSS ───────────────────────────────────────────────────────
 st.markdown(f"""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-html, body, [class*="css"] {{ font-family: 'Inter', sans-serif !important; }}
-
-/* Fundo geral escuro */
-.stApp {{ background-color: {C_BG}; }}
-.main .block-container {{ padding-top: 1.5rem; padding-bottom: 2rem; }}
-
-/* Sidebar */
-[data-testid="stSidebar"] {{
-    background: {C_NAVY} !important;
-    border-right: 1px solid {C_BORDER};
-}}
-[data-testid="stSidebar"] * {{ color: #B0C4D8 !important; }}
-[data-testid="stSidebar"] .stSelectbox > label {{
-    color: {C_GOLD} !important;
-    font-size: 10px !important;
-    font-weight: 700 !important;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-}}
-[data-testid="stSidebar"] .stButton > button {{
-    background: transparent !important;
-    border: none !important;
-    border-left: 3px solid transparent !important;
-    border-radius: 0 !important;
-    color: #7A93A8 !important;
-    font-size: 13px !important;
-    text-align: left !important;
-    padding: 10px 18px !important;
-    width: 100% !important;
-    transition: all .15s ease;
-    font-weight: 400 !important;
-    letter-spacing: .015em;
-}}
-[data-testid="stSidebar"] .stButton > button:hover {{
-    background: rgba(201,168,76,.10) !important;
-    color: {C_GOLD_L} !important;
-    border-left-color: {C_GOLD} !important;
-}}
-[data-testid="stSidebar"] .stButton > button[kind="primary"] {{
-    color: #F0E6C8 !important;
-    border-left-color: {C_GOLD} !important;
-    background: rgba(201,168,76,.16) !important;
-    font-weight: 600 !important;
-}}
-
-/* Selectbox fundo escuro */
-[data-testid="stSidebar"] .stSelectbox [data-baseweb="select"] > div {{
-    background: {C_NAVY2} !important;
-    border-color: {C_BORDER} !important;
-    color: {C_TEXT} !important;
-}}
-
-/* Métricas */
-[data-testid="stMetric"] {{
-    background: {C_CARD} !important;
-    border: 1px solid {C_BORDER} !important;
-    border-top: 3px solid {C_GOLD} !important;
-    border-radius: 8px;
-    padding: 16px 20px !important;
-}}
-[data-testid="stMetricLabel"] {{
-    font-size: 10px !important;
-    text-transform: uppercase;
-    letter-spacing: .07em;
-    color: {C_MUTED} !important;
-    font-weight: 600 !important;
-}}
-[data-testid="stMetricValue"] {{
-    font-size: 24px !important;
-    color: {C_TEXT} !important;
-    font-weight: 700 !important;
-}}
-[data-testid="stMetricDelta"] {{ font-size: 12px !important; }}
-
-/* Títulos */
-h1, h2, h3, h4, h5 {{ color: {C_TEXT} !important; }}
-h1 {{ font-weight: 700 !important; font-size: 24px !important; letter-spacing: -.3px; }}
-h2 {{ font-weight: 600 !important; font-size: 20px !important; }}
-p, span, div, label {{ color: {C_TEXT}; }}
-
-/* Caption / subtitle de gráfico */
-.chart-title {{
-    font-size: 13px;
-    font-weight: 600;
-    color: {C_TEXT};
-    margin-bottom: 2px;
-    letter-spacing: .01em;
-}}
-.chart-desc {{
-    font-size: 11px;
-    color: {C_MUTED};
-    margin-bottom: 8px;
-    line-height: 1.5;
-    font-style: italic;
-}}
-
-/* Cards de insight */
-.ins {{
-    border-left: 4px solid {C_GOLD};
-    background: {C_CARD};
-    padding: 11px 15px;
-    border-radius: 0 6px 6px 0;
-    margin-bottom: 8px;
-    font-size: 12.5px;
-    color: {C_TEXT};
-    line-height: 1.55;
-}}
-.ins.ok   {{ border-left-color: {C_VERDE}; background: #0E2119; }}
-.ins.bad  {{ border-left-color: {C_VERM};  background: #200D0D; }}
-.ins.info {{ border-left-color: {C_AZUL};  background: #0C1E2D; }}
-.ins.warn {{ border-left-color: {C_GOLD};  background: {C_CARD}; }}
-
-/* Divisor */
-hr {{ border-color: {C_BORDER}; margin: 1rem 0; }}
-
-/* Dataframe */
-[data-testid="stDataFrame"] {{
-    border: 1px solid {C_BORDER} !important;
-    border-radius: 8px;
-}}
-
-/* Caption */
-.stCaption p {{ color: {C_MUTED} !important; font-size: 12px !important; }}
+html,body,[class*="css"]{{font-family:'Inter',sans-serif!important;}}
+.stApp{{background:{C_BG};}}
+.main .block-container{{padding-top:1.2rem;padding-bottom:2rem;}}
+[data-testid="stSidebar"]{{background:{C_NAVY}!important;border-right:1px solid {C_BORDER};}}
+[data-testid="stSidebar"] *{{color:#B0C4D8!important;}}
+[data-testid="stSidebar"] .stSelectbox>label{{color:{C_GOLD}!important;font-size:10px!important;font-weight:700!important;text-transform:uppercase;letter-spacing:.1em;}}
+[data-testid="stSidebar"] .stButton>button{{background:transparent!important;border:none!important;border-left:3px solid transparent!important;border-radius:0!important;color:#7A93A8!important;font-size:13px!important;text-align:left!important;padding:9px 18px!important;width:100%!important;transition:all .15s;font-weight:400!important;}}
+[data-testid="stSidebar"] .stButton>button:hover{{background:rgba(201,168,76,.10)!important;color:{C_GOLD_L}!important;border-left-color:{C_GOLD}!important;}}
+[data-testid="stSidebar"] .stButton>button[kind="primary"]{{color:#F0E6C8!important;border-left-color:{C_GOLD}!important;background:rgba(201,168,76,.16)!important;font-weight:600!important;}}
+[data-testid="stMetric"]{{background:{C_CARD}!important;border:1px solid {C_BORDER}!important;border-top:3px solid {C_GOLD}!important;border-radius:8px;padding:16px 18px!important;}}
+[data-testid="stMetricLabel"]{{font-size:10px!important;text-transform:uppercase;letter-spacing:.07em;color:{C_MUTED}!important;font-weight:600!important;}}
+[data-testid="stMetricValue"]{{font-size:22px!important;color:{C_TEXT}!important;font-weight:700!important;}}
+[data-testid="stMetricDelta"]{{font-size:11px!important;}}
+h1,h2,h3,h4,h5{{color:{C_TEXT}!important;}}
+h1{{font-weight:700!important;font-size:23px!important;letter-spacing:-.3px;}}
+p,span,div,label{{color:{C_TEXT};}}
+.ct{{font-size:13px;font-weight:600;color:{C_TEXT};margin-bottom:1px;letter-spacing:.01em;}}
+.cd{{font-size:11px;color:{C_MUTED};margin-bottom:6px;line-height:1.5;font-style:italic;}}
+.ins{{border-left:4px solid {C_GOLD};background:{C_CARD};padding:10px 14px;border-radius:0 6px 6px 0;margin-bottom:7px;font-size:12.5px;color:{C_TEXT};line-height:1.55;}}
+.ins.ok {{border-left-color:{C_VERDE};background:#0E2119;}}
+.ins.bad{{border-left-color:{C_VERM};background:#200D0D;}}
+.ins.info{{border-left-color:{C_AZUL};background:#0C1E2D;}}
+.ins.warn{{border-left-color:{C_GOLD};background:{C_CARD};}}
+.rag-ok  {{background:#0E2119;border:1px solid {C_VERDE};border-radius:8px;padding:10px 14px;}}
+.rag-warn{{background:#1A1408;border:1px solid {C_GOLD};border-radius:8px;padding:10px 14px;}}
+.rag-bad {{background:#200D0D;border:1px solid {C_VERM};border-radius:8px;padding:10px 14px;}}
+hr{{border-color:{C_BORDER};margin:.8rem 0;}}
+[data-testid="stDataFrame"]{{border:1px solid {C_BORDER}!important;border-radius:8px;}}
+.stCaption p{{color:{C_MUTED}!important;font-size:11px!important;}}
 </style>
 """, unsafe_allow_html=True)
 
-# ══════════════════════════════════════════════════════════════════
-#  DADOS
-# ══════════════════════════════════════════════════════════════════
+# ── DADOS ─────────────────────────────────────────────────────
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 
 @st.cache_data
 def load_all():
-    emp    = pd.read_csv(os.path.join(DATA_DIR, "empreendimentos.csv"), parse_dates=["lancamento","entrega_prevista"])
-    vendas = pd.read_csv(os.path.join(DATA_DIR, "vendas_mensais.csv"),  parse_dates=["data"])
-    obra   = pd.read_csv(os.path.join(DATA_DIR, "custo_obra.csv"))
-    dre    = pd.read_csv(os.path.join(DATA_DIR, "dre_gerencial.csv"))
-    return emp, vendas, obra, dre
+    emp  = pd.read_csv(f"{DATA_DIR}/empreendimentos.csv", parse_dates=["lancamento","entrega_prevista"])
+    vend = pd.read_csv(f"{DATA_DIR}/vendas_mensais.csv",  parse_dates=["data"])
+    obra = pd.read_csv(f"{DATA_DIR}/custo_obra.csv")
+    dre  = pd.read_csv(f"{DATA_DIR}/dre_gerencial.csv")
+    fc   = pd.read_csv(f"{DATA_DIR}/fluxo_caixa.csv",     parse_dates=["data"])
+    bud  = pd.read_csv(f"{DATA_DIR}/budget_realizado.csv")
+    proj = pd.read_csv(f"{DATA_DIR}/projecoes.csv",        parse_dates=["data"])
+    return emp, vend, obra, dre, fc, bud, proj
 
-emp, vendas, obra, dre = load_all()
+emp, vendas, obra, dre, fc, bud, proj = load_all()
 dre["status_label"] = dre["status"].map(STATUS_LABELS)
 
-# ── HELPERS ───────────────────────────────────────────────────────
-def fmt_M(v):
+# ── HELPERS ───────────────────────────────────────────────────
+def fM(v):
     try:
-        v = float(v)
-        return f"R$ {v/1_000_000:.1f}M" if abs(v) >= 1_000_000 else f"R$ {v/1_000:.0f}K"
-    except:
-        return "—"
+        v=float(v)
+        if abs(v)>=1_000_000_000: return f"R$ {v/1_000_000_000:.1f}B"
+        if abs(v)>=1_000_000:     return f"R$ {v/1_000_000:.1f}M"
+        return f"R$ {v/1_000:.0f}K"
+    except: return "—"
 
-def ins(txt, tipo="warn"):
-    st.markdown(f'<div class="ins {tipo}">{txt}</div>', unsafe_allow_html=True)
+def ins(t,tp="warn"):
+    st.markdown(f'<div class="ins {tp}">{t}</div>', unsafe_allow_html=True)
 
-def chart_header(titulo, descricao):
-    st.markdown(f'<p class="chart-title">{titulo}</p><p class="chart-desc">{descricao}</p>', unsafe_allow_html=True)
+def hdr(title, desc):
+    st.markdown(f'<p class="ct">{title}</p><p class="cd">{desc}</p>', unsafe_allow_html=True)
 
-def plot_layout(height=300, **kwargs):
-    """Retorna dict de layout Plotly com tema escuro Navy & Gold."""
-    base = dict(
-        height=height,
-        plot_bgcolor=C_PLOT_BG,
-        paper_bgcolor=C_PLOT_BG,
-        font=dict(family="Inter, sans-serif", color=C_TEXT, size=11),
-        margin=dict(l=12, r=20, t=10, b=10),
-        legend=dict(
-            orientation="h", yanchor="bottom", y=1.02,
-            bgcolor="rgba(0,0,0,0)", font=dict(size=10, color=C_MUTED),
-        ),
-    )
-    base.update(kwargs)
-    return base
+def rag_card(nome, score, motivo, cls):
+    dot = {"ok":"🟢","warn":"🟡","bad":"🔴"}[cls]
+    st.markdown(f'<div class="rag-{cls}"><strong style="font-size:12px;">{dot} {nome}</strong>'
+                f'<br><span style="font-size:11px;color:{C_MUTED};">{motivo}</span></div>',
+                unsafe_allow_html=True)
 
-def ax(title="", fmt="", rng=None, grid=True, tickangle=0):
-    d = dict(
-        title=dict(text=title, font=dict(size=10, color=C_MUTED)),
-        showgrid=grid, gridcolor=C_GRID, gridwidth=1,
-        zeroline=False,
-        tickfont=dict(size=10, color=C_MUTED),
-        tickangle=tickangle,
-        linecolor=C_BORDER, linewidth=1, showline=True,
-    )
-    if fmt:  d["tickformat"] = fmt
-    if rng:  d["range"] = rng
+def L(h=280, **kw):
+    d = dict(height=h, plot_bgcolor=C_PLOT, paper_bgcolor=C_PLOT,
+             font=dict(family="Inter,sans-serif",color=C_TEXT,size=11),
+             margin=dict(l=12,r=20,t=10,b=10),
+             legend=dict(orientation="h",yanchor="bottom",y=1.02,
+                         bgcolor="rgba(0,0,0,0)",font=dict(size=10,color=C_MUTED)))
+    d.update(kw)
     return d
 
-def axh():
-    return dict(showgrid=False, zeroline=False, showline=False,
-                tickfont=dict(size=10, color=C_MUTED), title="")
+def AX(title="",fmt="",rng=None,grid=True,ang=0,vis=True):
+    d = dict(title=dict(text=title,font=dict(size=10,color=C_MUTED)),
+             showgrid=grid,gridcolor=C_GRID,gridwidth=1,zeroline=False,
+             tickfont=dict(size=10,color=C_MUTED),tickangle=ang,
+             linecolor=C_BORDER,linewidth=1,showline=True,visible=vis)
+    if fmt: d["tickformat"]=fmt
+    if rng: d["range"]=rng
+    return d
 
-# ══════════════════════════════════════════════════════════════════
+def AXH():
+    return dict(showgrid=False,zeroline=False,showline=False,
+                tickfont=dict(size=10,color=C_MUTED),title="")
+
+# ══════════════════════════════════════════════════════════════
 #  SIDEBAR — filtros encadeados
-# ══════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
 with st.sidebar:
-    st.markdown(f"""
-    <div style="padding:22px 16px 10px;">
-        <div style="font-size:10px;color:{C_GOLD};text-transform:uppercase;
-                    letter-spacing:.14em;font-weight:700;">Portfólio Imobiliário</div>
-        <div style="font-size:12px;color:{C_MUTED};margin-top:3px;">Analytics · São Paulo SP</div>
-    </div>
-    <hr style="border-color:{C_BORDER};margin:0 0 6px;">
-    """, unsafe_allow_html=True)
+    st.markdown(f"""<div style="padding:20px 16px 10px;">
+        <div style="font-size:10px;color:{C_GOLD};text-transform:uppercase;letter-spacing:.14em;font-weight:700;">Portfólio Imobiliário</div>
+        <div style="font-size:12px;color:{C_MUTED};margin-top:2px;">Analytics · São Paulo SP</div>
+    </div><hr style="border-color:{C_BORDER};margin:0 0 6px;">""", unsafe_allow_html=True)
 
-    paginas = [
-        "🏠  Visão Geral",
-        "📈  Comercial & Velocidade de Vendas",
-        "🏗️  Obras & % de Conclusão",
-        "📊  DRE Gerencial",
-    ]
-    if "pagina" not in st.session_state:
-        st.session_state.pagina = paginas[0]
-    for p in paginas:
-        ativo = st.session_state.pagina == p
+    PAGES = ["⚡  Executive Summary","🏠  Visão Geral","📈  Comercial & VSO",
+             "🏗️  Obras & POC","📊  DRE Gerencial","💰  Fluxo de Caixa","🎯  FP&A & Projeções"]
+    if "pg" not in st.session_state: st.session_state.pg = PAGES[0]
+    for p in PAGES:
+        ativo = st.session_state.pg == p
         if st.button(p, key=p, use_container_width=True,
                      type="primary" if ativo else "secondary"):
-            st.session_state.pagina = p
+            st.session_state.pg = p
             st.rerun()
 
     st.markdown(f'<hr style="border-color:{C_BORDER};margin:8px 0 4px;">', unsafe_allow_html=True)
-    st.markdown(f'<p style="font-size:10px;color:{C_GOLD};text-transform:uppercase;'
-                f'letter-spacing:.1em;font-weight:700;padding:4px 4px 6px;">Filtros</p>',
-                unsafe_allow_html=True)
+    st.markdown(f'<p style="font-size:10px;color:{C_GOLD};text-transform:uppercase;letter-spacing:.1em;font-weight:700;padding:2px 4px 5px;">Filtros</p>', unsafe_allow_html=True)
 
-    # 1) Bairro
     bairros_all = sorted(emp["bairro"].unique())
     filtro_bairro = st.selectbox("Bairro", ["Todos"] + bairros_all, key="fb")
 
-    # 2) Status — depende do bairro
-    emp_b = emp if filtro_bairro == "Todos" else emp[emp["bairro"] == filtro_bairro]
-    status_raw = sorted(emp_b["status"].unique().tolist())
-    status_opts = ["Todos"] + [STATUS_LABELS[s] for s in status_raw if s in STATUS_LABELS]
-    if "fs" not in st.session_state or st.session_state.get("_last_bairro") != filtro_bairro:
+    emp_b = emp if filtro_bairro=="Todos" else emp[emp["bairro"]==filtro_bairro]
+    s_raw = sorted(emp_b["status"].unique())
+    s_opts = ["Todos"] + [STATUS_LABELS[s] for s in s_raw if s in STATUS_LABELS]
+    if st.session_state.get("_lb") != filtro_bairro:
         st.session_state["fs"] = "Todos"
-    st.session_state["_last_bairro"] = filtro_bairro
-    filtro_status_lbl = st.selectbox("Status", status_opts, key="fs")
-    status_rev = {v: k for k, v in STATUS_LABELS.items()}
-    filtro_status = status_rev.get(filtro_status_lbl, "Todos")
+    st.session_state["_lb"] = filtro_bairro
+    filtro_status_lbl = st.selectbox("Status", s_opts, key="fs")
+    s_rev = {v:k for k,v in STATUS_LABELS.items()}
+    filtro_status = s_rev.get(filtro_status_lbl,"Todos")
 
-    # 3) Linha — depende de bairro + status
-    emp_bs = emp_b if filtro_status == "Todos" else emp_b[emp_b["status"] == filtro_status]
-    linhas_raw = sorted(emp_bs["linha"].unique().tolist())
-    linhas_opts = ["Todas"] + linhas_raw
-    if "fl" not in st.session_state or st.session_state.get("_last_status") != filtro_status_lbl:
+    emp_bs = emp_b if filtro_status=="Todos" else emp_b[emp_b["status"]==filtro_status]
+    l_raw = sorted(emp_bs["linha"].unique())
+    l_opts = ["Todas"] + l_raw
+    if st.session_state.get("_ls") != filtro_status_lbl:
         st.session_state["fl"] = "Todas"
-    st.session_state["_last_status"] = filtro_status_lbl
-    filtro_linha = st.selectbox("Linha de Produto", linhas_opts, key="fl")
+    st.session_state["_ls"] = filtro_status_lbl
+    filtro_linha = st.selectbox("Linha de Produto", l_opts, key="fl")
 
-pagina = st.session_state.pagina
+pg = st.session_state.pg
 
-# ── Aplicar filtros ───────────────────────────────────────────────
+# ── Aplicar filtros ───────────────────────────────────────────
 emp_f = emp.copy()
-if filtro_bairro != "Todos":  emp_f = emp_f[emp_f["bairro"]  == filtro_bairro]
-if filtro_status != "Todos":  emp_f = emp_f[emp_f["status"]  == filtro_status]
-if filtro_linha  != "Todas":  emp_f = emp_f[emp_f["linha"]   == filtro_linha]
+if filtro_bairro!="Todos": emp_f=emp_f[emp_f["bairro"]==filtro_bairro]
+if filtro_status!="Todos": emp_f=emp_f[emp_f["status"]==filtro_status]
+if filtro_linha !="Todas": emp_f=emp_f[emp_f["linha"]==filtro_linha]
 
-ids_f    = emp_f["id"].tolist()
-vendas_f = vendas[vendas["id_empreendimento"].isin(ids_f)]
-obra_f   = obra[obra["id_empreendimento"].isin(ids_f)]
-dre_f    = dre[dre["id_empreendimento"].isin(ids_f)].copy()
+ids_f  = emp_f["id"].tolist()
+vend_f = vendas[vendas["id_empreendimento"].isin(ids_f)]
+obra_f = obra[obra["id_empreendimento"].isin(ids_f)]
+dre_f  = dre[dre["id_empreendimento"].isin(ids_f)].copy()
+fc_f   = fc[fc["id_empreendimento"].isin(ids_f)]
+bud_f  = bud[bud["id_empreendimento"].isin(ids_f)]
+proj_f = proj[proj["id_empreendimento"].isin(ids_f)]
 
-if len(dre_f) == 0:
+if len(dre_f)==0:
     st.warning("⚠️ Nenhum empreendimento encontrado para os filtros selecionados.")
     st.stop()
 
+# ══════════════════════════════════════════════════════════════
+#  EXECUTIVE SUMMARY
+# ══════════════════════════════════════════════════════════════
+if "Executive" in pg:
+    st.markdown("## Executive Summary")
+    st.caption("Visão consolidada para diretoria · Semáforo de performance · Alertas automáticos de risco")
 
-# ══════════════════════════════════════════════════════════════════
+    # KPIs executivos
+    vgv_t  = emp_f["vgv_total"].sum()
+    vgv_v  = dre_f["vgv_vendido"].sum()
+    mg_m   = dre_f["margem_bruta_pct"].mean()
+    vso_m  = dre_f["vso_acumulado_pct"].mean()
+    ebitda = dre_f[dre_f["ebitda"]>0]["ebitda"].sum()
+    rec_poc= dre_f["receita_reconhecida_poc"].sum()
+    fc_sal = fc_f["saldo_mes"].sum()
+
+    c1,c2,c3,c4,c5,c6 = st.columns(6)
+    c1.metric("Empreendimentos",            f"{len(dre_f)}")
+    c2.metric("VGV Total Lançado",          fM(vgv_t))
+    c3.metric("VGV Vendido",                fM(vgv_v),
+              delta=f"{vgv_v/vgv_t*100:.1f}% do total")
+    c4.metric("Margem Bruta Média",         f"{mg_m:.1f}%",
+              delta="▲ vs bench 30%" if mg_m>=30 else "▼ vs bench 30%",
+              delta_color="normal" if mg_m>=30 else "inverse")
+    c5.metric("Receita Reconhecida (POC)",  fM(rec_poc))
+    c6.metric("EBITDA Acumulado",           fM(ebitda))
+
+    st.markdown("---")
+
+    # Semáforo RAG
+    st.markdown(f'<p class="ct">🚦 Semáforo de Performance — Todos os Empreendimentos</p>'
+                f'<p class="cd">Classificação automática por margem bruta, VSO e avanço de obra. '
+                f'Verde: todos os indicadores saudáveis. Amarelo: atenção em pelo menos um. Vermelho: risco alto.</p>',
+                unsafe_allow_html=True)
+
+    def rag_score(row):
+        pts = 0
+        motivos = []
+        if row["margem_bruta_pct"] < 25:
+            pts += 2; motivos.append(f"Margem {row['margem_bruta_pct']:.1f}% < 25%")
+        elif row["margem_bruta_pct"] < 30:
+            pts += 1; motivos.append(f"Margem {row['margem_bruta_pct']:.1f}% < 30%")
+        if row["vso_acumulado_pct"] < 70:
+            pts += 2; motivos.append(f"VSO {row['vso_acumulado_pct']:.1f}% < 70%")
+        elif row["vso_acumulado_pct"] < 80:
+            pts += 1; motivos.append(f"VSO {row['vso_acumulado_pct']:.1f}% < 80%")
+        if row["ebitda_pct"] < 0:
+            pts += 2; motivos.append("EBITDA negativo")
+        elif row["ebitda_pct"] < 8:
+            pts += 1; motivos.append(f"EBITDA {row['ebitda_pct']:.1f}% < 8%")
+        cls = "bad" if pts>=3 else ("warn" if pts>=1 else "ok")
+        mot = " · ".join(motivos) if motivos else "Todos os indicadores saudáveis"
+        return cls, mot
+
+    # Agrupar em 3 colunas
+    dre_rag = dre_f.sort_values("nome").reset_index(drop=True)
+    cols_rag = st.columns(3)
+    for i, row in dre_rag.iterrows():
+        cls, mot = rag_score(row)
+        with cols_rag[i % 3]:
+            rag_card(row["nome"], 0, mot, cls)
+
+    st.markdown("---")
+
+    # Ranking de performance
+    col_r1, col_r2 = st.columns(2)
+    with col_r1:
+        hdr("Ranking de Desempenho — Margem Bruta (%)",
+            "Empreendimentos ordenados por margem bruta. "
+            "Permite identificar rapidamente quais projetos estão entregando melhor resultado operacional.")
+        rk = dre_f.sort_values("margem_bruta_pct", ascending=True)
+        cores_rk = [C_VERM if v<25 else (C_GOLD if v<33 else C_VERDE) for v in rk["margem_bruta_pct"]]
+        fig = go.Figure(go.Bar(
+            x=rk["margem_bruta_pct"], y=rk["nome"], orientation="h",
+            marker_color=cores_rk,
+            text=[f"{v:.1f}%" for v in rk["margem_bruta_pct"]],
+            textposition="outside", textfont=dict(size=10,color=C_MUTED),
+        ))
+        fig.add_vline(x=30, line_dash="dash", line_color=C_MUTED, line_width=1,
+                      annotation_text="Benchmark: 30%", annotation_font_size=9)
+        fig.update_layout(**L(h=420), xaxis=AX(rng=[0,55]), yaxis=AXH())
+        st.plotly_chart(fig, use_container_width=True)
+
+    with col_r2:
+        hdr("Mapa de Calor — Margem Bruta por Bairro × Linha de Produto",
+            "Cruzamento estratégico: identifica quais combinações de localização e produto "
+            "entregam melhor margem bruta. Ferramenta central para decisão de novos lançamentos.")
+        heat = dre_f.groupby(["bairro","linha"])["margem_bruta_pct"].mean().reset_index()
+        pivot = heat.pivot(index="bairro", columns="linha", values="margem_bruta_pct").fillna(0)
+        fig2 = go.Figure(go.Heatmap(
+            z=pivot.values,
+            x=pivot.columns.tolist(),
+            y=pivot.index.tolist(),
+            colorscale=[[0,C_VERM],[0.4,C_GOLD],[1,C_VERDE]],
+            text=[[f"{v:.1f}%" if v>0 else "—" for v in row] for row in pivot.values],
+            texttemplate="%{text}",
+            textfont=dict(size=11, color=C_TEXT),
+            hovertemplate="Bairro: %{y}<br>Linha: %{x}<br>Margem: %{text}<extra></extra>",
+            colorbar=dict(
+                tickfont=dict(color=C_MUTED,size=10),
+                title=dict(text="%",font=dict(color=C_MUTED,size=10)),
+                bgcolor=C_CARD, bordercolor=C_BORDER,
+            ),
+        ))
+        fig2.update_layout(**L(h=420), xaxis=AX(grid=False), yaxis=AX(grid=False))
+        st.plotly_chart(fig2, use_container_width=True)
+
+    # Alertas automáticos
+    st.markdown("---")
+    st.markdown(f'<p class="ct">⚠️ Alertas Automáticos de Risco</p>'
+                f'<p class="cd">Itens que requerem atenção imediata da diretoria.</p>',
+                unsafe_allow_html=True)
+    alertas = []
+    for _, row in dre_f.iterrows():
+        if row["margem_bruta_pct"] < 25:
+            alertas.append(("bad", f"<strong>{row['nome']}</strong>: Margem bruta crítica de {row['margem_bruta_pct']:.1f}% — abaixo do mínimo aceitável de 25%."))
+        if row["vso_acumulado_pct"] < 70 and row["status"] not in ["lancamento"]:
+            alertas.append(("bad", f"<strong>{row['nome']}</strong>: VSO de {row['vso_acumulado_pct']:.1f}% — estoque com baixa absorção. Risco de fluxo de caixa."))
+        if row["ebitda_pct"] < 0:
+            alertas.append(("bad", f"<strong>{row['nome']}</strong>: EBITDA negativo ({row['ebitda_pct']:.1f}%) — despesas superiores à receita reconhecida no período."))
+    for _, row in dre_f.iterrows():
+        if 25 <= row["margem_bruta_pct"] < 30:
+            alertas.append(("warn", f"<strong>{row['nome']}</strong>: Margem bruta de {row['margem_bruta_pct']:.1f}% — abaixo do benchmark de 30%. Monitorar."))
+        if 70 <= row["vso_acumulado_pct"] < 80:
+            alertas.append(("warn", f"<strong>{row['nome']}</strong>: VSO de {row['vso_acumulado_pct']:.1f}% — abaixo da meta de 80%. Intensificar ações comerciais."))
+    if not alertas:
+        ins("Nenhum alerta crítico identificado. Todos os empreendimentos dentro dos parâmetros aceitáveis.", "ok")
+    else:
+        a1, a2 = st.columns(2)
+        for i, (tp, txt) in enumerate(alertas[:10]):
+            with (a1 if i%2==0 else a2):
+                ins(txt, tp)
+
+
+# ══════════════════════════════════════════════════════════════
 #  VISÃO GERAL
-# ══════════════════════════════════════════════════════════════════
-if "Visão Geral" in pagina:
-
+# ══════════════════════════════════════════════════════════════
+elif "Visão Geral" in pg:
     st.markdown("## Visão Geral do Portfólio")
-    st.caption(f"**{len(dre_f)} empreendimentos** selecionados · Alto padrão São Paulo · Dados sintéticos calibrados com Secovi-SP / ABRAINC-FIPE")
+    st.caption(f"**{len(dre_f)} empreendimentos** · Alto padrão São Paulo · Dados sintéticos calibrados Secovi-SP / ABRAINC-FIPE")
 
-    vgv_total   = emp_f["vgv_total"].sum()
-    vgv_vendido = dre_f["vgv_vendido"].sum()
-    margem_m    = dre_f["margem_bruta_pct"].mean()
-    vso_m       = dre_f["vso_acumulado_pct"].mean()
-
-    c1, c2, c3, c4, c5 = st.columns(5)
-    c1.metric("Empreendimentos",                       f"{len(dre_f)}")
-    c2.metric("Valor Geral de Vendas Total",           fmt_M(vgv_total))
-    c3.metric("Valor Geral de Vendas Vendido",         fmt_M(vgv_vendido))
-    c4.metric("Velocidade de Vendas Média",            f"{vso_m:.1f}%")
-    c5.metric("Margem Bruta Média",                    f"{margem_m:.1f}%")
+    c1,c2,c3,c4,c5 = st.columns(5)
+    c1.metric("Empreendimentos",                    f"{len(dre_f)}")
+    c2.metric("Valor Geral de Vendas Total",         fM(emp_f["vgv_total"].sum()))
+    c3.metric("Valor Geral de Vendas Vendido",       fM(dre_f["vgv_vendido"].sum()))
+    c4.metric("Velocidade de Vendas Média (VSO)",    f"{dre_f['vso_acumulado_pct'].mean():.1f}%")
+    c5.metric("Margem Bruta Média",                  f"{dre_f['margem_bruta_pct'].mean():.1f}%")
 
     st.markdown("---")
     col_a, col_b = st.columns([1.5, 1])
-
     with col_a:
-        chart_header(
-            "Valor Geral de Vendas (VGV) por Empreendimento",
-            "Potencial máximo de receita de cada projeto ao preço de tabela, segmentado por status atual. "
-            "Empreendimentos maiores representam maior exposição financeira e potencial de resultado."
-        )
+        hdr("Valor Geral de Vendas (VGV) por Empreendimento",
+            "Potencial máximo de receita de cada projeto ao preço de tabela, segmentado por status. "
+            "Empreendimentos maiores representam maior exposição financeira e potencial de resultado.")
         plot = dre_f.sort_values("vgv_lancado").copy()
         fig = go.Figure()
         for sl, cor in STATUS_CORES.items():
-            sub = plot[plot["status_label"] == sl]
+            sub = plot[plot["status_label"]==sl]
             if len(sub):
                 fig.add_trace(go.Bar(
                     x=sub["vgv_lancado"], y=sub["nome"],
                     name=sl, orientation="h", marker_color=cor,
-                    text=sub["vgv_lancado"].apply(fmt_M),
-                    textposition="outside",
-                    textfont=dict(size=10, color=C_MUTED),
+                    text=sub["vgv_lancado"].apply(fM), textposition="outside",
+                    textfont=dict(size=10,color=C_MUTED),
                     hovertemplate="<b>%{y}</b><br>VGV: %{text}<extra></extra>",
                 ))
-        fig.update_layout(
-            **plot_layout(height=430, barmode="stack"),
-            xaxis=ax(fmt=",.0f"),
-            yaxis=axh(),
-        )
+        fig.update_layout(**L(h=430,barmode="stack"), xaxis=AX(fmt=",.0f"), yaxis=AXH())
         st.plotly_chart(fig, use_container_width=True)
 
     with col_b:
-        chart_header(
-            "Distribuição por Status",
-            "Proporção do portfólio entre empreendimentos entregues, em obra e em lançamento. "
-            "Indica o estágio do ciclo de desenvolvimento."
-        )
+        hdr("Status do Portfólio", "Proporção entre empreendimentos entregues, em obra e em lançamento.")
         sc = emp_f["status"].map(STATUS_LABELS).value_counts().reset_index()
-        sc.columns = ["status", "qtd"]
+        sc.columns = ["status","qtd"]
         fig2 = go.Figure(go.Pie(
             labels=sc["status"], values=sc["qtd"], hole=0.62,
-            marker_colors=[STATUS_CORES.get(s, C_MUTED) for s in sc["status"]],
-            textinfo="label+percent",
-            textfont=dict(size=10, color=C_TEXT),
-            hovertemplate="%{label}: %{value} empreend.<extra></extra>",
+            marker_colors=[STATUS_CORES.get(s,C_MUTED) for s in sc["status"]],
+            textinfo="label+percent", textfont=dict(size=10,color=C_TEXT),
         ))
-        fig2.update_layout(
-            plot_bgcolor=C_PLOT_BG, paper_bgcolor=C_PLOT_BG,
-            font=dict(family="Inter, sans-serif", color=C_TEXT, size=11),
-            height=190, showlegend=False,
-            margin=dict(l=0, r=0, t=10, b=0),
-        )
+        fig2.update_layout(plot_bgcolor=C_PLOT,paper_bgcolor=C_PLOT,
+                           font=dict(family="Inter,sans-serif",color=C_TEXT,size=11),
+                           height=190,showlegend=False,margin=dict(l=0,r=0,t=10,b=0))
         st.plotly_chart(fig2, use_container_width=True)
 
-        chart_header(
-            "Distribuição por Linha de Produto",
-            "Segmentação entre Premium, Alto Padrão e Smart — cada linha tem perfil de margem e público distintos."
-        )
-        lc = emp_f["linha"].value_counts().reset_index()
-        lc.columns = ["linha", "qtd"]
+        hdr("Linha de Produto", "Segmentação entre Premium, Alto Padrão e Smart.")
+        lc = emp_f["linha"].value_counts().reset_index(); lc.columns=["linha","qtd"]
         fig3 = go.Figure(go.Bar(
             x=lc["linha"], y=lc["qtd"],
-            marker_color=[LINHA_CORES.get(l, C_MUTED) for l in lc["linha"]],
-            text=lc["qtd"], textposition="outside",
-            textfont=dict(size=11, color=C_MUTED),
+            marker_color=[LINHA_CORES.get(l,C_MUTED) for l in lc["linha"]],
+            text=lc["qtd"], textposition="outside", textfont=dict(size=11,color=C_MUTED),
         ))
-        fig3.update_layout(
-            **plot_layout(height=175),
-            xaxis=ax(grid=False),
-            yaxis=dict(visible=False, showgrid=False, zeroline=False),
-        )
+        fig3.update_layout(**L(h=175), xaxis=AX(grid=False), yaxis=dict(visible=False,showgrid=False,zeroline=False))
         st.plotly_chart(fig3, use_container_width=True)
 
     col_c, col_d = st.columns(2)
     with col_c:
-        chart_header(
-            "Evolução do VGV Lançado por Ano",
-            "Volume de novos empreendimentos lançados ao longo dos anos, por linha de produto. "
-            "Crescimento indica expansão do portfólio; concentração em uma linha indica foco estratégico."
-        )
-        emp_f2 = emp_f.copy()
-        emp_f2["ano"] = emp_f2["lancamento"].dt.year
-        vgv_ano = emp_f2.groupby(["ano", "linha"])["vgv_total"].sum().reset_index()
+        hdr("VGV Lançado por Ano e Linha de Produto",
+            "Evolução do volume de lançamentos. Crescimento indica expansão; concentração em uma linha indica foco estratégico.")
+        emp_f2 = emp_f.copy(); emp_f2["ano"]=emp_f2["lancamento"].dt.year
+        vgv_ano = emp_f2.groupby(["ano","linha"])["vgv_total"].sum().reset_index()
         fig4 = px.bar(vgv_ano, x="ano", y="vgv_total", color="linha",
                       color_discrete_map=LINHA_CORES, barmode="stack",
-                      labels={"ano": "Ano", "vgv_total": "VGV (R$)", "linha": "Linha"})
-        fig4.update_layout(
-            **plot_layout(height=250),
-            xaxis=ax(grid=False),
-            yaxis=ax(fmt=",.0f"),
-        )
+                      labels={"ano":"Ano","vgv_total":"VGV (R$)","linha":"Linha"})
+        fig4.update_layout(**L(h=250), xaxis=AX(grid=False), yaxis=AX(fmt=",.0f"))
         st.plotly_chart(fig4, use_container_width=True)
 
     with col_d:
-        chart_header(
-            "VGV Total por Bairro",
-            "Concentração geográfica do portfólio. Bairros com maior VGV representam "
-            "maior exposição de capital e risco de mercado localizado."
-        )
-        vgv_b = emp_f.groupby("bairro")["vgv_total"].sum().reset_index().sort_values("vgv_total", ascending=True)
+        hdr("VGV Total por Bairro",
+            "Concentração geográfica do portfólio. Bairros com maior VGV têm maior exposição de capital.")
+        vgv_b = emp_f.groupby("bairro")["vgv_total"].sum().reset_index().sort_values("vgv_total",ascending=True)
         fig5 = go.Figure(go.Bar(
             x=vgv_b["vgv_total"], y=vgv_b["bairro"], orientation="h",
-            marker_color=C_NAVY3,
-            marker_line=dict(color=C_GOLD, width=0.5),
-            text=vgv_b["vgv_total"].apply(fmt_M),
-            textposition="outside",
-            textfont=dict(size=10, color=C_MUTED),
+            marker_color=C_NAVY3, marker_line=dict(color=C_GOLD,width=0.5),
+            text=vgv_b["vgv_total"].apply(fM), textposition="outside",
+            textfont=dict(size=10,color=C_MUTED),
         ))
-        fig5.update_layout(
-            **plot_layout(height=250),
-            xaxis=ax(fmt=",.0f"),
-            yaxis=axh(),
-        )
+        fig5.update_layout(**L(h=250), xaxis=AX(fmt=",.0f"), yaxis=AXH())
         st.plotly_chart(fig5, use_container_width=True)
 
     st.markdown("---")
-    st.markdown(f'<p class="chart-title">💡 Análise Executiva do Portfólio</p>', unsafe_allow_html=True)
-    melhor      = dre_f.loc[dre_f["margem_bruta_pct"].idxmax()]
-    pior_vso    = dre_f.loc[dre_f["vso_acumulado_pct"].idxmin()]
-    em_obra_vgv = emp_f[emp_f["status"] == "em_obra"]["vgv_total"].sum()
-    lanc_vgv    = emp_f[emp_f["status"] == "lancamento"]["vgv_total"].sum()
-    acima_bench = len(dre_f[dre_f["margem_bruta_pct"] >= 30])
-
-    ic1, ic2, ic3 = st.columns(3)
-    with ic1:
-        ins(f"<strong>{melhor['nome']}</strong> lidera o portfólio com margem bruta de "
-            f"<strong>{melhor['margem_bruta_pct']:.1f}%</strong> — "
-            f"{melhor['margem_bruta_pct']-30:.1f}pp acima do benchmark de 30% do mercado SP.", "ok")
-    with ic2:
-        ins(f"<strong>{acima_bench} de {len(dre_f)}</strong> empreendimentos superam o benchmark de 30% "
-            f"de margem bruta. Pipeline de lançamentos de <strong>{fmt_M(lanc_vgv)}</strong> "
-            f"em VGV garante crescimento nos próximos ciclos.", "info")
-    with ic3:
-        if pior_vso["vso_acumulado_pct"] < 75:
-            ins(f"Atenção: <strong>{pior_vso['nome']}</strong> com Velocidade de Vendas acumulada de "
-                f"<strong>{pior_vso['vso_acumulado_pct']:.1f}%</strong>. "
-                f"Revisar estratégia comercial ou mix de tipologias.", "bad")
-        else:
-            ins(f"Velocidade de Vendas média de <strong>{vso_m:.1f}%</strong> alinhada ao mercado SP. "
-                f"Lançamentos recentes ainda em fase de aceleração comercial inicial.", "warn")
-
-    st.markdown("---")
-    st.markdown(f'<p class="chart-title">Portfólio Completo</p>', unsafe_allow_html=True)
-    tab = dre_f[["nome","bairro","linha","status_label","vgv_lancado",
-                 "vso_acumulado_pct","avanco_obra_pct","margem_bruta_pct","ebitda_pct"]].copy()
-    tab.columns = ["Empreendimento","Bairro","Linha","Status",
-                   "Valor Geral de Vendas","VSO (%)","Avanço (%)","Margem Bruta (%)","EBITDA (%)"]
-    tab["Valor Geral de Vendas"] = tab["Valor Geral de Vendas"].apply(fmt_M)
-    st.dataframe(tab, use_container_width=True, hide_index=True)
+    st.markdown(f'<p class="ct">💡 Análise Executiva</p>', unsafe_allow_html=True)
+    melhor   = dre_f.loc[dre_f["margem_bruta_pct"].idxmax()]
+    pior_vso = dre_f.loc[dre_f["vso_acumulado_pct"].idxmin()]
+    lanc_vgv = emp_f[emp_f["status"]=="lancamento"]["vgv_total"].sum()
+    acima    = len(dre_f[dre_f["margem_bruta_pct"]>=30])
+    i1,i2,i3 = st.columns(3)
+    with i1:
+        ins(f"<strong>{melhor['nome']}</strong> lidera com margem bruta de <strong>{melhor['margem_bruta_pct']:.1f}%</strong> — {melhor['margem_bruta_pct']-30:.1f}pp acima do benchmark de 30% do mercado SP.", "ok")
+    with i2:
+        ins(f"<strong>{acima} de {len(dre_f)}</strong> empreendimentos superam o benchmark de 30%. Pipeline de lançamentos de <strong>{fM(lanc_vgv)}</strong> garante crescimento nos próximos ciclos.", "info")
+    with i3:
+        tp = "bad" if pior_vso["vso_acumulado_pct"]<75 else "warn"
+        ins(f"Atenção: <strong>{pior_vso['nome']}</strong> com VSO acumulado de <strong>{pior_vso['vso_acumulado_pct']:.1f}%</strong>. {'Revisar estratégia comercial urgente.' if pior_vso['vso_acumulado_pct']<70 else 'Abaixo da meta de 80%.'}", tp)
 
 
-# ══════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
 #  COMERCIAL & VSO
-# ══════════════════════════════════════════════════════════════════
-elif "Comercial" in pagina:
-
+# ══════════════════════════════════════════════════════════════
+elif "Comercial" in pg:
     st.markdown("## Comercial & Velocidade de Vendas sobre Oferta (VSO)")
-    st.caption("Acompanhamento mensal de vendas, distratos e VGV comercializado por empreendimento ou portfólio consolidado")
+    st.caption("Acompanhamento mensal de vendas, distratos e VGV comercializado")
 
-    sel = st.selectbox("Empreendimento", ["Portfólio Consolidado"] + dre_f["nome"].tolist())
-    if sel != "Portfólio Consolidado":
-        id_sel = dre_f[dre_f["nome"] == sel]["id_empreendimento"].values[0]
-        vp     = vendas_f[vendas_f["id_empreendimento"] == id_sel].copy()
+    sel = st.selectbox("Empreendimento", ["Portfólio Consolidado"]+dre_f["nome"].tolist())
+    if sel!="Portfólio Consolidado":
+        id_s = dre_f[dre_f["nome"]==sel]["id_empreendimento"].values[0]
+        vp   = vend_f[vend_f["id_empreendimento"]==id_s].copy()
     else:
-        vp = vendas_f.groupby("data").agg(
+        vp = vend_f.groupby("data").agg(
             unidades_vendidas=("unidades_vendidas","sum"),
             distratos=("distratos","sum"),
             vgv_mes=("vgv_mes","sum"),
             vso_pct=("vso_pct","mean"),
         ).reset_index()
 
-    total_v   = vp["unidades_vendidas"].sum()
-    total_d   = vp["distratos"].sum()
-    vgv_com   = vp["vgv_mes"].sum()
-    taxa_dist = total_d / total_v * 100 if total_v > 0 else 0
-    vso_rec   = vp.sort_values("data").iloc[-1]["vso_pct"] if len(vp) else 0
+    tv   = vp["unidades_vendidas"].sum()
+    td   = vp["distratos"].sum()
+    vgvc = vp["vgv_mes"].sum()
+    txd  = td/tv*100 if tv>0 else 0
+    vrec = vp.sort_values("data").iloc[-1]["vso_pct"] if len(vp) else 0
 
     c1,c2,c3,c4 = st.columns(4)
-    c1.metric("Unidades Vendidas",              f"{total_v:,.0f}")
-    c2.metric("Distratos (Cancelamentos)",      f"{total_d:,.0f}",
-              delta=f"-{taxa_dist:.1f}% da base", delta_color="inverse")
-    c3.metric("Valor Geral de Vendas Comercializado", fmt_M(vgv_com))
-    c4.metric("Velocidade de Vendas — Último Mês",    f"{vso_rec:.1f}%",
-              delta="acima de 10%" if vso_rec >= 10 else "abaixo de 10%",
-              delta_color="normal" if vso_rec >= 10 else "inverse")
+    c1.metric("Unidades Vendidas",                    f"{tv:,.0f}")
+    c2.metric("Distratos (Cancelamentos)",             f"{td:,.0f}", delta=f"-{txd:.1f}% da base", delta_color="inverse")
+    c3.metric("Valor Geral de Vendas Comercializado",  fM(vgvc))
+    c4.metric("VSO — Último Mês",                     f"{vrec:.1f}%",
+              delta="acima de 10%" if vrec>=10 else "abaixo de 10%",
+              delta_color="normal" if vrec>=10 else "inverse")
 
     st.markdown("---")
-    col1, col2 = st.columns(2)
+    vp_s = vp.sort_values("data")
+    col1,col2 = st.columns(2)
     with col1:
-        chart_header(
-            "Velocidade de Vendas sobre Oferta (VSO) — Mensal (%)",
-            "Percentual do estoque disponível vendido em cada mês. "
-            "O VSO mede a 'saúde' comercial do lançamento: acima de 10%/mês é saudável para o mercado SP (Secovi-SP). "
-            "Queda sustentada indica necessidade de ação comercial."
-        )
-        vp_s = vp.sort_values("data")
+        hdr("Velocidade de Vendas sobre Oferta (VSO) — Mensal (%)",
+            "% do estoque disponível vendido por mês. Acima de 10%/mês é saudável (Secovi-SP). "
+            "Queda sustentada indica necessidade de ação comercial ou revisão de preços.")
         fig = go.Figure()
-        fig.add_trace(go.Scatter(
-            x=vp_s["data"], y=vp_s["vso_pct"],
-            mode="lines+markers", name="VSO",
-            line=dict(color=C_GOLD, width=2.5),
-            marker=dict(size=4, color=C_GOLD_L),
-            fill="tozeroy", fillcolor="rgba(201,168,76,0.10)",
-        ))
-        fig.add_hline(y=10, line_dash="dash", line_color=C_VERM, line_width=1.2,
+        fig.add_trace(go.Scatter(x=vp_s["data"],y=vp_s["vso_pct"],mode="lines+markers",
+                                  line=dict(color=C_GOLD,width=2.5),
+                                  marker=dict(size=4,color=C_GOLD_L),
+                                  fill="tozeroy",fillcolor="rgba(201,168,76,0.10)"))
+        fig.add_hline(y=10,line_dash="dash",line_color=C_VERM,line_width=1.2,
                       annotation_text="Mínimo saudável: 10%",
-                      annotation_font_size=10, annotation_font_color=C_VERM)
-        fig.update_layout(**plot_layout(height=270),
-                          xaxis=ax(), yaxis=ax(title="VSO (%)"))
+                      annotation_font_size=10,annotation_font_color=C_VERM)
+        fig.update_layout(**L(h=265), xaxis=AX(), yaxis=AX(title="VSO (%)"))
         st.plotly_chart(fig, use_container_width=True)
-        cor_v = "bad" if vso_rec < 10 else "ok"
-        ins(f"VSO mais recente: <strong>{vso_rec:.1f}%</strong> — "
-            f"{'abaixo do mínimo de 10%. Avaliar campanha de incentivo, redução de tabela ou revisão de tipologias.' if vso_rec < 10 else 'acima do benchmark de 10% (Secovi-SP). Ritmo comercial saudável para o segmento de alto padrão.'}", cor_v)
+        ins(f"VSO mais recente: <strong>{vrec:.1f}%</strong> — {'abaixo do mínimo de 10%. Ação comercial recomendada.' if vrec<10 else 'acima do benchmark de 10% (Secovi-SP).'}", "bad" if vrec<10 else "ok")
 
     with col2:
-        chart_header(
-            "Valor Geral de Vendas (VGV) Comercializado — Mensal",
-            "Volume financeiro de vendas efetivadas por mês. "
-            "O pico ocorre geralmente no período de lançamento, com desaceleração natural à medida que o estoque é absorvido."
-        )
+        hdr("Valor Geral de Vendas (VGV) Comercializado — Mensal",
+            "Volume financeiro de vendas efetivadas por mês. O pico ocorre no lançamento "
+            "com desaceleração natural à medida que o estoque é absorvido pelo mercado.")
         fig2 = go.Figure(go.Bar(
-            x=vp_s["data"], y=vp_s["vgv_mes"],
-            marker_color=C_NAVY3,
-            marker_line=dict(color=C_GOLD, width=0.4),
+            x=vp_s["data"],y=vp_s["vgv_mes"],
+            marker_color=C_NAVY3,marker_line=dict(color=C_GOLD,width=0.4),
             hovertemplate="%{x|%b/%Y}: %{customdata}<extra></extra>",
-            customdata=vp_s["vgv_mes"].apply(fmt_M),
+            customdata=vp_s["vgv_mes"].apply(fM),
         ))
-        fig2.update_layout(**plot_layout(height=270),
-                           xaxis=ax(), yaxis=ax(fmt=",.0f"))
+        fig2.update_layout(**L(h=265), xaxis=AX(), yaxis=AX(fmt=",.0f"))
         st.plotly_chart(fig2, use_container_width=True)
-        mes_pico = vp.loc[vp["vgv_mes"].idxmax(), "data"]
-        ins(f"Pico de VGV em <strong>{mes_pico.strftime('%b/%Y')}</strong> — "
-            f"{fmt_M(vp['vgv_mes'].max())} comercializados. Concentração no lançamento é padrão "
-            f"do segmento de alto padrão SP.", "info")
+        mp = vp.loc[vp["vgv_mes"].idxmax(),"data"]
+        ins(f"Pico de VGV em <strong>{mp.strftime('%b/%Y')}</strong> — {fM(vp['vgv_mes'].max())} comercializados.", "info")
 
     st.markdown("---")
-    col3, col4 = st.columns(2)
+    col3,col4 = st.columns(2)
     with col3:
-        chart_header(
-            "Unidades Vendidas vs Distratos (Cancelamentos) — Mensal",
-            "Comparativo entre novas vendas e cancelamentos de contrato. "
-            "Distratos elevados reduzem o VGV líquido e indicam possível inadequação do produto ao público-alvo ou problemas de financiamento."
-        )
+        hdr("Unidades Vendidas vs Distratos (Cancelamentos) — Mensal",
+            "Distratos elevados reduzem o VGV líquido e indicam problemas de financiamento ou inadequação do produto.")
         fig3 = go.Figure()
-        fig3.add_trace(go.Bar(x=vp_s["data"], y=vp_s["unidades_vendidas"],
-                               name="Vendidas",  marker_color=C_GOLD))
-        fig3.add_trace(go.Bar(x=vp_s["data"], y=vp_s["distratos"],
-                               name="Distratos", marker_color=C_VERM))
-        fig3.update_layout(**plot_layout(height=270), barmode="group",
-                           xaxis=ax(), yaxis=ax())
+        fig3.add_trace(go.Bar(x=vp_s["data"],y=vp_s["unidades_vendidas"],name="Vendidas",marker_color=C_GOLD))
+        fig3.add_trace(go.Bar(x=vp_s["data"],y=vp_s["distratos"],name="Distratos",marker_color=C_VERM))
+        fig3.update_layout(**L(h=265),barmode="group",xaxis=AX(),yaxis=AX())
         st.plotly_chart(fig3, use_container_width=True)
-        cor_d = "bad" if taxa_dist > 5 else "ok"
-        ins(f"Taxa de distrato acumulada: <strong>{taxa_dist:.1f}%</strong> — "
-            f"{'acima do limite de 5%. Avaliar perfil de crédito dos compradores e canal de vendas.' if taxa_dist > 5 else 'dentro do limite aceitável de 5%. Pipeline de vendas com boa qualidade de compradores.'}", cor_d)
+        ins(f"Taxa de distrato acumulada: <strong>{txd:.1f}%</strong> — {'acima do limite de 5%. Revisar canal de vendas e perfil de crédito.' if txd>5 else 'dentro do limite aceitável de 5%.'}", "bad" if txd>5 else "ok")
 
     with col4:
-        chart_header(
-            "Velocidade de Vendas (VSO) Acumulada por Bairro",
-            "Percentual médio do Valor Geral de Vendas vendido por bairro. "
-            "Bairros acima de 85% indicam alta absorção pelo mercado; abaixo de 70% sinalizam saturação ou inadequação do produto."
-        )
-        vso_b = dre_f.groupby("bairro")["vso_acumulado_pct"].mean().reset_index().sort_values("vso_acumulado_pct", ascending=True)
-        cores_vso = [C_VERM if v < 70 else (C_GOLD if v < 85 else C_VERDE) for v in vso_b["vso_acumulado_pct"]]
+        hdr("Velocidade de Vendas (VSO) Acumulada por Bairro",
+            "VSO médio por bairro. Acima de 85%: alta absorção. Abaixo de 70%: saturação ou inadequação do produto.")
+        vso_b = dre_f.groupby("bairro")["vso_acumulado_pct"].mean().reset_index().sort_values("vso_acumulado_pct",ascending=True)
+        cv = [C_VERM if v<70 else (C_GOLD if v<85 else C_VERDE) for v in vso_b["vso_acumulado_pct"]]
         fig4 = go.Figure(go.Bar(
-            x=vso_b["vso_acumulado_pct"], y=vso_b["bairro"],
-            orientation="h", marker_color=cores_vso,
+            x=vso_b["vso_acumulado_pct"],y=vso_b["bairro"],orientation="h",
+            marker_color=cv,
             text=[f"{v:.1f}%" for v in vso_b["vso_acumulado_pct"]],
-            textposition="outside",
-            textfont=dict(size=10, color=C_MUTED),
+            textposition="outside",textfont=dict(size=10,color=C_MUTED),
         ))
-        fig4.add_vline(x=85, line_dash="dash", line_color=C_MUTED, line_width=1,
-                       annotation_text="Meta: 85%",
-                       annotation_font_size=10, annotation_font_color=C_MUTED)
-        fig4.update_layout(**plot_layout(height=270),
-                           xaxis=ax(rng=[0, 115]), yaxis=axh())
+        fig4.add_vline(x=85,line_dash="dash",line_color=C_MUTED,line_width=1,
+                       annotation_text="Meta: 85%",annotation_font_size=10)
+        fig4.update_layout(**L(h=265), xaxis=AX(rng=[0,115]), yaxis=AXH())
         st.plotly_chart(fig4, use_container_width=True)
-        top_b = vso_b.iloc[-1]
-        bot_b = vso_b.iloc[0]
-        ins(f"<strong>{top_b['bairro']}</strong> lidera com VSO de <strong>{top_b['vso_acumulado_pct']:.1f}%</strong>. "
-            f"<strong>{bot_b['bairro']}</strong> apresenta o menor índice ({bot_b['vso_acumulado_pct']:.1f}%) — "
-            f"oportunidade de revisão de estratégia comercial local.", "info")
+        top_b=vso_b.iloc[-1]; bot_b=vso_b.iloc[0]
+        ins(f"<strong>{top_b['bairro']}</strong> lidera com {top_b['vso_acumulado_pct']:.1f}%. "
+            f"<strong>{bot_b['bairro']}</strong> ({bot_b['vso_acumulado_pct']:.1f}%) — oportunidade de revisão comercial.", "info")
 
 
-# ══════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
 #  OBRAS & POC
-# ══════════════════════════════════════════════════════════════════
-elif "Obras" in pagina:
-
+# ══════════════════════════════════════════════════════════════
+elif "Obras" in pg:
     st.markdown("## Obras & Percentual de Conclusão (POC)")
-    st.caption("Reconhecimento de receita proporcional ao avanço físico da obra · Desvio de orçamento · Curva S de execução")
+    st.caption("Reconhecimento de receita proporcional ao avanço físico · Desvio de orçamento · Curva S")
 
     opcoes = obra_f["nome_empreendimento"].unique().tolist()
-    if not opcoes:
-        st.warning("Nenhum dado para os filtros selecionados.")
-        st.stop()
+    if not opcoes: st.warning("Sem dados para os filtros."); st.stop()
+    sel_o = st.selectbox("Empreendimento", opcoes)
+    o = obra_f[obra_f["nome_empreendimento"]==sel_o]
 
-    sel_obra = st.selectbox("Empreendimento", opcoes)
-    o        = obra_f[obra_f["nome_empreendimento"] == sel_obra]
-
-    av   = o["avanco_fisico_pct"].iloc[0]
-    rpoc = o["receita_reconhecida_poc"].iloc[0]
-    corc = o["custo_orcado"].sum()
-    crea = o["custo_realizado"].sum()
-    dmed = o["desvio_pct"].mean()
+    av=o["avanco_fisico_pct"].iloc[0]; rpoc=o["receita_reconhecida_poc"].iloc[0]
+    corc=o["custo_orcado"].sum(); crea=o["custo_realizado"].sum(); dmed=o["desvio_pct"].mean()
 
     c1,c2,c3,c4 = st.columns(4)
-    c1.metric("Avanço Físico — % de Conclusão",   f"{av:.0f}%")
-    c2.metric("Receita Reconhecida (POC)",         fmt_M(rpoc), help="Receita proporcional ao avanço físico da obra")
-    c3.metric("Custo Realizado vs Orçado",         fmt_M(crea), delta=fmt_M(crea - corc), delta_color="inverse")
-    c4.metric("Desvio Médio de Custo",             f"{dmed:+.1f}%", delta_color="inverse")
+    c1.metric("Avanço Físico — % de Conclusão", f"{av:.0f}%")
+    c2.metric("Receita Reconhecida (POC)",       fM(rpoc))
+    c3.metric("Custo Realizado vs Orçado",       fM(crea), delta=fM(crea-corc), delta_color="inverse")
+    c4.metric("Desvio Médio de Custo",           f"{dmed:+.1f}%", delta_color="inverse")
 
     st.markdown("---")
-    col1, col2 = st.columns(2)
+    col1,col2 = st.columns(2)
     with col1:
-        chart_header(
-            "Custo Orçado vs Realizado por Etapa de Obra",
-            "Comparativo entre o orçamento original e o custo efetivamente incorrido em cada fase. "
-            "Desvios positivos reduzem diretamente a margem bruta projetada no lançamento."
-        )
-        fig = go.Figure()
-        fig.add_trace(go.Bar(
-            x=o["etapa_obra"], y=o["custo_orcado"],
-            name="Orçado", marker_color=C_BORDER,
-            marker_line=dict(color=C_MUTED, width=1),
-        ))
-        fig.add_trace(go.Bar(
-            x=o["etapa_obra"], y=o["custo_realizado"],
-            name="Realizado", marker_color=C_NAVY3,
-            marker_line=dict(color=C_GOLD, width=0.5),
-        ))
-        fig.update_layout(**plot_layout(height=290), barmode="group",
-                          xaxis=ax(grid=False), yaxis=ax(fmt=",.0f"))
+        hdr("Custo Orçado vs Realizado por Etapa",
+            "Comparativo entre orçamento original e custo incorrido por fase. "
+            "Desvios positivos reduzem diretamente a margem bruta projetada no lançamento.")
+        fig=go.Figure()
+        fig.add_trace(go.Bar(x=o["etapa_obra"],y=o["custo_orcado"],name="Orçado",
+                             marker_color=C_BORDER,marker_line=dict(color=C_MUTED,width=1)))
+        fig.add_trace(go.Bar(x=o["etapa_obra"],y=o["custo_realizado"],name="Realizado",
+                             marker_color=C_NAVY3,marker_line=dict(color=C_GOLD,width=0.5)))
+        fig.update_layout(**L(h=285),barmode="group",xaxis=AX(grid=False),yaxis=AX(fmt=",.0f"))
         st.plotly_chart(fig, use_container_width=True)
-        etapa_crit = o.loc[o["desvio_pct"].idxmax(), "etapa_obra"]
-        dev_crit   = o["desvio_pct"].max()
-        cor_e = "bad" if dev_crit > 8 else ("warn" if dev_crit > 3 else "ok")
-        ins(f"Maior desvio: etapa <strong>{etapa_crit}</strong> com <strong>{dev_crit:+.1f}%</strong> sobre o orçado. "
-            f"{'Requer plano de contenção imediato — impacto direto na margem bruta.' if dev_crit > 8 else 'Dentro da margem tolerável de até +8%.'}",
-            cor_e)
+        ec=o.loc[o["desvio_pct"].idxmax(),"etapa_obra"]; dc=o["desvio_pct"].max()
+        ins(f"Maior desvio: etapa <strong>{ec}</strong> com <strong>{dc:+.1f}%</strong> sobre o orçado. "
+            f"{'Requer plano de contenção.' if dc>8 else 'Dentro da margem tolerável de até +8%.'}", "bad" if dc>8 else "warn" if dc>3 else "ok")
 
     with col2:
-        chart_header(
-            "Desvio Percentual de Custo por Etapa",
-            "Variação do custo realizado em relação ao orçado para cada etapa. "
-            "Verde indica economia, dourado indica desvio moderado e vermelho indica desvio crítico (>8%) — "
-            "cada ponto percentual de desvio comprime diretamente a margem bruta."
-        )
-        cores_d = [C_VERM if d > 8 else (C_GOLD if d > 0 else C_VERDE) for d in o["desvio_pct"]]
-        fig2 = go.Figure(go.Bar(
-            x=o["etapa_obra"], y=o["desvio_pct"],
-            marker_color=cores_d,
-            text=[f"{d:+.1f}%" for d in o["desvio_pct"]],
-            textposition="outside",
-            textfont=dict(size=11, color=C_MUTED),
-        ))
-        fig2.add_hline(y=0,   line_color=C_MUTED, line_width=1)
-        fig2.add_hline(y=8,   line_dash="dash", line_color=C_VERM, line_width=1,
-                       annotation_text="Limite crítico +8%",
-                       annotation_font_size=10, annotation_font_color=C_VERM)
-        fig2.update_layout(**plot_layout(height=290),
-                           xaxis=ax(grid=False), yaxis=ax(title="Desvio (%)"))
+        hdr("Desvio Percentual de Custo por Etapa",
+            "Verde: economia. Dourado: desvio moderado. Vermelho: desvio crítico (>8%). "
+            "Cada ponto percentual de desvio comprime diretamente a margem bruta.")
+        cd=[C_VERM if d>8 else (C_GOLD if d>0 else C_VERDE) for d in o["desvio_pct"]]
+        fig2=go.Figure(go.Bar(x=o["etapa_obra"],y=o["desvio_pct"],marker_color=cd,
+                               text=[f"{d:+.1f}%" for d in o["desvio_pct"]],
+                               textposition="outside",textfont=dict(size=11,color=C_MUTED)))
+        fig2.add_hline(y=0,line_color=C_MUTED,line_width=1)
+        fig2.add_hline(y=8,line_dash="dash",line_color=C_VERM,line_width=1,
+                       annotation_text="Limite crítico +8%",annotation_font_size=10,annotation_font_color=C_VERM)
+        fig2.update_layout(**L(h=285),xaxis=AX(grid=False),yaxis=AX(title="Desvio (%)"))
         st.plotly_chart(fig2, use_container_width=True)
-        delta_total = crea - corc
-        ins(f"Desvio total acumulado: <strong>{fmt_M(abs(delta_total))}</strong> "
-            f"{'acima' if delta_total > 0 else 'abaixo'} do orçamento original. "
-            f"{'Cada real de desvio reduz diretamente o EBITDA do empreendimento.' if delta_total > 0 else 'Execução abaixo do orçamento preserva a margem bruta projetada no lançamento.'}",
-            "bad" if delta_total > 0 else "ok")
+        dt=crea-corc
+        ins(f"Desvio total: <strong>{fM(abs(dt))}</strong> {'acima' if dt>0 else 'abaixo'} do orçamento. "
+            f"{'Impacto direto na margem bruta.' if dt>0 else 'Execução preservando a margem projetada.'}", "bad" if dt>0 else "ok")
 
     st.markdown("---")
-    chart_header(
-        "Curva S — Avanço Físico Realizado vs Cronograma Planejado",
-        "A Curva S mostra a evolução do progresso físico da obra ao longo do tempo. "
-        "A linha tracejada representa o cronograma original; a área preenchida é o avanço real. "
-        "Quando a curva real fica abaixo da planejada, há atraso — com risco de impacto no reconhecimento de receita (POC) do trimestre."
-    )
-    meses = list(range(1, 43))
-    plan  = [min(100, (m / 36) ** 1.15 * 100) for m in meses]
-    real  = [min(av, min(100, p * (1 + 0.04 * (1 if m < 18 else -0.3)) + (m * 0.25)))
-             for m, p in zip(meses, plan)]
-    fig3 = go.Figure()
-    fig3.add_trace(go.Scatter(x=meses, y=plan, name="Cronograma Planejado",
-                               line=dict(color=C_BORDER, width=2, dash="dash")))
-    fig3.add_trace(go.Scatter(x=meses, y=real, name="Avanço Realizado",
-                               line=dict(color=C_GOLD, width=2.5),
-                               fill="tonexty", fillcolor="rgba(201,168,76,0.12)"))
-    fig3.add_vline(x=av / 100 * 36, line_dash="dot", line_color=C_GOLD_L, line_width=2,
-                   annotation_text=f"Hoje: {av:.0f}%",
-                   annotation_font_color=C_GOLD_L, annotation_font_size=11)
-    fig3.update_layout(**plot_layout(height=300),
-                       xaxis=ax(title="Mês de obra"),
-                       yaxis=ax(title="Avanço Físico (%)", rng=[0, 110]))
+    hdr("Curva S — Avanço Físico Realizado vs Cronograma Planejado",
+        "A Curva S mostra a evolução do progresso físico da obra. Quando a curva real fica abaixo "
+        "da planejada há atraso — com risco de impacto no reconhecimento de receita (POC) do trimestre.")
+    meses=list(range(1,43))
+    plan=[min(100,(m/36)**1.15*100) for m in meses]
+    real=[min(av,min(100,p*(1+0.04*(1 if m<18 else -0.3))+(m*0.25))) for m,p in zip(meses,plan)]
+    fig3=go.Figure()
+    fig3.add_trace(go.Scatter(x=meses,y=plan,name="Cronograma Planejado",
+                               line=dict(color=C_BORDER,width=2,dash="dash")))
+    fig3.add_trace(go.Scatter(x=meses,y=real,name="Avanço Realizado",
+                               line=dict(color=C_GOLD,width=2.5),
+                               fill="tonexty",fillcolor="rgba(201,168,76,0.12)"))
+    fig3.add_vline(x=av/100*36,line_dash="dot",line_color=C_GOLD_L,line_width=2,
+                   annotation_text=f"Hoje: {av:.0f}%",annotation_font_color=C_GOLD_L,annotation_font_size=11)
+    fig3.update_layout(**L(h=295),xaxis=AX(title="Mês de obra"),yaxis=AX(title="Avanço Físico (%)",rng=[0,110]))
     st.plotly_chart(fig3, use_container_width=True)
-    atraso = plan[min(int(av / 100 * 36), len(plan) - 1)] - av if av < 100 else 0
-    ins(f"{'Atraso de ' + str(round(atraso, 1)) + 'pp em relação ao cronograma — risco de impacto no reconhecimento de receita POC no próximo trimestre.' if atraso > 5 else 'Avanço de ' + str(round(av, 0)) + '% alinhado ao cronograma. Receita reconhecida via POC de ' + fmt_M(rpoc) + ' reflete corretamente o estágio atual.'}",
-        "bad" if atraso > 5 else "ok")
+    atraso=plan[min(int(av/100*36),len(plan)-1)]-av if av<100 else 0
+    ins(f"{'Atraso de '+str(round(atraso,1))+'pp — risco de impacto no reconhecimento POC do próximo trimestre.' if atraso>5 else 'Avanço de '+str(round(av,0))+'% alinhado ao cronograma. Receita POC de '+fM(rpoc)+' reflete o estágio atual.'}", "bad" if atraso>5 else "ok")
 
     st.markdown("---")
-    chart_header(
-        "Percentual de Conclusão (POC) — Todos os Empreendimentos",
-        "Visão comparativa do avanço físico de cada obra. Vermelho (<30%): fase inicial, reconhecimento de receita reduzido. "
-        "Dourado (30-70%): fase intermediária. Verde (>70%): fase avançada, maior reconhecimento de receita."
-    )
-    poc = obra_f.groupby("nome_empreendimento").first().reset_index()[
-        ["nome_empreendimento","avanco_fisico_pct","receita_reconhecida_poc"]]
-    poc = poc.sort_values("avanco_fisico_pct", ascending=True)
-    cores_poc = [C_VERM if v < 30 else (C_GOLD if v < 70 else C_VERDE) for v in poc["avanco_fisico_pct"]]
-    fig4 = go.Figure(go.Bar(
-        x=poc["avanco_fisico_pct"], y=poc["nome_empreendimento"],
-        orientation="h", marker_color=cores_poc,
-        text=[f"{v:.0f}%" for v in poc["avanco_fisico_pct"]],
-        textposition="outside",
-        textfont=dict(size=10, color=C_MUTED),
-        customdata=poc["receita_reconhecida_poc"].apply(fmt_M),
-        hovertemplate="<b>%{y}</b><br>POC: %{x:.0f}%<br>Receita reconhecida: %{customdata}<extra></extra>",
+    hdr("Percentual de Conclusão (POC) — Portfólio Completo",
+        "Comparativo do avanço físico de todas as obras. Cor indica fase: vermelho=inicial, dourado=intermediária, verde=avançada.")
+    poc=obra_f.groupby("nome_empreendimento").first().reset_index()[["nome_empreendimento","avanco_fisico_pct","receita_reconhecida_poc"]]
+    poc=poc.sort_values("avanco_fisico_pct",ascending=True)
+    cp=[C_VERM if v<30 else (C_GOLD if v<70 else C_VERDE) for v in poc["avanco_fisico_pct"]]
+    fig4=go.Figure(go.Bar(
+        x=poc["avanco_fisico_pct"],y=poc["nome_empreendimento"],orientation="h",
+        marker_color=cp,text=[f"{v:.0f}%" for v in poc["avanco_fisico_pct"]],
+        textposition="outside",textfont=dict(size=10,color=C_MUTED),
+        customdata=poc["receita_reconhecida_poc"].apply(fM),
+        hovertemplate="<b>%{y}</b><br>POC: %{x:.0f}%<br>Receita: %{customdata}<extra></extra>",
     ))
-    fig4.add_vline(x=50, line_dash="dash", line_color=C_MUTED, line_width=1,
-                   annotation_text="50%", annotation_font_size=10)
-    fig4.update_layout(**plot_layout(height=400),
-                       xaxis=ax(rng=[0, 115]), yaxis=axh())
+    fig4.add_vline(x=50,line_dash="dash",line_color=C_MUTED,line_width=1,
+                   annotation_text="50%",annotation_font_size=10)
+    fig4.update_layout(**L(h=400), xaxis=AX(rng=[0,115]), yaxis=AXH())
     st.plotly_chart(fig4, use_container_width=True)
 
 
-# ══════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
 #  DRE GERENCIAL
-# ══════════════════════════════════════════════════════════════════
-elif "DRE" in pagina:
-
+# ══════════════════════════════════════════════════════════════
+elif "DRE" in pg:
     st.markdown("## DRE Gerencial — Demonstrativo de Resultado Econômico")
-    st.caption("Resultado por empreendimento pelo método POC · Receita reconhecida proporcional ao avanço físico da obra · Não representa fluxo de caixa")
+    st.caption("Resultado pelo método POC · Receita reconhecida proporcional ao avanço físico · Não representa fluxo de caixa")
 
     c1,c2,c3,c4 = st.columns(4)
-    c1.metric("Receita Total Reconhecida (POC)", fmt_M(dre_f["receita_reconhecida_poc"].sum()))
-    c2.metric("Custo Total de Obra (POC)",        fmt_M(dre_f["custo_obra_poc"].sum()))
-    c3.metric("Margem Bruta Média do Portfólio",  f"{dre_f['margem_bruta_pct'].mean():.1f}%")
-    ebitda_pos = dre_f[dre_f["ebitda"] > 0]["ebitda"].sum()
-    c4.metric("EBITDA Acumulado (Positivo)",      fmt_M(ebitda_pos),
-              help="Soma apenas dos empreendimentos com EBITDA positivo (obras em fase avançada)")
+    c1.metric("Receita Total Reconhecida (POC)", fM(dre_f["receita_reconhecida_poc"].sum()))
+    c2.metric("Custo Total de Obra (POC)",        fM(dre_f["custo_obra_poc"].sum()))
+    c3.metric("Margem Bruta Média",               f"{dre_f['margem_bruta_pct'].mean():.1f}%")
+    c4.metric("EBITDA Acumulado",                 fM(dre_f[dre_f["ebitda"]>0]["ebitda"].sum()))
 
     st.markdown("---")
-    col1, col2 = st.columns(2)
+    col1,col2 = st.columns(2)
     with col1:
-        chart_header(
-            "Margem Bruta por Empreendimento (%)",
-            "A margem bruta indica quanto sobra da receita após subtrair os custos diretos de obra. "
-            "É o principal indicador de rentabilidade operacional da incorporadora. "
-            "Vermelho (<25%): abaixo do aceitável. Dourado (25-33%): margem adequada. Verde (>33%): margem excelente para o mercado SP."
-        )
-        df_m = dre_f.sort_values("margem_bruta_pct")
-        cores_m = [C_VERM if v < 25 else (C_GOLD if v < 33 else C_VERDE) for v in df_m["margem_bruta_pct"]]
-        fig = go.Figure(go.Bar(
-            x=df_m["margem_bruta_pct"], y=df_m["nome"],
-            orientation="h", marker_color=cores_m,
-            text=[f"{v:.1f}%" for v in df_m["margem_bruta_pct"]],
-            textposition="outside",
-            textfont=dict(size=10, color=C_MUTED),
-        ))
-        fig.add_vline(x=30, line_dash="dash", line_color=C_MUTED, line_width=1,
-                      annotation_text="Benchmark mercado SP: 30%",
-                      annotation_font_size=10, annotation_font_color=C_MUTED)
-        fig.update_layout(**plot_layout(height=460),
-                          xaxis=ax(rng=[0, 55]), yaxis=axh())
+        hdr("Margem Bruta por Empreendimento (%)",
+            "% da receita que sobra após subtrair custos diretos de obra. Principal indicador de rentabilidade. "
+            "Vermelho <25%: crítico. Dourado 25-33%: adequado. Verde >33%: excelente para mercado SP.")
+        dm=dre_f.sort_values("margem_bruta_pct")
+        cm=[C_VERM if v<25 else (C_GOLD if v<33 else C_VERDE) for v in dm["margem_bruta_pct"]]
+        fig=go.Figure(go.Bar(x=dm["margem_bruta_pct"],y=dm["nome"],orientation="h",
+                             marker_color=cm,text=[f"{v:.1f}%" for v in dm["margem_bruta_pct"]],
+                             textposition="outside",textfont=dict(size=10,color=C_MUTED)))
+        fig.add_vline(x=30,line_dash="dash",line_color=C_MUTED,line_width=1,
+                      annotation_text="Benchmark SP: 30%",annotation_font_size=9)
+        fig.update_layout(**L(h=460), xaxis=AX(rng=[0,55]), yaxis=AXH())
         st.plotly_chart(fig, use_container_width=True)
-        melhor = dre_f.loc[dre_f["margem_bruta_pct"].idxmax()]
-        pior   = dre_f.loc[dre_f["margem_bruta_pct"].idxmin()]
-        ins(f"<strong>{melhor['nome']}</strong>: melhor margem com <strong>{melhor['margem_bruta_pct']:.1f}%</strong>. "
-            f"<strong>{pior['nome']}</strong> ({pior['margem_bruta_pct']:.1f}%) — revisar controle de custos de obra.", "info")
+        m=dre_f.loc[dre_f["margem_bruta_pct"].idxmax()]; p=dre_f.loc[dre_f["margem_bruta_pct"].idxmin()]
+        ins(f"<strong>{m['nome']}</strong>: melhor margem com <strong>{m['margem_bruta_pct']:.1f}%</strong>. "
+            f"<strong>{p['nome']}</strong> ({p['margem_bruta_pct']:.1f}%) — revisar custos de obra.", "info")
 
     with col2:
-        chart_header(
-            "Waterfall do DRE — Demonstrativo de Resultado Consolidado",
-            "O gráfico cascata (waterfall) mostra a decomposição do resultado econômico: "
-            "parte da Receita Reconhecida (POC), subtrai o Custo de Obra, as Despesas Comerciais (comissões, marketing) "
-            "e as Despesas Administrativas, chegando ao EBITDA — resultado operacional antes de juros, impostos e depreciação. "
-            "É o principal indicador de eficiência econômica da operação."
-        )
-        receita = dre_f["receita_reconhecida_poc"].sum()
-        custo   = dre_f["custo_obra_poc"].sum()
-        desp_c  = dre_f["despesas_comerciais"].sum()
-        desp_a  = dre_f["despesas_administrativas"].sum()
-        ebitda  = receita - custo - desp_c - desp_a
-        fig2 = go.Figure(go.Waterfall(
-            orientation="v",
-            measure=["absolute","relative","relative","relative","total"],
+        hdr("Waterfall do DRE — Decomposição do Resultado Consolidado",
+            "Parte da Receita Reconhecida (POC), subtrai Custo de Obra, Despesas Comerciais e Administrativas, "
+            "chegando ao EBITDA. Permite identificar onde estão as principais perdas de margem.")
+        receita=dre_f["receita_reconhecida_poc"].sum(); custo=dre_f["custo_obra_poc"].sum()
+        desp_c=dre_f["despesas_comerciais"].sum(); desp_a=dre_f["despesas_administrativas"].sum()
+        ebitda=receita-custo-desp_c-desp_a
+        fig2=go.Figure(go.Waterfall(
+            orientation="v",measure=["absolute","relative","relative","relative","total"],
             x=["Receita\nPOC","Custo\nde Obra","Despesas\nComerciais","Despesas\nAdm.","EBITDA"],
-            y=[receita, -custo, -desp_c, -desp_a, 0],
-            text=[fmt_M(v) for v in [receita, custo, desp_c, desp_a, ebitda]],
-            textposition="outside",
-            textfont=dict(size=10, color=C_TEXT),
-            connector={"line": {"color": C_BORDER}},
-            increasing={"marker": {"color": C_VERDE}},
-            decreasing={"marker": {"color": C_VERM}},
-            totals={"marker": {"color": C_GOLD}},
+            y=[receita,-custo,-desp_c,-desp_a,0],
+            text=[fM(v) for v in [receita,custo,desp_c,desp_a,ebitda]],
+            textposition="outside",textfont=dict(size=10,color=C_TEXT),
+            connector={"line":{"color":C_BORDER}},
+            increasing={"marker":{"color":C_VERDE}},
+            decreasing={"marker":{"color":C_VERM}},
+            totals={"marker":{"color":C_GOLD}},
         ))
-        fig2.update_layout(
-            plot_bgcolor=C_PLOT_BG, paper_bgcolor=C_PLOT_BG,
-            font=dict(family="Inter, sans-serif", color=C_TEXT, size=11),
-            height=290, showlegend=False,
-            margin=dict(l=12, r=20, t=10, b=10),
-            xaxis=ax(grid=False),
-            yaxis=ax(fmt=",.0f"),
-        )
+        fig2.update_layout(plot_bgcolor=C_PLOT,paper_bgcolor=C_PLOT,
+                           font=dict(family="Inter,sans-serif",color=C_TEXT,size=11),
+                           height=285,showlegend=False,margin=dict(l=12,r=20,t=10,b=10),
+                           xaxis=AX(grid=False),yaxis=AX(fmt=",.0f"))
         st.plotly_chart(fig2, use_container_width=True)
-        ebitda_pct = ebitda / receita * 100 if receita > 0 else 0
-        cor_e = "ok" if ebitda_pct > 15 else ("bad" if ebitda_pct < 8 else "warn")
-        ins(f"EBITDA consolidado de <strong>{fmt_M(ebitda)}</strong> — margem EBITDA de <strong>{ebitda_pct:.1f}%</strong>. "
-            f"{'Acima da referência de 12-15% do setor imobiliário SP.' if ebitda_pct > 15 else 'Abaixo de 15% — avaliar estrutura de despesas administrativas e comerciais.'}", cor_e)
+        ep=ebitda/receita*100 if receita>0 else 0
+        ins(f"EBITDA de <strong>{fM(ebitda)}</strong> — margem EBITDA de <strong>{ep:.1f}%</strong>. "
+            f"{'Acima da referência de 12-15% do setor SP.' if ep>15 else 'Abaixo de 15% — avaliar despesas administrativas e comerciais.'}", "ok" if ep>15 else "bad" if ep<8 else "warn")
 
-        chart_header(
-            "Margem Bruta Média por Linha de Produto",
-            "Comparativo de rentabilidade entre as linhas Premium, Alto Padrão e Smart. "
-            "Linhas Premium tendem a ter maior margem absoluta; linhas Smart compensam com volume de unidades."
-        )
-        ml = dre_f.groupby("linha")["margem_bruta_pct"].mean().reset_index()
-        fig3 = go.Figure(go.Bar(
-            x=ml["linha"], y=ml["margem_bruta_pct"],
-            marker_color=[LINHA_CORES.get(l, C_MUTED) for l in ml["linha"]],
-            text=[f"{v:.1f}%" for v in ml["margem_bruta_pct"]],
-            textposition="outside",
-            textfont=dict(size=11, color=C_MUTED),
-        ))
-        fig3.add_hline(y=30, line_dash="dash", line_color=C_MUTED, line_width=1,
-                       annotation_text="Benchmark: 30%",
-                       annotation_font_size=10, annotation_font_color=C_MUTED)
-        fig3.update_layout(**plot_layout(height=210),
-                           xaxis=ax(grid=False), yaxis=ax(rng=[0, 50]))
+        hdr("Margem Bruta Média por Linha de Produto",
+            "Comparativo de rentabilidade entre Premium, Alto Padrão e Smart. "
+            "Premium tende a ter maior margem absoluta; Smart compensa com volume.")
+        ml=dre_f.groupby("linha")["margem_bruta_pct"].mean().reset_index()
+        fig3=go.Figure(go.Bar(x=ml["linha"],y=ml["margem_bruta_pct"],
+                               marker_color=[LINHA_CORES.get(l,C_MUTED) for l in ml["linha"]],
+                               text=[f"{v:.1f}%" for v in ml["margem_bruta_pct"]],
+                               textposition="outside",textfont=dict(size=11,color=C_MUTED)))
+        fig3.add_hline(y=30,line_dash="dash",line_color=C_MUTED,line_width=1)
+        fig3.update_layout(**L(h=210),xaxis=AX(grid=False),yaxis=AX(rng=[0,50]))
         st.plotly_chart(fig3, use_container_width=True)
 
     st.markdown("---")
-    chart_header(
-        "Análise Bidimensional: Margem Bruta × Velocidade de Vendas Acumulada",
-        "Cada bolha representa um empreendimento — o tamanho é proporcional ao Valor Geral de Vendas lançado. "
-        "O quadrante ideal (direita-cima) reúne projetos com alta velocidade de vendas E alta margem. "
-        "Bolhas no canto inferior-esquerdo exigem atenção imediata tanto comercial quanto de custos."
-    )
-    fig4 = go.Figure()
-    for sl, cor in STATUS_CORES.items():
-        sub = dre_f[dre_f["status_label"] == sl]
+    hdr("Análise Bidimensional: Margem Bruta × Velocidade de Vendas Acumulada",
+        "Cada bolha é um empreendimento; o tamanho é proporcional ao VGV lançado. "
+        "Quadrante ideal (direita-cima): alto VSO + alta margem. "
+        "Bolhas no canto inferior-esquerdo requerem atenção simultânea comercial e de custos.")
+    fig4=go.Figure()
+    for sl,cor in STATUS_CORES.items():
+        sub=dre_f[dre_f["status_label"]==sl]
         if len(sub):
             fig4.add_trace(go.Scatter(
-                x=sub["vso_acumulado_pct"], y=sub["margem_bruta_pct"],
-                mode="markers+text", name=sl,
-                marker=dict(
-                    color=cor, opacity=0.85,
-                    size=sub["vgv_lancado"] / 4_000_000 + 8,
-                    line=dict(color=C_BORDER, width=1.5),
-                ),
-                text=sub["nome"], textposition="top center",
-                textfont=dict(size=9, color=C_MUTED),
-                hovertemplate="<b>%{text}</b><br>VSO: %{x:.1f}%<br>Margem Bruta: %{y:.1f}%<extra></extra>",
+                x=sub["vso_acumulado_pct"],y=sub["margem_bruta_pct"],
+                mode="markers+text",name=sl,
+                marker=dict(color=cor,opacity=0.85,size=sub["vgv_lancado"]/4_000_000+8,
+                            line=dict(color=C_BORDER,width=1.5)),
+                text=sub["nome"],textposition="top center",
+                textfont=dict(size=9,color=C_MUTED),
+                hovertemplate="<b>%{text}</b><br>VSO: %{x:.1f}%<br>Margem: %{y:.1f}%<extra></extra>",
             ))
-    fig4.add_hline(y=30, line_dash="dash", line_color=C_MUTED, line_width=1,
-                   annotation_text="Margem benchmark: 30%",
-                   annotation_font_size=10, annotation_font_color=C_MUTED)
-    fig4.add_vline(x=80, line_dash="dash", line_color=C_MUTED, line_width=1,
-                   annotation_text="VSO meta: 80%",
-                   annotation_font_size=10, annotation_font_color=C_MUTED)
-    fig4.update_layout(**plot_layout(height=430),
-                       xaxis=ax(title="Velocidade de Vendas Acumulada (%)", rng=[0, 105]),
-                       yaxis=ax(title="Margem Bruta (%)", rng=[0, 55]))
+    fig4.add_hline(y=30,line_dash="dash",line_color=C_MUTED,line_width=1,
+                   annotation_text="Margem benchmark: 30%",annotation_font_size=9)
+    fig4.add_vline(x=80,line_dash="dash",line_color=C_MUTED,line_width=1,
+                   annotation_text="VSO meta: 80%",annotation_font_size=9)
+    fig4.update_layout(**L(h=430),
+                       xaxis=AX(title="Velocidade de Vendas Acumulada (%)",rng=[0,105]),
+                       yaxis=AX(title="Margem Bruta (%)",rng=[0,55]))
     st.plotly_chart(fig4, use_container_width=True)
-    q_ideal = len(dre_f[(dre_f["vso_acumulado_pct"] >= 80) & (dre_f["margem_bruta_pct"] >= 30)])
-    ins(f"<strong>{q_ideal} de {len(dre_f)} empreendimentos</strong> estão no quadrante ideal "
-        f"(VSO ≥ 80% e Margem ≥ 30%). O tamanho de cada bolha é proporcional ao Valor Geral de Vendas lançado.",
-        "ok" if q_ideal >= len(dre_f) // 2 else "warn")
+    qi=len(dre_f[(dre_f["vso_acumulado_pct"]>=80)&(dre_f["margem_bruta_pct"]>=30)])
+    ins(f"<strong>{qi} de {len(dre_f)} empreendimentos</strong> estão no quadrante ideal (VSO ≥ 80% e Margem ≥ 30%).", "ok" if qi>=len(dre_f)//2 else "warn")
+
+
+# ══════════════════════════════════════════════════════════════
+#  FLUXO DE CAIXA
+# ══════════════════════════════════════════════════════════════
+elif "Fluxo" in pg:
+    st.markdown("## Fluxo de Caixa")
+    st.caption("Entradas e saídas mensais de caixa · Saldo acumulado projetado · Necessidade de capital por empreendimento · Diferente do DRE — representa movimentação real de dinheiro")
+
+    sel = st.selectbox("Empreendimento", ["Portfólio Consolidado"]+dre_f["nome"].tolist())
+    if sel!="Portfólio Consolidado":
+        id_s=dre_f[dre_f["nome"]==sel]["id_empreendimento"].values[0]
+        fp=fc_f[fc_f["id_empreendimento"]==id_s].copy()
+    else:
+        fp=fc_f.groupby("data").agg(
+            entradas_vendas=("entradas_vendas","sum"),
+            entradas_financiamento=("entradas_financiamento","sum"),
+            saidas_obra=("saidas_obra","sum"),
+            saidas_despesas=("saidas_despesas","sum"),
+            entradas_total=("entradas_total","sum"),
+            saidas_total=("saidas_total","sum"),
+            saldo_mes=("saldo_mes","sum"),
+        ).reset_index()
+
+    fp_s=fp.sort_values("data")
+    fp_s["saldo_acum"]=fp_s["saldo_mes"].cumsum()
+
+    total_ent=fp_s["entradas_total"].sum(); total_sai=fp_s["saidas_total"].sum()
+    saldo_tot=fp_s["saldo_acum"].iloc[-1] if len(fp_s) else 0
+    meses_neg=len(fp_s[fp_s["saldo_mes"]<0])
+
+    c1,c2,c3,c4 = st.columns(4)
+    c1.metric("Total de Entradas de Caixa",   fM(total_ent))
+    c2.metric("Total de Saídas de Caixa",     fM(total_sai))
+    c3.metric("Saldo de Caixa Acumulado",     fM(saldo_tot),
+              delta_color="normal" if saldo_tot>=0 else "inverse")
+    c4.metric("Meses com Saldo Negativo",     f"{meses_neg}",
+              delta="risco de capital" if meses_neg>0 else "sem necessidade",
+              delta_color="inverse" if meses_neg>0 else "normal")
 
     st.markdown("---")
-    st.markdown(f'<p class="chart-title">DRE Detalhado por Empreendimento</p>', unsafe_allow_html=True)
-    st.caption("Resultado econômico individual · Receita reconhecida pelo método POC · Valores em R$")
-    cols = ["nome","linha","status_label","vgv_lancado","vso_acumulado_pct",
-            "receita_reconhecida_poc","custo_obra_poc","margem_bruta_pct","ebitda","ebitda_pct"]
-    tab = dre_f[cols].copy()
-    for c in ["vgv_lancado","receita_reconhecida_poc","custo_obra_poc","ebitda"]:
-        tab[c] = tab[c].apply(fmt_M)
-    tab.columns = [
-        "Empreendimento","Linha","Status",
-        "Valor Geral de Vendas","VSO (%)","Receita POC","Custo POC",
-        "Margem Bruta (%)","EBITDA","EBITDA (%)"
-    ]
-    st.dataframe(tab, use_container_width=True, hide_index=True)
+    col1,col2 = st.columns(2)
+    with col1:
+        hdr("Entradas vs Saídas de Caixa — Mensal",
+            "Comparativo mensal entre recebimentos (parcelas de compradores + financiamento bancário) "
+            "e desembolsos (custo de obra + despesas). Meses com saídas > entradas indicam necessidade de capital.")
+        fig=go.Figure()
+        fig.add_trace(go.Bar(x=fp_s["data"],y=fp_s["entradas_total"],name="Entradas",marker_color=C_VERDE,opacity=0.85))
+        fig.add_trace(go.Bar(x=fp_s["data"],y=-fp_s["saidas_total"],name="Saídas",marker_color=C_VERM,opacity=0.85))
+        fig.update_layout(**L(h=280),barmode="relative",xaxis=AX(),yaxis=AX(fmt=",.0f"))
+        st.plotly_chart(fig, use_container_width=True)
+        ins(f"Total de entradas: <strong>{fM(total_ent)}</strong> | Total de saídas: <strong>{fM(total_sai)}</strong>. "
+            f"{'Saldo positivo — operação auto-sustentável.' if saldo_tot>=0 else 'Saldo negativo — avaliar necessidade de aporte ou financiamento.'}",
+            "ok" if saldo_tot>=0 else "bad")
+
+    with col2:
+        hdr("Saldo de Caixa Acumulado",
+            "Posição de caixa acumulada ao longo do ciclo do empreendimento. "
+            "Períodos abaixo de zero indicam necessidade de capital de giro ou financiamento bancário.")
+        cores_sal=[C_VERDE if v>=0 else C_VERM for v in fp_s["saldo_acum"]]
+        fig2=go.Figure()
+        fig2.add_trace(go.Scatter(x=fp_s["data"],y=fp_s["saldo_acum"],
+                                   mode="lines",name="Saldo Acumulado",
+                                   line=dict(color=C_GOLD,width=2.5),
+                                   fill="tozeroy",fillcolor="rgba(201,168,76,0.10)"))
+        fig2.add_hline(y=0,line_color=C_VERM,line_width=1.5,line_dash="dash",
+                       annotation_text="Linha de necessidade de capital",annotation_font_size=9)
+        fig2.update_layout(**L(h=280),xaxis=AX(),yaxis=AX(fmt=",.0f"))
+        st.plotly_chart(fig2, use_container_width=True)
+        if meses_neg>0:
+            ins(f"<strong>{meses_neg} meses</strong> com saldo negativo — revisar cronograma de recebimentos ou acionar financiamento bancário (SFH/SFI).", "bad")
+        else:
+            ins("Saldo acumulado positivo em todos os meses — empreendimento auto-financiado pelo fluxo de vendas.", "ok")
+
+    st.markdown("---")
+    col3,col4 = st.columns(2)
+    with col3:
+        hdr("Composição das Entradas de Caixa",
+            "Parcelas de compradores vs financiamento bancário. A dependência elevada de financiamento "
+            "bancário aumenta o custo financeiro e o risco operacional do projeto.")
+        fig3=go.Figure()
+        fig3.add_trace(go.Bar(x=fp_s["data"],y=fp_s["entradas_vendas"],name="Recebimentos de Compradores",marker_color=C_GOLD))
+        fig3.add_trace(go.Bar(x=fp_s["data"],y=fp_s["entradas_financiamento"],name="Financiamento Bancário",marker_color=C_AZUL))
+        fig3.update_layout(**L(h=265),barmode="stack",xaxis=AX(),yaxis=AX(fmt=",.0f"))
+        st.plotly_chart(fig3, use_container_width=True)
+        pct_fin=fp_s["entradas_financiamento"].sum()/total_ent*100 if total_ent>0 else 0
+        ins(f"Financiamento bancário representa <strong>{pct_fin:.1f}%</strong> das entradas totais. "
+            f"{'Dependência elevada — monitorar custo financeiro.' if pct_fin>40 else 'Proporção saudável — majoritariamente financiado por vendas.'}", "warn" if pct_fin>40 else "ok")
+
+    with col4:
+        hdr("Necessidade de Capital por Empreendimento",
+            "Saldo de caixa acumulado mínimo de cada projeto — indica o pico de exposição financeira "
+            "que a incorporadora precisou aportar ou financiar para viabilizar a obra.")
+        fc_emp=fc_f.groupby(["id_empreendimento","nome"]).apply(
+            lambda x: x.sort_values("data")["saldo_mes"].cumsum().min()
+        ).reset_index(name="exposicao_maxima")
+        fc_emp=fc_emp.sort_values("exposicao_maxima",ascending=True)
+        cores_exp=[C_VERM if v<0 else C_VERDE for v in fc_emp["exposicao_maxima"]]
+        fig4=go.Figure(go.Bar(
+            x=fc_emp["exposicao_maxima"],y=fc_emp["nome"],orientation="h",
+            marker_color=cores_exp,
+            text=fc_emp["exposicao_maxima"].apply(fM),
+            textposition="outside",textfont=dict(size=10,color=C_MUTED),
+        ))
+        fig4.add_vline(x=0,line_color=C_MUTED,line_width=1)
+        fig4.update_layout(**L(h=265), xaxis=AX(fmt=",.0f"), yaxis=AXH())
+        st.plotly_chart(fig4, use_container_width=True)
+        maior_exp=fc_emp.loc[fc_emp["exposicao_maxima"].idxmin()]
+        ins(f"Maior exposição de capital: <strong>{maior_exp['nome']}</strong> com necessidade mínima de {fM(abs(maior_exp['exposicao_maxima']))}. "
+            f"Monitorar prazo de recebimento das parcelas dos compradores.", "warn")
+
+
+# ══════════════════════════════════════════════════════════════
+#  FP&A & PROJEÇÕES
+# ══════════════════════════════════════════════════════════════
+elif "FP&A" in pg:
+    st.markdown("## FP&A — Planejamento Financeiro, Análise & Projeções")
+    st.caption("Budget vs Realizado · Variação orçamentária · Forecast 12 meses · Análise comparativa entre empreendimentos")
+
+    # Budget vs Realizado consolidado
+    st.markdown("---")
+    hdr("Budget vs Realizado — Visão Consolidada por Categoria",
+        "Comparativo entre o resultado orçado no lançamento e o resultado efetivamente realizado até o momento. "
+        "Variação positiva na receita é favorável; variação positiva em custos é desfavorável.")
+
+    bud_cons=bud_f.groupby("categoria").agg(
+        orcado=("orcado","sum"), realizado=("realizado","sum")).reset_index()
+    bud_cons["variacao_pct"]=(bud_cons["realizado"]-bud_cons["orcado"])/bud_cons["orcado"].abs()*100
+
+    col1,col2 = st.columns(2)
+    with col1:
+        fig=go.Figure()
+        ordem=["Receita (POC)","Custo de Obra","Despesas Comerciais","Despesas Adm.","EBITDA"]
+        bud_o=bud_cons.set_index("categoria").reindex(ordem).reset_index()
+        fig.add_trace(go.Bar(x=bud_o["categoria"],y=bud_o["orcado"],name="Orçado",
+                             marker_color=C_BORDER,marker_line=dict(color=C_MUTED,width=1)))
+        fig.add_trace(go.Bar(x=bud_o["categoria"],y=bud_o["realizado"],name="Realizado",
+                             marker_color=C_GOLD,marker_line=dict(color=C_GOLD_L,width=0.5)))
+        fig.update_layout(**L(h=280),barmode="group",xaxis=AX(grid=False),yaxis=AX(fmt=",.0f"))
+        st.plotly_chart(fig, use_container_width=True)
+
+    with col2:
+        hdr("Variação Orçamentária por Categoria (%)",
+            "Percentual de desvio entre realizado e orçado. Verde: favorável. Vermelho: desfavorável. "
+            "A variação do EBITDA resume o impacto líquido de todos os desvios.")
+        cores_var=[]
+        for i,row in bud_o.iterrows():
+            fav = (row["categoria"]=="Receita (POC)" and row["variacao_pct"]>0) or \
+                  (row["categoria"] not in ["Receita (POC)","EBITDA"] and row["variacao_pct"]<0) or \
+                  (row["categoria"]=="EBITDA" and row["variacao_pct"]>0)
+            cores_var.append(C_VERDE if fav else C_VERM)
+        fig3=go.Figure(go.Bar(
+            x=bud_o["categoria"],y=bud_o["variacao_pct"],
+            marker_color=cores_var,
+            text=[f"{v:+.1f}%" for v in bud_o["variacao_pct"]],
+            textposition="outside",textfont=dict(size=11,color=C_MUTED),
+        ))
+        fig3.add_hline(y=0,line_color=C_MUTED,line_width=1)
+        fig3.update_layout(**L(h=280),xaxis=AX(grid=False),yaxis=AX(title="Variação (%)"))
+        st.plotly_chart(fig3, use_container_width=True)
+
+    # Variação por empreendimento
+    st.markdown("---")
+    hdr("Variação de EBITDA: Budget vs Realizado — por Empreendimento",
+        "Quais empreendimentos estão performando acima ou abaixo do orçamento. "
+        "Desvios negativos requerem análise detalhada de receita e custos.")
+    bud_emp=bud_f[bud_f["categoria"]=="EBITDA"].sort_values("variacao_pct",ascending=True)
+    cv=[C_VERDE if v>=0 else C_VERM for v in bud_emp["variacao_pct"]]
+    fig5=go.Figure(go.Bar(
+        x=bud_emp["variacao_pct"],y=bud_emp["nome"],orientation="h",
+        marker_color=cv,
+        text=[f"{v:+.1f}%" for v in bud_emp["variacao_pct"]],
+        textposition="outside",textfont=dict(size=10,color=C_MUTED),
+    ))
+    fig5.add_vline(x=0,line_color=C_MUTED,line_width=1)
+    fig5.update_layout(**L(h=400),xaxis=AX(title="Variação EBITDA vs Orçado (%)"),yaxis=AXH())
+    st.plotly_chart(fig5, use_container_width=True)
+    melhor_bud=bud_emp.iloc[-1]; pior_bud=bud_emp.iloc[0]
+    ins(f"Melhor desempenho vs budget: <strong>{melhor_bud['nome']}</strong> com EBITDA <strong>{melhor_bud['variacao_pct']:+.1f}%</strong> acima do orçado.", "ok")
+    ins(f"Maior desvio negativo: <strong>{pior_bud['nome']}</strong> com EBITDA <strong>{pior_bud['variacao_pct']:+.1f}%</strong> vs orçado. Revisar estrutura de custos.", "bad")
+
+    # Projeção 12 meses
+    st.markdown("---")
+    hdr("Projeção de Receita Reconhecida (POC) — Próximos 12 Meses",
+        "Forecast da receita a ser reconhecida nos próximos 12 meses com base no avanço físico projetado "
+        "e no VGV vendido atual. Permite antecipar o resultado econômico futuro e planejar o fluxo financeiro.")
+    proj_cons=proj_f.groupby("data").agg(
+        receita_projetada=("receita_projetada","sum"),
+        ebitda_projetado=("ebitda_projetado","sum"),
+    ).reset_index()
+
+    col_p1,col_p2 = st.columns(2)
+    with col_p1:
+        fig6=go.Figure()
+        fig6.add_trace(go.Bar(x=proj_cons["data"],y=proj_cons["receita_projetada"],
+                               name="Receita Projetada",marker_color=C_GOLD,opacity=0.85))
+        fig6.update_layout(**L(h=270),xaxis=AX(),yaxis=AX(fmt=",.0f",title="Receita (R$)"))
+        st.plotly_chart(fig6, use_container_width=True)
+        total_proj=proj_cons["receita_projetada"].sum()
+        ins(f"Receita projetada para os próximos 12 meses: <strong>{fM(total_proj)}</strong>. "
+            f"Baseada no ritmo atual de avanço físico e VSO acumulado de cada empreendimento.", "info")
+
+    with col_p2:
+        hdr("Projeção de EBITDA — Próximos 12 Meses",
+            "Resultado operacional projetado. Meses com EBITDA negativo indicam fase inicial "
+            "de obras com baixo POC acumulado — esperado para empreendimentos em lançamento.")
+        cores_ebitda=[C_VERDE if v>=0 else C_VERM for v in proj_cons["ebitda_projetado"]]
+        fig7=go.Figure(go.Bar(
+            x=proj_cons["data"],y=proj_cons["ebitda_projetado"],
+            marker_color=cores_ebitda,
+            hovertemplate="%{x|%b/%Y}: %{customdata}<extra></extra>",
+            customdata=proj_cons["ebitda_projetado"].apply(fM),
+        ))
+        fig7.add_hline(y=0,line_color=C_MUTED,line_width=1)
+        fig7.update_layout(**L(h=270),xaxis=AX(),yaxis=AX(fmt=",.0f",title="EBITDA (R$)"))
+        st.plotly_chart(fig7, use_container_width=True)
+        meses_pos=len(proj_cons[proj_cons["ebitda_projetado"]>0])
+        ins(f"<strong>{meses_pos} de 12 meses</strong> com EBITDA positivo projetado. "
+            f"{'Trajetória favorável de resultado nos próximos trimestres.' if meses_pos>=8 else 'Maioria dos meses com EBITDA negativo — obras em fase inicial. Resultado se intensifica conforme POC avança.'}", "ok" if meses_pos>=8 else "warn")
+
+    # Análise comparativa de margens
+    st.markdown("---")
+    hdr("Análise Comparativa de Margens por Empreendimento",
+        "Visão lado a lado das principais margens de cada projeto: bruta, EBITDA e percentual de conclusão (POC). "
+        "Permite identificar quais empreendimentos entregam mais resultado por fase de obra.")
+    comp=dre_f[["nome","margem_bruta_pct","ebitda_pct","avanco_obra_pct"]].sort_values("margem_bruta_pct",ascending=False)
+    fig8=go.Figure()
+    fig8.add_trace(go.Bar(name="Margem Bruta (%)",x=comp["nome"],y=comp["margem_bruta_pct"],
+                           marker_color=C_GOLD,text=[f"{v:.1f}%" for v in comp["margem_bruta_pct"]],
+                           textposition="outside",textfont=dict(size=9,color=C_MUTED)))
+    fig8.add_trace(go.Bar(name="EBITDA (%)",x=comp["nome"],y=comp["ebitda_pct"],
+                           marker_color=C_AZUL,text=[f"{v:.1f}%" for v in comp["ebitda_pct"]],
+                           textposition="outside",textfont=dict(size=9,color=C_MUTED)))
+    fig8.add_trace(go.Scatter(name="POC (%)",x=comp["nome"],y=comp["avanco_obra_pct"],
+                               mode="lines+markers",yaxis="y2",
+                               line=dict(color=C_VERDE,width=2),marker=dict(size=6,color=C_VERDE)))
+    fig8.update_layout(**L(h=360),barmode="group",
+                       xaxis=AX(grid=False,ang=-30),
+                       yaxis=AX(title="Margem (%)",rng=[-30,60]),
+                       yaxis2=dict(title=dict(text="POC (%)",font=dict(size=10,color=C_VERDE)),
+                                   overlaying="y",side="right",range=[0,120],
+                                   showgrid=False,zeroline=False,
+                                   tickfont=dict(size=10,color=C_VERDE)))
+    st.plotly_chart(fig8, use_container_width=True)
+    ins("A linha verde (POC) sobreposta às barras permite avaliar se a margem está sendo entregue de forma consistente com o avanço da obra — desvios entre POC alto e margem baixa indicam estouro de custo.", "info")
