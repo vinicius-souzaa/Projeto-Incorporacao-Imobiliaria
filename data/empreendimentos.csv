@@ -1,0 +1,21 @@
+id,nome,bairro,vgv_total,unidades,lancamento,entrega_prevista,status,linha
+EMP001,Alta Vista Brooklin,Brooklin,186000000,128,2018-03-01,2021-06-01,entregue,Alto Padrão
+EMP002,Insígnia Campo Belo,Campo Belo,142000000,96,2019-05-01,2022-09-01,entregue,Alto Padrão
+EMP003,Verdi Alto de Pinheiros,Pinheiros,68000000,16,2019-08-01,2022-12-01,entregue,Premium
+EMP004,Inside Brooklin I,Brooklin,54000000,120,2020-02-01,2023-03-01,entregue,Smart
+EMP005,Insígnia Mooca,Mooca,98000000,72,2020-06-01,2023-08-01,entregue,Alto Padrão
+EMP006,Reserva Chácara Klabin,Chácara Klabin,118000000,84,2020-10-01,2024-01-01,entregue,Alto Padrão
+EMP007,Classic Santana,Santana,76000000,60,2021-01-01,2024-04-01,entregue,Alto Padrão
+EMP008,Infinity Brooklin,Brooklin,224000000,144,2021-06-01,2024-09-01,entregue,Premium
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,178000000,108,2022-02-01,2025-06-01,em_obra,Alto Padrão
+EMP010,Inside Chácara Klabin,Chácara Klabin,62000000,136,2022-05-01,2025-09-01,em_obra,Smart
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,132000000,88,2022-09-01,2025-12-01,em_obra,Alto Padrão
+EMP012,Verdi Aclimação,Aclimação,88000000,56,2023-01-01,2026-03-01,em_obra,Premium
+EMP013,Inside Brooklin II,Brooklin,58000000,112,2023-04-01,2026-06-01,em_obra,Smart
+EMP014,Insígnia Perdizes,Perdizes,196000000,120,2023-07-01,2026-09-01,em_obra,Alto Padrão
+EMP015,Classic Jundiaí,Jundiaí,84000000,76,2023-10-01,2026-12-01,em_obra,Alto Padrão
+EMP016,Infinity Perdizes,Perdizes,268000000,152,2024-03-01,2027-06-01,lancamento,Premium
+EMP017,Inside Perdizes,Perdizes,72000000,160,2024-06-01,2027-09-01,lancamento,Smart
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,312000000,168,2024-09-01,2027-12-01,lancamento,Premium
+EMP019,Loomi Vila Olímpia,Vila Olímpia,148000000,96,2025-01-01,2028-03-01,lancamento,Alto Padrão
+EMP020,Classic Moema,Moema,162000000,112,2025-05-01,2028-06-01,lancamento,Alto Padrão

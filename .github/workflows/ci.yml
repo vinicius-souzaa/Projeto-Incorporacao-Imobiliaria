@@ -1,0 +1,68 @@
+name: CI — Portfólio Imobiliário
+
+on:
+  push:
+    branches:
+      - main
+      - "claude/*"
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    name: Validação de Dados e Sintaxe
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt pytest
+
+      - name: Validar sintaxe Python (app + utils)
+        run: |
+          python -m py_compile app.py
+          python -m py_compile utils/data_loader.py
+          echo "✅ Sintaxe OK"
+
+      - name: Executar testes de validação de dados
+        run: pytest tests/ -v --tb=short
+
+      - name: Verificar importações do app (sem rodar o servidor)
+        run: |
+          python -c "
+          import ast, pathlib
+          src = pathlib.Path('app.py').read_text(encoding='utf-8')
+          ast.parse(src)
+          print('✅ app.py parseado sem erros')
+          "
+
+  lint:
+    name: Qualidade de Código
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Instalar ferramentas de lint
+        run: pip install ruff
+
+      - name: Ruff — verificar erros e problemas de segurança
+        # E: erros, F: pyflakes (undefined names, unused imports)
+        # Ignora E501 (line too long) pois o projeto tem linhas longas intencionais nos charts
+        run: ruff check app.py utils/ tests/ --select E,F --ignore E501,E402 --exit-zero

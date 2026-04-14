@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+
+# Claude Code — configurações e worktrees locais (não devem ir ao GitHub)
+.claude/
