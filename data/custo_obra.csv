@@ -1,121 +1,121 @@
 id_empreendimento,nome_empreendimento,bairro,linha,etapa_obra,custo_orcado,custo_realizado,desvio_pct,avanco_fisico_pct,poc_pct,receita_reconhecida_poc
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,Fundação,8481600.0,8755843.0,3.2,100.0,100.0,159960000.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,Estrutura,23324400.0,23763107.0,1.9,100.0,100.0,159960000.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,Alvenaria,19083600.0,19523984.0,2.3,100.0,100.0,159960000.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,Instalações,21204000.0,23916001.0,12.8,100.0,100.0,159960000.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,Acabamento,25444800.0,24600505.0,-3.3,100.0,100.0,159960000.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,Entrega,8481600.0,9392484.0,10.7,100.0,100.0,159960000.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,Fundação,6475200.0,6699013.0,3.5,100.0,100.0,122120000.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,Estrutura,17806800.0,19289996.0,8.3,100.0,100.0,122120000.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,Alvenaria,14569200.0,15191796.0,4.3,100.0,100.0,122120000.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,Instalações,16188000.0,17944106.0,10.8,100.0,100.0,122120000.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,Acabamento,19425600.0,21623011.0,11.3,100.0,100.0,122120000.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,Entrega,6475200.0,6680416.0,3.2,100.0,100.0,122120000.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,Fundação,3100800.0,3289017.0,6.1,100.0,100.0,58480000.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,Estrutura,8527200.0,9508696.0,11.5,100.0,100.0,58480000.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,Alvenaria,6976800.0,6947585.0,-0.4,100.0,100.0,58480000.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,Instalações,7752000.0,8262890.0,6.6,100.0,100.0,58480000.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,Acabamento,9302400.0,9929058.0,6.7,100.0,100.0,58480000.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,Entrega,3100800.0,3363218.0,8.5,100.0,100.0,58480000.0
-EMP004,Inside Brooklin I,Brooklin,Smart,Fundação,2462400.0,2663554.0,8.2,100.0,100.0,46440000.0
-EMP004,Inside Brooklin I,Brooklin,Smart,Estrutura,6771600.0,7547189.0,11.5,100.0,100.0,46440000.0
-EMP004,Inside Brooklin I,Brooklin,Smart,Alvenaria,5540400.0,5488022.0,-0.9,100.0,100.0,46440000.0
-EMP004,Inside Brooklin I,Brooklin,Smart,Instalações,6156000.0,6158354.0,0.0,100.0,100.0,46440000.0
-EMP004,Inside Brooklin I,Brooklin,Smart,Acabamento,7387200.0,8311613.0,12.5,100.0,100.0,46440000.0
-EMP004,Inside Brooklin I,Brooklin,Smart,Entrega,2462400.0,2439662.0,-0.9,100.0,100.0,46440000.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,Fundação,4468800.0,4664030.0,4.4,100.0,100.0,84280000.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,Estrutura,12289200.0,12314138.0,0.2,100.0,100.0,84280000.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,Alvenaria,10054800.0,11140995.0,10.8,100.0,100.0,84280000.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,Instalações,11172000.0,11570862.0,3.6,100.0,100.0,84280000.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,Acabamento,13406400.0,14043458.0,4.8,100.0,100.0,84280000.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,Entrega,4468800.0,4562956.0,2.1,100.0,100.0,84280000.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,Fundação,5380800.0,5315149.0,-1.2,100.0,100.0,101480000.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,Estrutura,14797200.0,15189087.0,2.6,100.0,100.0,101480000.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,Alvenaria,12106800.0,13617730.0,12.5,100.0,100.0,101480000.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,Instalações,13452000.0,13504230.0,0.4,100.0,100.0,101480000.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,Acabamento,16142400.0,17298926.0,7.2,100.0,100.0,101480000.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,Entrega,5380800.0,5463031.0,1.5,100.0,100.0,101480000.0
-EMP007,Classic Santana,Santana,Alto Padrão,Fundação,3465600.0,3404080.0,-1.8,100.0,100.0,65360000.0
-EMP007,Classic Santana,Santana,Alto Padrão,Estrutura,9530400.0,10720457.0,12.5,100.0,100.0,65360000.0
-EMP007,Classic Santana,Santana,Alto Padrão,Alvenaria,7797600.0,8087236.0,3.7,100.0,100.0,65360000.0
-EMP007,Classic Santana,Santana,Alto Padrão,Instalações,8664000.0,8665114.0,0.0,100.0,100.0,65360000.0
-EMP007,Classic Santana,Santana,Alto Padrão,Acabamento,10396800.0,10110830.0,-2.8,100.0,100.0,65360000.0
-EMP007,Classic Santana,Santana,Alto Padrão,Entrega,3465600.0,3426989.0,-1.1,100.0,100.0,65360000.0
-EMP008,Infinity Brooklin,Brooklin,Premium,Fundação,10214400.0,10391012.0,1.7,100.0,100.0,192640000.0
-EMP008,Infinity Brooklin,Brooklin,Premium,Estrutura,28089600.0,30924126.0,10.1,100.0,100.0,192640000.0
-EMP008,Infinity Brooklin,Brooklin,Premium,Alvenaria,22982400.0,23746585.0,3.3,100.0,100.0,192640000.0
-EMP008,Infinity Brooklin,Brooklin,Premium,Instalações,25536000.0,25594259.0,0.2,100.0,100.0,192640000.0
-EMP008,Infinity Brooklin,Brooklin,Premium,Acabamento,30643200.0,32632393.0,6.5,100.0,100.0,192640000.0
-EMP008,Infinity Brooklin,Brooklin,Premium,Entrega,10214400.0,11033106.0,8.0,100.0,100.0,192640000.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,Fundação,8116800.0,8023418.0,-1.2,43.0,43.0,65824400.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,Estrutura,22321200.0,21567506.0,-3.4,43.0,43.0,65824400.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,Alvenaria,18262800.0,17754142.0,8.5,43.0,43.0,65824400.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,Instalações,20292000.0,13766454.0,7.3,43.0,43.0,65824400.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,Acabamento,24350400.0,11844234.0,4.1,43.0,43.0,65824400.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,Entrega,8116800.0,3851494.0,10.4,43.0,43.0,65824400.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,Fundação,2827200.0,2995447.0,6.0,71.0,71.0,37857200.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,Estrutura,7774800.0,8611416.0,10.8,71.0,71.0,37857200.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,Alvenaria,6361200.0,6329350.0,-0.5,71.0,71.0,37857200.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,Instalações,7068000.0,6919758.0,-2.1,71.0,71.0,37857200.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,Acabamento,8481600.0,6583923.0,0.6,71.0,71.0,37857200.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,Entrega,2827200.0,1946500.0,-3.0,71.0,71.0,37857200.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,Fundação,6019200.0,6736827.0,11.9,59.0,59.0,66976800.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,Estrutura,16552800.0,16001400.0,-3.3,59.0,59.0,66976800.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,Alvenaria,13543200.0,13282611.0,-1.9,59.0,59.0,66976800.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,Instalações,15048000.0,13537791.0,3.7,59.0,59.0,66976800.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,Acabamento,18057600.0,12955693.0,11.9,59.0,59.0,66976800.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,Entrega,6019200.0,3600146.0,1.4,59.0,59.0,66976800.0
-EMP012,Verdi Aclimação,Aclimação,Premium,Fundação,4012800.0,3880648.0,-3.3,58.0,58.0,43894400.0
-EMP012,Verdi Aclimação,Aclimação,Premium,Estrutura,11035200.0,10872081.0,-1.5,58.0,58.0,43894400.0
-EMP012,Verdi Aclimação,Aclimação,Premium,Alvenaria,9028800.0,10182023.0,12.8,58.0,58.0,43894400.0
-EMP012,Verdi Aclimação,Aclimação,Premium,Instalações,10032000.0,9618338.0,12.4,58.0,58.0,43894400.0
-EMP012,Verdi Aclimação,Aclimação,Premium,Acabamento,12038400.0,7292223.0,-3.9,58.0,58.0,43894400.0
-EMP012,Verdi Aclimação,Aclimação,Premium,Entrega,4012800.0,2610923.0,12.2,58.0,58.0,43894400.0
-EMP013,Inside Brooklin II,Brooklin,Smart,Fundação,2644800.0,2929238.0,10.8,64.0,64.0,31923200.0
-EMP013,Inside Brooklin II,Brooklin,Smart,Estrutura,7273200.0,7544532.0,3.7,64.0,64.0,31923200.0
-EMP013,Inside Brooklin II,Brooklin,Smart,Alvenaria,5950800.0,6234364.0,4.8,64.0,64.0,31923200.0
-EMP013,Inside Brooklin II,Brooklin,Smart,Instalações,6612000.0,6491297.0,4.3,64.0,64.0,31923200.0
-EMP013,Inside Brooklin II,Brooklin,Smart,Acabamento,7934400.0,5924537.0,7.3,64.0,64.0,31923200.0
-EMP013,Inside Brooklin II,Brooklin,Smart,Entrega,2644800.0,1665150.0,-1.6,64.0,64.0,31923200.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,Fundação,8937600.0,9047962.0,1.2,36.0,36.0,60681600.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,Estrutura,24578400.0,26539651.0,8.0,36.0,36.0,60681600.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,Alvenaria,20109600.0,14996459.0,-0.6,36.0,36.0,60681600.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,Instalações,22344000.0,12710255.0,7.4,36.0,36.0,60681600.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,Acabamento,26812800.0,11802255.0,12.5,36.0,36.0,60681600.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,Entrega,8937600.0,3140196.0,-2.4,36.0,36.0,60681600.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,Fundação,3830400.0,3966140.0,3.5,65.0,65.0,46956000.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,Estrutura,10533600.0,11666849.0,10.8,65.0,65.0,46956000.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,Alvenaria,8618400.0,8533211.0,-1.0,65.0,65.0,46956000.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,Instalações,9576000.0,9865183.0,7.8,65.0,65.0,46956000.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,Acabamento,11491200.0,8950792.0,10.2,65.0,65.0,46956000.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,Entrega,3830400.0,2789986.0,12.1,65.0,65.0,46956000.0
-EMP016,Infinity Perdizes,Perdizes,Premium,Fundação,12220800.0,7978042.0,4.5,5.0,5.0,11524000.0
-EMP016,Infinity Perdizes,Perdizes,Premium,Estrutura,33607200.0,5965469.0,6.5,5.0,5.0,11524000.0
-EMP016,Infinity Perdizes,Perdizes,Premium,Alvenaria,27496800.0,3172769.0,10.8,5.0,5.0,11524000.0
-EMP016,Infinity Perdizes,Perdizes,Premium,Instalações,30552000.0,2374528.0,5.7,5.0,5.0,11524000.0
-EMP016,Infinity Perdizes,Perdizes,Premium,Acabamento,36662400.0,1923114.0,-3.5,5.0,5.0,11524000.0
-EMP016,Infinity Perdizes,Perdizes,Premium,Entrega,12220800.0,683302.0,11.8,5.0,5.0,11524000.0
-EMP017,Inside Perdizes,Perdizes,Smart,Fundação,3283200.0,2205915.0,7.5,5.0,5.0,3096000.0
-EMP017,Inside Perdizes,Perdizes,Smart,Estrutura,9028800.0,1499781.0,-0.3,5.0,5.0,3096000.0
-EMP017,Inside Perdizes,Perdizes,Smart,Alvenaria,7387200.0,824912.0,7.2,5.0,5.0,3096000.0
-EMP017,Inside Perdizes,Perdizes,Smart,Instalações,8208000.0,619799.0,2.7,5.0,5.0,3096000.0
-EMP017,Inside Perdizes,Perdizes,Smart,Acabamento,9849600.0,573156.0,7.1,5.0,5.0,3096000.0
-EMP017,Inside Perdizes,Perdizes,Smart,Entrega,3283200.0,160568.0,-2.2,5.0,5.0,3096000.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,Fundação,14227200.0,10047074.0,13.0,5.0,5.0,13416000.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,Estrutura,39124800.0,6313413.0,-3.2,5.0,5.0,13416000.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,Alvenaria,32011200.0,3755046.0,12.6,5.0,5.0,13416000.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,Instalações,35568000.0,2691594.0,2.9,5.0,5.0,13416000.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,Acabamento,42681600.0,2570240.0,10.8,5.0,5.0,13416000.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,Entrega,14227200.0,777520.0,9.3,5.0,5.0,13416000.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,Fundação,6748800.0,4578792.0,8.6,5.0,5.0,6364000.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,Estrutura,18559200.0,3431434.0,10.9,5.0,5.0,6364000.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,Alvenaria,15184800.0,1627152.0,2.9,5.0,5.0,6364000.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,Instalações,16872000.0,1259936.0,1.6,5.0,5.0,6364000.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,Acabamento,20246400.0,1181213.0,7.3,5.0,5.0,6364000.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,Entrega,6748800.0,370284.0,9.7,5.0,5.0,6364000.0
-EMP020,Classic Moema,Moema,Alto Padrão,Fundação,7387200.0,5058516.0,9.6,5.0,5.0,6966000.0
-EMP020,Classic Moema,Moema,Alto Padrão,Estrutura,20314800.0,3501084.0,3.4,5.0,5.0,6966000.0
-EMP020,Classic Moema,Moema,Alto Padrão,Alvenaria,16621200.0,1902836.0,9.9,5.0,5.0,6966000.0
-EMP020,Classic Moema,Moema,Alto Padrão,Instalações,18468000.0,1331374.0,-2.0,5.0,5.0,6966000.0
-EMP020,Classic Moema,Moema,Alto Padrão,Acabamento,22161600.0,1267744.0,5.3,5.0,5.0,6966000.0
-EMP020,Classic Moema,Moema,Alto Padrão,Entrega,7387200.0,354947.0,-3.9,5.0,5.0,6966000.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,Fundação,11636790.0,11433313.0,-1.7,100.0,100.0,17742154.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,Estrutura,30255653.0,31190941.0,3.1,100.0,100.0,46129601.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,Alvenaria,23273579.0,24164772.0,3.8,100.0,100.0,35484309.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,Instalações,26764616.0,28257315.0,5.6,100.0,100.0,40806955.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,Acabamento,17455184.0,18515703.0,6.1,100.0,100.0,26613231.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,Entrega,6982074.0,6946669.0,-0.5,100.0,100.0,10645293.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,Fundação,9112407.0,9229325.0,1.3,100.0,100.0,13548225.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,Estrutura,23692258.0,24650470.0,4.0,100.0,100.0,35225385.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,Alvenaria,18224814.0,18782345.0,3.1,100.0,100.0,27096450.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,Instalações,20958536.0,21313326.0,1.7,100.0,100.0,31160917.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,Acabamento,13668611.0,13654602.0,-0.1,100.0,100.0,20322337.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,Entrega,5467444.0,5391568.0,-1.4,100.0,100.0,8128935.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,Fundação,4118658.0,4342613.0,5.4,100.0,100.0,6249952.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,Estrutura,10708510.0,11186642.0,4.5,100.0,100.0,16249874.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,Alvenaria,8237316.0,8789268.0,6.7,100.0,100.0,12499903.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,Instalações,9472913.0,10310617.0,8.8,100.0,100.0,14374889.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,Acabamento,6177987.0,6489155.0,5.0,100.0,100.0,9374927.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,Entrega,2471195.0,2443164.0,-1.1,100.0,100.0,3749971.0
+EMP004,Inside Brooklin I,Brooklin,Smart,Fundação,3612539.0,3798241.0,5.1,100.0,100.0,5069925.0
+EMP004,Inside Brooklin I,Brooklin,Smart,Estrutura,9392602.0,9610016.0,2.3,100.0,100.0,13181806.0
+EMP004,Inside Brooklin I,Brooklin,Smart,Alvenaria,7225078.0,7822373.0,8.3,100.0,100.0,10139851.0
+EMP004,Inside Brooklin I,Brooklin,Smart,Instalações,8308840.0,9062022.0,9.1,100.0,100.0,11660828.0
+EMP004,Inside Brooklin I,Brooklin,Smart,Acabamento,5418809.0,5428565.0,0.2,100.0,100.0,7604888.0
+EMP004,Inside Brooklin I,Brooklin,Smart,Entrega,2167524.0,2126352.0,-1.9,100.0,100.0,3041955.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,Fundação,5960043.0,5949522.0,-0.2,100.0,100.0,9143131.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,Estrutura,15496111.0,15715670.0,1.4,100.0,100.0,23772141.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,Alvenaria,11920085.0,12916859.0,8.4,100.0,100.0,18286262.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,Instalações,13708098.0,14907087.0,8.7,100.0,100.0,21029202.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,Acabamento,8940064.0,8678077.0,-2.9,100.0,100.0,13714697.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,Entrega,3576026.0,3651389.0,2.1,100.0,100.0,5485879.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,Fundação,7025850.0,7119947.0,1.3,100.0,100.0,11249144.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,Estrutura,18267211.0,18226450.0,-0.2,100.0,100.0,29247775.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,Alvenaria,14051701.0,14343806.0,2.1,100.0,100.0,22498289.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,Instalações,16159456.0,16812061.0,4.0,100.0,100.0,25873032.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,Acabamento,10538776.0,11216324.0,6.4,100.0,100.0,16873716.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,Entrega,4215510.0,4225291.0,0.2,100.0,100.0,6749487.0
+EMP007,Classic Santana,Santana,Alto Padrão,Fundação,4624484.0,4723925.0,2.2,100.0,100.0,7489038.0
+EMP007,Classic Santana,Santana,Alto Padrão,Estrutura,12023658.0,12459413.0,3.6,100.0,100.0,19471498.0
+EMP007,Classic Santana,Santana,Alto Padrão,Alvenaria,9248967.0,9644145.0,4.3,100.0,100.0,14978075.0
+EMP007,Classic Santana,Santana,Alto Padrão,Instalações,10636313.0,11672932.0,9.7,100.0,100.0,17224787.0
+EMP007,Classic Santana,Santana,Alto Padrão,Acabamento,6936726.0,7396247.0,6.6,100.0,100.0,11233557.0
+EMP007,Classic Santana,Santana,Alto Padrão,Entrega,2774690.0,2761311.0,-0.5,100.0,100.0,4493423.0
+EMP008,Infinity Brooklin,Brooklin,Premium,Fundação,12268524.0,12511194.0,2.0,100.0,100.0,21539414.0
+EMP008,Infinity Brooklin,Brooklin,Premium,Estrutura,31898162.0,32027996.0,0.4,100.0,100.0,56002476.0
+EMP008,Infinity Brooklin,Brooklin,Premium,Alvenaria,24537048.0,25411441.0,3.6,100.0,100.0,43078828.0
+EMP008,Infinity Brooklin,Brooklin,Premium,Instalações,28217605.0,28593458.0,1.3,100.0,100.0,49540652.0
+EMP008,Infinity Brooklin,Brooklin,Premium,Acabamento,18402786.0,18972470.0,3.1,100.0,100.0,32309121.0
+EMP008,Infinity Brooklin,Brooklin,Premium,Entrega,7361114.0,7510309.0,2.0,100.0,100.0,12923648.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,Fundação,11467080.0,11284963.0,-1.6,58.0,58.0,14596899.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,Estrutura,29814408.0,29882735.0,0.2,58.0,58.0,37951937.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,Alvenaria,22934160.0,25038230.0,9.2,58.0,58.0,29193797.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,Instalações,26374284.0,0.0,0.0,58.0,58.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,Acabamento,17200620.0,0.0,0.0,58.0,58.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,Entrega,6880248.0,0.0,0.0,58.0,58.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,Fundação,3956428.0,3953124.0,-0.1,54.0,54.0,4589713.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,Estrutura,10286713.0,10200218.0,-0.8,54.0,54.0,11933253.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,Alvenaria,7912856.0,6481198.0,2.4,54.0,54.0,7343541.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,Instalações,9099785.0,0.0,0.0,54.0,54.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,Acabamento,5934642.0,0.0,0.0,54.0,54.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,Entrega,2373857.0,0.0,0.0,54.0,54.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,Fundação,7680269.0,8132269.0,5.9,62.0,62.0,10782579.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,Estrutura,19968700.0,19956008.0,-0.1,62.0,62.0,28034704.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,Alvenaria,15360538.0,16443336.0,7.0,62.0,62.0,21565157.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,Instalações,17664619.0,3722918.0,5.4,62.0,62.0,4959986.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,Acabamento,11520404.0,0.0,0.0,62.0,62.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,Entrega,4608161.0,0.0,0.0,62.0,62.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,Fundação,4746280.0,4741586.0,-0.1,68.0,68.0,5543560.0
+EMP012,Verdi Aclimação,Aclimação,Premium,Estrutura,12340329.0,12812437.0,3.8,68.0,68.0,14413256.0
+EMP012,Verdi Aclimação,Aclimação,Premium,Alvenaria,9492561.0,9901695.0,4.3,68.0,68.0,11087120.0
+EMP012,Verdi Aclimação,Aclimação,Premium,Instalações,10916445.0,5674115.0,4.0,68.0,68.0,6375094.0
+EMP012,Verdi Aclimação,Aclimação,Premium,Acabamento,7119421.0,0.0,0.0,68.0,68.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,Entrega,2847768.0,0.0,0.0,68.0,68.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,Fundação,3803461.0,3920160.0,3.1,52.0,52.0,4051217.0
+EMP013,Inside Brooklin II,Brooklin,Smart,Estrutura,9888999.0,10115081.0,2.3,52.0,52.0,10533165.0
+EMP013,Inside Brooklin II,Brooklin,Smart,Alvenaria,7606923.0,5217986.0,-2.0,52.0,52.0,5671704.0
+EMP013,Inside Brooklin II,Brooklin,Smart,Instalações,8747961.0,0.0,0.0,52.0,52.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,Acabamento,5705192.0,0.0,0.0,52.0,52.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,Entrega,2282077.0,0.0,0.0,52.0,52.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,Fundação,12019848.0,12582668.0,4.7,45.0,45.0,12473462.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,Estrutura,31251606.0,31428565.0,0.6,45.0,45.0,32431002.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,Alvenaria,24039697.0,8334105.0,-0.9,45.0,45.0,8731424.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,Instalações,27645651.0,0.0,0.0,45.0,45.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,Acabamento,18029773.0,0.0,0.0,45.0,45.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,Entrega,7211909.0,0.0,0.0,45.0,45.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,Fundação,5009447.0,4925599.0,-1.7,38.0,38.0,6714973.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,Estrutura,13024563.0,13379762.0,2.7,38.0,38.0,17458929.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,Alvenaria,10018895.0,0.0,0.0,38.0,38.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,Instalações,11521729.0,0.0,0.0,38.0,38.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,Acabamento,7514171.0,0.0,0.0,38.0,38.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,Entrega,3005668.0,0.0,0.0,38.0,38.0,0.0
+EMP016,Infinity Perdizes,Perdizes,Premium,Fundação,14835008.0,10330428.0,4.5,8.0,8.0,5595859.0
+EMP016,Infinity Perdizes,Perdizes,Premium,Estrutura,38571021.0,0.0,0.0,8.0,8.0,0.0
+EMP016,Infinity Perdizes,Perdizes,Premium,Alvenaria,29670016.0,0.0,0.0,8.0,8.0,0.0
+EMP016,Infinity Perdizes,Perdizes,Premium,Instalações,34120518.0,0.0,0.0,8.0,8.0,0.0
+EMP016,Infinity Perdizes,Perdizes,Premium,Acabamento,22252512.0,0.0,0.0,8.0,8.0,0.0
+EMP016,Infinity Perdizes,Perdizes,Premium,Entrega,8901005.0,0.0,0.0,8.0,8.0,0.0
+EMP017,Inside Perdizes,Perdizes,Smart,Fundação,4501556.0,2187362.0,-2.8,6.0,6.0,851491.0
+EMP017,Inside Perdizes,Perdizes,Smart,Estrutura,11704046.0,0.0,0.0,6.0,6.0,0.0
+EMP017,Inside Perdizes,Perdizes,Smart,Alvenaria,9003112.0,0.0,0.0,6.0,6.0,0.0
+EMP017,Inside Perdizes,Perdizes,Smart,Instalações,10353579.0,0.0,0.0,6.0,6.0,0.0
+EMP017,Inside Perdizes,Perdizes,Smart,Acabamento,6752334.0,0.0,0.0,6.0,6.0,0.0
+EMP017,Inside Perdizes,Perdizes,Smart,Entrega,2700934.0,0.0,0.0,6.0,6.0,0.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,Fundação,18197915.0,6225690.0,2.6,4.0,4.0,4687023.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,Estrutura,47314579.0,0.0,0.0,4.0,4.0,0.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,Alvenaria,36395830.0,0.0,0.0,4.0,4.0,0.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,Instalações,41855205.0,0.0,0.0,4.0,4.0,0.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,Acabamento,27296873.0,0.0,0.0,4.0,4.0,0.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,Entrega,10918749.0,0.0,0.0,4.0,4.0,0.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,Fundação,9537088.0,2372147.0,-0.5,3.0,3.0,1353949.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,Estrutura,24796430.0,0.0,0.0,3.0,3.0,0.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,Alvenaria,19074177.0,0.0,0.0,3.0,3.0,0.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,Instalações,21935303.0,0.0,0.0,3.0,3.0,0.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,Acabamento,14305633.0,0.0,0.0,3.0,3.0,0.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,Entrega,5722253.0,0.0,0.0,3.0,3.0,0.0
+EMP020,Classic Moema,Moema,Alto Padrão,Fundação,9993078.0,1733747.0,4.1,2.0,2.0,611844.0
+EMP020,Classic Moema,Moema,Alto Padrão,Estrutura,25982002.0,0.0,0.0,2.0,2.0,0.0
+EMP020,Classic Moema,Moema,Alto Padrão,Alvenaria,19986155.0,0.0,0.0,2.0,2.0,0.0
+EMP020,Classic Moema,Moema,Alto Padrão,Instalações,22984079.0,0.0,0.0,2.0,2.0,0.0
+EMP020,Classic Moema,Moema,Alto Padrão,Acabamento,14989616.0,0.0,0.0,2.0,2.0,0.0
+EMP020,Classic Moema,Moema,Alto Padrão,Entrega,5995847.0,0.0,0.0,2.0,2.0,0.0

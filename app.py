@@ -777,16 +777,21 @@ elif "Fluxo" in pg:
 
     total_ent=fp_s["entradas_total"].sum(); total_sai=fp_s["saidas_total"].sum()
     saldo_tot=fp_s["saldo_acum"].iloc[-1] if len(fp_s) else 0
-    meses_neg=len(fp_s[fp_s["saldo_mes"]<0])
+    # Meses onde o fluxo mensal (entradas - saídas) foi negativo
+    meses_fluxo_neg=len(fp_s[fp_s["saldo_mes"]<0])
+    # Risco real = saldo ACUMULADO fica negativo (necessidade de aporte)
+    meses_acum_neg =len(fp_s[fp_s["saldo_acum"]<0])
 
     c1,c2,c3,c4 = st.columns(4)
     c1.metric("Total de Entradas de Caixa",   fM(total_ent))
     c2.metric("Total de Saídas de Caixa",     fM(total_sai))
     c3.metric("Saldo de Caixa Acumulado",     fM(saldo_tot),
               delta_color="normal" if saldo_tot>=0 else "inverse")
-    c4.metric("Meses com Saldo Negativo",     f"{meses_neg}",
-              delta="risco de capital" if meses_neg>0 else "sem necessidade",
-              delta_color="inverse" if meses_neg>0 else "normal")
+    c4.metric("Meses c/ Fluxo Mensal Negativo", f"{meses_fluxo_neg}",
+              delta="saldo acumulado negativo — risco de liquidez" if meses_acum_neg>0
+                    else ("normal em fase de desaceleração" if meses_fluxo_neg>0
+                    else "fluxo positivo em todos os meses"),
+              delta_color="inverse" if meses_acum_neg>0 else "normal")
 
     st.markdown("---")
     col1,col2 = st.columns(2)
@@ -872,9 +877,8 @@ elif "FP&A" in pg:
 
     # Budget vs Realizado consolidado
     st.markdown("---")
-    hdr("Budget vs Realizado — Visão Consolidada por Categoria",
-        "Comparativo entre o resultado orçado no lançamento e o resultado efetivamente realizado até o momento. "
-        "Variação positiva na receita é favorável; variação positiva em custos é desfavorável.")
+    st.markdown(f'<p class="ct">Budget vs Realizado — Visão Consolidada por Categoria</p>',
+                unsafe_allow_html=True)
 
     bud_cons=bud_f.groupby("categoria").agg(
         orcado=("orcado","sum"), realizado=("realizado","sum")).reset_index()
@@ -882,9 +886,12 @@ elif "FP&A" in pg:
 
     col1,col2 = st.columns(2)
     with col1:
-        fig=go.Figure()
+        hdr("Orçado vs Realizado por Categoria",
+            "Comparativo entre o resultado orçado e o efetivamente realizado. "
+            "Variação positiva na receita é favorável; positiva em custos é desfavorável.")
         ordem=["Receita (POC)","Custo de Obra","Despesas Comerciais","Despesas Adm.","EBITDA"]
         bud_o=bud_cons.set_index("categoria").reindex(ordem).reset_index()
+        fig=go.Figure()
         fig.add_trace(go.Bar(x=bud_o["categoria"],y=bud_o["orcado"],name="Orçado",
                              marker_color=C_BORDER,marker_line=dict(color=C_MUTED,width=1)))
         fig.add_trace(go.Bar(x=bud_o["categoria"],y=bud_o["realizado"],name="Realizado",
@@ -894,8 +901,8 @@ elif "FP&A" in pg:
 
     with col2:
         hdr("Variação Orçamentária por Categoria (%)",
-            "Percentual de desvio entre realizado e orçado. Verde: favorável. Vermelho: desfavorável. "
-            "A variação do EBITDA resume o impacto líquido de todos os desvios.")
+            "Desvio percentual entre realizado e orçado. Verde: favorável. Vermelho: desfavorável. "
+            "EBITDA resume o impacto líquido de todos os desvios.")
         cores_var=[]
         for i,row in bud_o.iterrows():
             fav = (row["categoria"]=="Receita (POC)" and row["variacao_pct"]>0) or \
@@ -1062,18 +1069,21 @@ elif "Cohort" in pg:
     safras = sorted(cohort["safra"].unique())
     SAFRA_CORES = [C_GOLD, C_AZUL, C_VERDE, C_VERM, C_MUTED, C_GOLD_L, C_NAVY3]
 
-    # KPIs por safra
-    cols_ks = st.columns(min(len(safras), 4))
-    for i, safra in enumerate(safras[:4]):
-        sub = cohort[cohort["safra"]==safra]
-        vso_rec = sub.sort_values("data").tail(3)["vso_pct"].mean()
-        n = sub["nome"].nunique()
-        cols_ks[i].metric(
-            f"Safra {safra}",
-            f"{n} empreend.",
-            delta=f"VSO rec: {vso_rec:.1f}%",
-            delta_color="normal" if vso_rec>=10 else "inverse"
-        )
+    # KPIs por safra — todas as safras em linhas de 5 colunas
+    N_COLS_KPI = 5
+    for row_start in range(0, len(safras), N_COLS_KPI):
+        row_safras = safras[row_start:row_start + N_COLS_KPI]
+        cols_ks = st.columns(len(row_safras))
+        for i, safra in enumerate(row_safras):
+            sub = cohort[cohort["safra"]==safra]
+            vso_rec = sub.sort_values("data").tail(3)["vso_pct"].mean()
+            n = sub["nome"].nunique()
+            cols_ks[i].metric(
+                f"Safra {safra}",
+                f"{n} empreend.",
+                delta=f"VSO rec: {vso_rec:.1f}%",
+                delta_color="normal" if vso_rec>=10 else "inverse"
+            )
 
     st.markdown("---")
 
@@ -1112,17 +1122,23 @@ elif "Cohort" in pg:
             "Intensidade da cor indica VSO. Colunas à esquerda = início do ciclo. "
             "Permite comparar velocidade entre gerações de lançamentos no mesmo estágio do ciclo.")
         pivot = cg.pivot(index="safra", columns="meses", values="vso_medio")
-        cols_36 = [c for c in pivot.columns if c <= 36]
-        pivot = pivot[cols_36]
+        # Limitar a 24 meses para manter células legíveis
+        cols_24 = [c for c in pivot.columns if c <= 24]
+        pivot = pivot[cols_24]
+        # Texto só em células com espaço: mostrar apenas múltiplos de 3
+        customtext = [[
+            f"{v:.1f}%" if (not pd.isna(v) and int(c) % 3 == 0) else ""
+            for v, c in zip(row_vals, pivot.columns)
+        ] for row_vals in pivot.values]
         fig2 = go.Figure(go.Heatmap(
             z=pivot.values,
             x=[f"M{int(c)}" for c in pivot.columns],
             y=pivot.index.tolist(),
             colorscale=[[0,C_VERM],[0.3,C_GOLD],[1,C_VERDE]],
-            text=[[f"{v:.1f}%" if not pd.isna(v) else "—" for v in row] for row in pivot.values],
+            text=customtext,
             texttemplate="%{text}",
-            textfont=dict(size=9, color=C_TEXT),
-            hovertemplate="Safra %{y}<br>%{x}: %{text}<extra></extra>",
+            textfont=dict(size=10, color="#0D2137"),
+            hovertemplate="Safra %{y} · Mês %{x}<br>VSO: %{z:.1f}%<extra></extra>",
             colorbar=dict(
                 tickfont=dict(color=C_MUTED, size=10),
                 title=dict(text="VSO%", font=dict(color=C_MUTED, size=10)),

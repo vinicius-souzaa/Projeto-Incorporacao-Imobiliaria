@@ -1,101 +1,101 @@
 id_empreendimento,nome,bairro,status,linha,categoria,orcado,realizado,variacao_abs,variacao_pct,fase_inicial
-EMP001,Alta Vista Brooklin,Brooklin,entregue,Alto Padrão,Receita (POC),139108637.0,149616971.0,10508334.0,7.6,False
-EMP001,Alta Vista Brooklin,Brooklin,entregue,Alto Padrão,Custo de Obra,106284836.0,106020000.0,-264836.0,-0.2,False
-EMP001,Alta Vista Brooklin,Brooklin,entregue,Alto Padrão,Despesas Comerciais,7664505.0,8228933.0,564428.0,7.4,False
-EMP001,Alta Vista Brooklin,Brooklin,entregue,Alto Padrão,Despesas Adm.,5023047.0,5208000.0,184953.0,3.7,False
-EMP001,Alta Vista Brooklin,Brooklin,entregue,Alto Padrão,EBITDA,20136249.0,30160037.0,10023788.0,49.8,False
-EMP002,Insígnia Campo Belo,Campo Belo,entregue,Alto Padrão,Receita (POC),117941416.0,115769760.0,-2171656.0,-1.8,False
-EMP002,Insígnia Campo Belo,Campo Belo,entregue,Alto Padrão,Custo de Obra,76802037.0,80940000.0,4137963.0,5.4,False
-EMP002,Insígnia Campo Belo,Campo Belo,entregue,Alto Padrão,Despesas Comerciais,5977347.0,6367337.0,389990.0,6.5,False
-EMP002,Insígnia Campo Belo,Campo Belo,entregue,Alto Padrão,Despesas Adm.,3850391.0,3976000.0,125609.0,3.3,False
-EMP002,Insígnia Campo Belo,Campo Belo,entregue,Alto Padrão,EBITDA,31311641.0,24486423.0,-6825218.0,-21.8,False
-EMP003,Verdi Alto de Pinheiros,Pinheiros,entregue,Premium,Receita (POC),54367144.0,55964333.0,1597189.0,2.9,False
-EMP003,Verdi Alto de Pinheiros,Pinheiros,entregue,Premium,Custo de Obra,34932143.0,38760000.0,3827857.0,11.0,False
-EMP003,Verdi Alto de Pinheiros,Pinheiros,entregue,Premium,Despesas Comerciais,2868467.0,3078038.0,209571.0,7.3,False
-EMP003,Verdi Alto de Pinheiros,Pinheiros,entregue,Premium,Despesas Adm.,1836898.0,1904000.0,67102.0,3.7,False
-EMP003,Verdi Alto de Pinheiros,Pinheiros,entregue,Premium,EBITDA,14729637.0,12222295.0,-2507342.0,-17.0,False
-EMP004,Inside Brooklin I,Brooklin,entregue,Smart,Receita (POC),44849134.0,48644360.0,3795226.0,8.5,False
-EMP004,Inside Brooklin I,Brooklin,entregue,Smart,Custo de Obra,32222822.0,30780000.0,-1442822.0,-4.5,False
-EMP004,Inside Brooklin I,Brooklin,entregue,Smart,Despesas Comerciais,2725548.0,2675440.0,-50108.0,-1.8,False
-EMP004,Inside Brooklin I,Brooklin,entregue,Smart,Despesas Adm.,1526028.0,1512000.0,-14028.0,-0.9,False
-EMP004,Inside Brooklin I,Brooklin,entregue,Smart,EBITDA,8374736.0,13676920.0,5302184.0,55.0,False
-EMP005,Insígnia Mooca,Mooca,entregue,Alto Padrão,Receita (POC),83488677.0,80460460.0,-3028217.0,-3.6,False
-EMP005,Insígnia Mooca,Mooca,entregue,Alto Padrão,Custo de Obra,58413820.0,55860000.0,-2553820.0,-4.4,False
-EMP005,Insígnia Mooca,Mooca,entregue,Alto Padrão,Despesas Comerciais,4456212.0,4425325.0,-30887.0,-0.7,False
-EMP005,Insígnia Mooca,Mooca,entregue,Alto Padrão,Despesas Adm.,2753543.0,2744000.0,-9543.0,-0.3,False
-EMP005,Insígnia Mooca,Mooca,entregue,Alto Padrão,EBITDA,17865102.0,17431135.0,-433967.0,-2.4,False
-EMP006,Reserva Chácara Klabin,Chácara Klabin,entregue,Alto Padrão,Receita (POC),106198441.0,98725920.0,-7472521.0,-7.0,False
-EMP006,Reserva Chácara Klabin,Chácara Klabin,entregue,Alto Padrão,Custo de Obra,61922720.0,67260000.0,5337280.0,8.6,False
-EMP006,Reserva Chácara Klabin,Chácara Klabin,entregue,Alto Padrão,Despesas Comerciais,5075625.0,5429926.0,354301.0,7.0,False
-EMP006,Reserva Chácara Klabin,Chácara Klabin,entregue,Alto Padrão,Despesas Adm.,3192572.0,3304000.0,111428.0,3.5,False
-EMP006,Reserva Chácara Klabin,Chácara Klabin,entregue,Alto Padrão,EBITDA,36007524.0,22731995.0,-13275529.0,-36.9,False
-EMP007,Classic Santana,Santana,entregue,Alto Padrão,Receita (POC),61876513.0,59413872.0,-2462641.0,-4.0,False
-EMP007,Classic Santana,Santana,entregue,Alto Padrão,Custo de Obra,42646018.0,43320000.0,673982.0,1.6,False
-EMP007,Classic Santana,Santana,entregue,Alto Padrão,Despesas Comerciais,3285918.0,3267763.0,-18155.0,-0.6,False
-EMP007,Classic Santana,Santana,entregue,Alto Padrão,Despesas Adm.,2133895.0,2128000.0,-5895.0,-0.3,False
-EMP007,Classic Santana,Santana,entregue,Alto Padrão,EBITDA,13810682.0,10698109.0,-3112573.0,-22.5,False
-EMP008,Infinity Brooklin,Brooklin,entregue,Premium,Receita (POC),192735092.0,183018184.0,-9716908.0,-5.0,False
-EMP008,Infinity Brooklin,Brooklin,entregue,Premium,Custo de Obra,128236589.0,127680000.0,-556589.0,-0.4,False
-EMP008,Infinity Brooklin,Brooklin,entregue,Premium,Despesas Comerciais,9397605.0,10066000.0,668395.0,7.1,False
-EMP008,Infinity Brooklin,Brooklin,entregue,Premium,Despesas Adm.,6056615.0,6272000.0,215385.0,3.6,False
-EMP008,Infinity Brooklin,Brooklin,entregue,Premium,EBITDA,49044284.0,39000184.0,-10044100.0,-20.5,False
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,Receita (POC),78241980.0,79046482.0,804502.0,1.0,False
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,Custo de Obra,57267167.0,57832200.0,565033.0,1.0,False
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,Despesas Comerciais,7746241.0,7627292.0,-118949.0,-1.5,False
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,Despesas Adm.,5022563.0,4984000.0,-38563.0,-0.8,False
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,EBITDA,8206010.0,8602990.0,396980.0,4.8,False
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,Receita (POC),27540478.0,26117353.0,-1423125.0,-5.2,False
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,Custo de Obra,19898867.0,20143800.0,244933.0,1.2,False
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,Despesas Comerciais,2439073.0,2520096.0,81023.0,3.3,False
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,Despesas Adm.,1707637.0,1736000.0,28363.0,1.7,False
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,EBITDA,3494901.0,1717458.0,-1777443.0,-50.9,False
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,Receita (POC),61802859.0,65977703.0,4174844.0,6.8,False
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,Custo de Obra,42128862.0,42886800.0,757938.0,1.8,False
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,Despesas Comerciais,6240135.0,6366270.0,126135.0,2.0,False
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,Despesas Adm.,3659019.0,3696000.0,36981.0,1.0,False
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,EBITDA,9774843.0,13028633.0,3253790.0,33.3,False
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,Receita (POC),45617863.0,44829764.0,-788099.0,-1.7,False
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,Custo de Obra,26927103.0,28591200.0,1664097.0,6.2,False
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,Despesas Comerciais,4372176.0,4325679.0,-46497.0,-1.1,False
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,Despesas Adm.,2477172.0,2464000.0,-13172.0,-0.5,False
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,EBITDA,11841412.0,9448885.0,-2392527.0,-20.2,False
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,Receita (POC),27637906.0,29128091.0,1490185.0,5.4,False
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,Custo de Obra,16653956.0,18844200.0,2190244.0,13.2,False
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,Despesas Comerciais,2676285.0,2810605.0,134320.0,5.0,False
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,Despesas Adm.,1584244.0,1624000.0,39756.0,2.5,False
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,EBITDA,6723421.0,5849286.0,-874135.0,-13.0,False
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,Receita (POC),85730350.0,93901604.0,8171254.0,9.5,False
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,Custo de Obra,66156458.0,63680400.0,-2476058.0,-3.7,False
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,Despesas Comerciais,9360307.0,9060681.0,-299626.0,-3.2,False
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,Despesas Adm.,5577265.0,5488000.0,-89265.0,-1.6,False
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,EBITDA,4636319.0,15672523.0,11036204.0,55.0,False
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,Receita (POC),35720007.0,39201477.0,3481470.0,9.7,False
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,Custo de Obra,28146282.0,27291600.0,-854682.0,-3.0,False
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,Despesas Comerciais,3771807.0,3782599.0,10792.0,0.3,False
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,Despesas Adm.,2348640.0,2352000.0,3360.0,0.1,False
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,EBITDA,1453279.0,5775279.0,4322000.0,55.0,False
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,Receita (POC),13432504.0,12655854.0,-776650.0,,True
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,Custo de Obra,6871211.0,7638000.0,766789.0,,True
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,Despesas Comerciais,14497377.0,13921440.0,-575937.0,,True
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,Despesas Adm.,7656076.0,7504000.0,-152076.0,,True
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,EBITDA,-15592160.0,-16407585.0,-815425.0,,True
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,Receita (POC),2990206.0,3077861.0,87655.0,,True
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,Custo de Obra,1795493.0,2052000.0,256507.0,,True
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,Despesas Comerciais,3528245.0,3385647.0,-142598.0,,True
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,Despesas Adm.,2057580.0,2016000.0,-41580.0,,True
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,EBITDA,-4391112.0,-4375786.0,15326.0,,True
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,Receita (POC),14225497.0,13175562.0,-1049935.0,,True
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,Custo de Obra,8884391.0,8892000.0,7609.0,,True
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,Despesas Comerciais,13334852.0,14493118.0,1158266.0,,True
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,Despesas Adm.,8372387.0,8736000.0,363613.0,,True
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,EBITDA,-16366134.0,-18945556.0,-2579422.0,,True
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,Receita (POC),5413955.0,5377335.0,-36620.0,,True
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,Custo de Obra,3727768.0,4218000.0,490232.0,,True
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,Despesas Comerciais,5504135.0,5915069.0,410934.0,,True
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,Despesas Adm.,3994873.0,4144000.0,149127.0,,True
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,EBITDA,-7812822.0,-8899734.0,-1086912.0,,True
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,Receita (POC),6973823.0,6550668.0,-423155.0,,True
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,Custo de Obra,4647133.0,4617000.0,-30133.0,,True
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,Despesas Comerciais,7286615.0,7205735.0,-80880.0,,True
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,Despesas Adm.,4561315.0,4536000.0,-25315.0,,True
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,EBITDA,-9521240.0,-9808067.0,-286827.0,,True
+EMP001,Alta Vista Brooklin,Brooklin,entregue,Alto Padrão,Receita (POC),177421543.0,183418988.0,5997445.0,3.4,False
+EMP001,Alta Vista Brooklin,Brooklin,entregue,Alto Padrão,Custo de Obra,120653177.0,118132473.0,-2520704.0,-2.1,False
+EMP001,Alta Vista Brooklin,Brooklin,entregue,Alto Padrão,Despesas Comerciais,12288343.0,12662803.0,374460.0,3.0,False
+EMP001,Alta Vista Brooklin,Brooklin,entregue,Alto Padrão,Despesas Adm.,4809207.0,4710339.0,-98868.0,-2.1,False
+EMP001,Alta Vista Brooklin,Brooklin,entregue,Alto Padrão,EBITDA,39670817.0,47913373.0,8242556.0,20.8,False
+EMP002,Insígnia Campo Belo,Campo Belo,entregue,Alto Padrão,Receita (POC),135482250.0,135337224.0,-145025.0,-0.1,False
+EMP002,Insígnia Campo Belo,Campo Belo,entregue,Alto Padrão,Custo de Obra,94501638.0,94667613.0,165974.0,0.2,False
+EMP002,Insígnia Campo Belo,Campo Belo,entregue,Alto Padrão,Despesas Comerciais,7569563.0,7519232.0,-50331.0,-0.7,False
+EMP002,Insígnia Campo Belo,Campo Belo,entregue,Alto Padrão,Despesas Adm.,3823976.0,3962731.0,138755.0,3.6,False
+EMP002,Insígnia Campo Belo,Campo Belo,entregue,Alto Padrão,EBITDA,29587072.0,29187648.0,-399424.0,-1.3,False
+EMP003,Verdi Alto de Pinheiros,Pinheiros,entregue,Premium,Receita (POC),62499515.0,61856531.0,-642984.0,-1.0,False
+EMP003,Verdi Alto de Pinheiros,Pinheiros,entregue,Premium,Custo de Obra,41146758.0,42475984.0,1329226.0,3.2,False
+EMP003,Verdi Alto de Pinheiros,Pinheiros,entregue,Premium,Despesas Comerciais,4034259.0,4080280.0,46021.0,1.1,False
+EMP003,Verdi Alto de Pinheiros,Pinheiros,entregue,Premium,Despesas Adm.,1676849.0,1726552.0,49703.0,3.0,False
+EMP003,Verdi Alto de Pinheiros,Pinheiros,entregue,Premium,EBITDA,15641649.0,13573715.0,-2067934.0,-13.2,False
+EMP004,Inside Brooklin I,Brooklin,entregue,Smart,Receita (POC),50699253.0,53420939.0,2721687.0,5.4,False
+EMP004,Inside Brooklin I,Brooklin,entregue,Smart,Custo de Obra,36866554.0,38731372.0,1864818.0,5.1,False
+EMP004,Inside Brooklin I,Brooklin,entregue,Smart,Despesas Comerciais,3273328.0,3182464.0,-90864.0,-2.8,False
+EMP004,Inside Brooklin I,Brooklin,entregue,Smart,Despesas Adm.,1471368.0,1403306.0,-68063.0,-4.6,False
+EMP004,Inside Brooklin I,Brooklin,entregue,Smart,EBITDA,9088002.0,10103797.0,1015795.0,11.2,False
+EMP005,Insígnia Mooca,Mooca,entregue,Alto Padrão,Receita (POC),91431311.0,90171974.0,-1259338.0,-1.4,False
+EMP005,Insígnia Mooca,Mooca,entregue,Alto Padrão,Custo de Obra,60440830.0,62583976.0,2143146.0,3.5,False
+EMP005,Insígnia Mooca,Mooca,entregue,Alto Padrão,Despesas Comerciais,5220034.0,4947098.0,-272935.0,-5.2,False
+EMP005,Insígnia Mooca,Mooca,entregue,Alto Padrão,Despesas Adm.,2189041.0,2209977.0,20936.0,1.0,False
+EMP005,Insígnia Mooca,Mooca,entregue,Alto Padrão,EBITDA,23581406.0,20430922.0,-3150484.0,-13.4,False
+EMP006,Reserva Chácara Klabin,Chácara Klabin,entregue,Alto Padrão,Receita (POC),112491443.0,114705756.0,2214314.0,2.0,False
+EMP006,Reserva Chácara Klabin,Chácara Klabin,entregue,Alto Padrão,Custo de Obra,72802878.0,73295523.0,492645.0,0.7,False
+EMP006,Reserva Chácara Klabin,Chácara Klabin,entregue,Alto Padrão,Despesas Comerciais,6523953.0,6886925.0,362972.0,5.6,False
+EMP006,Reserva Chácara Klabin,Chácara Klabin,entregue,Alto Padrão,Despesas Adm.,2845437.0,2739564.0,-105874.0,-3.7,False
+EMP006,Reserva Chácara Klabin,Chácara Klabin,entregue,Alto Padrão,EBITDA,30319174.0,31783745.0,1464571.0,4.8,False
+EMP007,Classic Santana,Santana,entregue,Alto Padrão,Receita (POC),74890377.0,72457472.0,-2432905.0,-3.2,False
+EMP007,Classic Santana,Santana,entregue,Alto Padrão,Custo de Obra,49532227.0,52013829.0,2481602.0,5.0,False
+EMP007,Classic Santana,Santana,entregue,Alto Padrão,Despesas Comerciais,4310530.0,4372273.0,61743.0,1.4,False
+EMP007,Classic Santana,Santana,entregue,Alto Padrão,Despesas Adm.,1559551.0,1610406.0,50854.0,3.3,False
+EMP007,Classic Santana,Santana,entregue,Alto Padrão,EBITDA,19488069.0,14460964.0,-5027105.0,-25.8,False
+EMP008,Infinity Brooklin,Brooklin,entregue,Premium,Receita (POC),215394138.0,216144298.0,750160.0,0.3,False
+EMP008,Infinity Brooklin,Brooklin,entregue,Premium,Custo de Obra,128230207.0,127858881.0,-371326.0,-0.3,False
+EMP008,Infinity Brooklin,Brooklin,entregue,Premium,Despesas Comerciais,11753887.0,12492799.0,738912.0,6.3,False
+EMP008,Infinity Brooklin,Brooklin,entregue,Premium,Despesas Adm.,4207028.0,4400257.0,193228.0,4.6,False
+EMP008,Infinity Brooklin,Brooklin,entregue,Premium,EBITDA,71203015.0,71392361.0,189346.0,0.3,False
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,Receita (POC),84662012.0,87156972.0,2494960.0,2.9,False
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,Custo de Obra,59283469.0,59279672.0,-3796.0,-0.0,False
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,Despesas Comerciais,5285251.0,5436063.0,150813.0,2.9,False
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,Despesas Adm.,2093202.0,2079213.0,-13989.0,-0.7,False
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,EBITDA,18000091.0,20362023.0,2361932.0,13.1,False
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,Receita (POC),24784449.0,24020052.0,-764397.0,-3.1,False
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,Custo de Obra,17191075.0,18409999.0,1218924.0,7.1,False
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,Despesas Comerciais,1602951.0,1539671.0,-63280.0,-3.9,False
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,Despesas Adm.,910679.0,968988.0,58309.0,6.4,False
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,EBITDA,5079745.0,3101394.0,-1978351.0,-38.9,False
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,Receita (POC),66851987.0,67159545.0,307558.0,0.5,False
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,Custo de Obra,42279418.0,41872040.0,-407378.0,-1.0,False
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,Despesas Comerciais,4454147.0,4548954.0,94807.0,2.1,False
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,Despesas Adm.,2251909.0,2375209.0,123300.0,5.5,False
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,EBITDA,17866514.0,18363342.0,496829.0,2.8,False
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,Receita (POC),37696208.0,38948570.0,1252362.0,3.3,False
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,Custo de Obra,22099404.0,23397120.0,1297715.0,5.9,False
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,Despesas Comerciais,1934848.0,2009954.0,75106.0,3.9,False
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,Despesas Adm.,1170941.0,1209668.0,38727.0,3.3,False
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,EBITDA,12491015.0,12331829.0,-159186.0,-1.3,False
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,Receita (POC),21066330.0,22012620.0,946290.0,4.5,False
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,Custo de Obra,15015924.0,14977836.0,-38088.0,-0.3,False
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,Despesas Comerciais,1349725.0,1367830.0,18105.0,1.3,False
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,Despesas Adm.,913467.0,892042.0,-21425.0,-2.3,False
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,EBITDA,3787214.0,4774913.0,987699.0,26.1,False
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,Receita (POC),56130581.0,59429195.0,3298615.0,5.9,False
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,Custo de Obra,37415765.0,40178789.0,2763024.0,7.4,False
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,Despesas Comerciais,3205834.0,3032444.0,-173391.0,-5.4,False
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,Despesas Adm.,2330030.0,2410810.0,80780.0,3.5,False
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,EBITDA,13178952.0,13807153.0,628201.0,4.8,False
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,Receita (POC),25516896.0,26857167.0,1340271.0,5.3,False
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,Custo de Obra,16540573.0,16372906.0,-167667.0,-1.0,False
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,Despesas Comerciais,1479488.0,1516759.0,37271.0,2.5,False
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,Despesas Adm.,639810.0,678108.0,38298.0,6.0,False
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,EBITDA,6857025.0,8289393.0,1432369.0,20.9,False
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,Receita (POC),6715031.0,6469225.0,-245806.0,-3.7,True
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,Custo de Obra,4040296.0,4229044.0,188747.0,4.7,True
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,Despesas Comerciais,413438.0,407072.0,-6366.0,-1.5,True
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,Despesas Adm.,398620.0,422907.0,24287.0,6.1,True
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,EBITDA,1862677.0,1410202.0,-452475.0,-24.3,True
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,Receita (POC),1021789.0,1080139.0,58350.0,5.7,True
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,Custo de Obra,694390.0,745684.0,51294.0,7.4,True
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,Despesas Comerciais,70861.0,71649.0,789.0,1.1,True
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,Despesas Adm.,109335.0,115178.0,5843.0,5.3,True
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,EBITDA,147203.0,147627.0,424.0,0.3,True
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,Receita (POC),5624428.0,5874462.0,250034.0,4.4,True
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,Custo de Obra,3565805.0,3583994.0,18189.0,0.5,True
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,Despesas Comerciais,342776.0,364829.0,22053.0,6.4,True
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,Despesas Adm.,288294.0,275159.0,-13134.0,-4.6,True
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,EBITDA,1427554.0,1650479.0,222925.0,15.6,True
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,Receita (POC),1624738.0,1656627.0,31889.0,2.0,True
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,Custo de Obra,1138020.0,1132672.0,-5348.0,-0.5,True
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,Despesas Comerciais,106743.0,102269.0,-4474.0,-4.2,True
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,Despesas Adm.,115823.0,111101.0,-4722.0,-4.1,True
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,EBITDA,264153.0,310585.0,46432.0,17.6,True
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,Receita (POC),734213.0,755967.0,21754.0,3.0,True
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,Custo de Obra,492287.0,495923.0,3636.0,0.7,True
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,Despesas Comerciais,46139.0,48386.0,2248.0,4.9,True
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,Despesas Adm.,75882.0,72683.0,-3199.0,-4.2,True
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,EBITDA,119905.0,138974.0,19069.0,15.9,True

@@ -1,603 +1,745 @@
 id_empreendimento,nome,bairro,linha,data,unidades_vendidas,distratos,estoque_inicio,vso_pct,ticket_medio,vgv_mes
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-03-01,26,0,116,22.4,1691893.0,43989224.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-04-01,19,0,90,21.1,1664100.0,31617894.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-05-01,11,0,71,15.5,1551418.0,17065596.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-06-01,9,0,60,15.0,1719863.0,15478769.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-07-01,7,0,51,13.7,1543601.0,10805208.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-08-01,5,1,44,11.4,1741486.0,8707432.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-09-01,4,0,40,10.0,1577211.0,6308846.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-10-01,4,0,36,11.1,1577541.0,6310163.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-11-01,3,0,32,9.4,1629349.0,4888046.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-12-01,2,0,29,6.9,1600017.0,3200033.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-01-01,1,2,27,3.7,1600207.0,1600207.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-02-01,2,0,28,7.1,1615678.0,3231356.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-03-01,2,0,26,7.7,1580932.0,3161864.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-04-01,1,0,24,4.2,1646502.0,1646502.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-05-01,1,0,23,4.3,1665952.0,1665952.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-06-01,1,2,22,4.5,1574856.0,1574856.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-07-01,1,0,23,4.3,1681938.0,1681938.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-08-01,1,0,22,4.5,1631059.0,1631059.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-09-01,1,0,21,4.8,1546479.0,1546479.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-10-01,0,0,20,0.0,1728857.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-11-01,1,2,20,5.0,1604286.0,1604286.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-12-01,0,0,21,0.0,1647718.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-01-01,0,0,21,0.0,1741419.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-02-01,0,0,21,0.0,1700885.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-03-01,1,0,21,4.8,1557756.0,1557756.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-04-01,0,2,20,0.0,1580163.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-05-01,0,0,22,0.0,1620329.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-06-01,0,0,22,0.0,1595873.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-07-01,0,0,22,0.0,1597871.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-08-01,1,0,22,4.5,1652434.0,1652434.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-09-01,0,2,21,0.0,1554850.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-10-01,0,0,23,0.0,1745025.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-11-01,0,0,23,0.0,1540461.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-12-01,1,0,23,4.3,1709292.0,1709292.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-01-01,1,0,22,4.5,1700080.0,1700080.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-02-01,1,2,21,4.8,1554745.0,1554745.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-03-01,0,0,22,0.0,1719223.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-04-01,0,0,22,0.0,1669236.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-05-01,0,0,22,0.0,1604134.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-06-01,0,0,22,0.0,1607094.0,0.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-07-01,1,2,22,4.5,1724248.0,1724248.0
-EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-08-01,1,0,23,4.3,1637743.0,1637743.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-05-01,19,0,87,21.8,1728323.0,32838135.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-06-01,14,0,68,20.6,1685991.0,23603868.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-07-01,8,0,54,14.8,1677812.0,13422496.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-08-01,8,0,46,17.4,1657614.0,13260911.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-09-01,4,0,38,10.5,1633598.0,6534391.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-10-01,3,1,34,8.8,1674807.0,5024421.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-11-01,3,0,32,9.4,1653973.0,4961920.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-12-01,3,0,29,10.3,1727212.0,5181637.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-01-01,2,0,26,7.7,1764163.0,3528327.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-02-01,2,0,24,8.3,1738367.0,3476733.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-03-01,1,1,22,4.5,1737423.0,1737423.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-04-01,1,0,22,4.5,1606484.0,1606484.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-05-01,1,0,21,4.8,1738222.0,1738222.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-06-01,1,0,20,5.0,1757033.0,1757033.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-07-01,1,0,19,5.3,1615261.0,1615261.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-08-01,1,1,18,5.6,1657522.0,1657522.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-09-01,1,0,18,5.6,1568372.0,1568372.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-10-01,1,0,17,5.9,1675269.0,1675269.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-11-01,0,0,16,0.0,1592330.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-12-01,0,0,16,0.0,1638533.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-01-01,0,1,16,0.0,1676976.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-02-01,0,0,17,0.0,1716066.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-03-01,0,0,17,0.0,1771112.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-04-01,0,0,17,0.0,1620321.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-05-01,0,0,17,0.0,1627335.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-06-01,0,1,17,0.0,1574723.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-07-01,0,0,18,0.0,1577820.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-08-01,1,0,18,5.6,1626021.0,1626021.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-09-01,0,0,17,0.0,1597641.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-10-01,0,0,17,0.0,1670751.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-11-01,1,1,17,5.9,1617319.0,1617319.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-12-01,0,0,17,0.0,1721412.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-01-01,1,0,17,5.9,1701321.0,1701321.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-02-01,0,0,16,0.0,1680579.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-03-01,0,0,16,0.0,1575548.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-04-01,0,1,16,0.0,1692275.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-05-01,0,0,17,0.0,1703792.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-06-01,0,0,17,0.0,1603894.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-07-01,0,0,17,0.0,1765656.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-08-01,1,0,17,5.9,1596076.0,1596076.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-09-01,0,1,16,0.0,1763102.0,0.0
-EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-10-01,0,0,17,0.0,1753054.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2019-08-01,3,0,15,20.0,4833616.0,14500849.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2019-09-01,2,0,12,16.7,4679198.0,9358397.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2019-10-01,1,0,10,10.0,4406869.0,4406869.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2019-11-01,1,0,9,11.1,4880759.0,4880759.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2019-12-01,0,0,8,0.0,4551802.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-01-01,1,0,8,12.5,4557801.0,4557801.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-02-01,0,0,7,0.0,4874790.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-03-01,0,0,7,0.0,4811607.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-04-01,0,0,7,0.0,4447253.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-05-01,0,0,7,0.0,4881548.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-06-01,0,0,7,0.0,4354983.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-07-01,0,0,7,0.0,4446770.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-08-01,0,0,7,0.0,4736223.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-09-01,0,0,7,0.0,4484169.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-10-01,0,0,7,0.0,4543769.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-11-01,0,0,7,0.0,4791932.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-12-01,0,0,7,0.0,4739553.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-01-01,0,0,7,0.0,4686923.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-02-01,0,0,7,0.0,4508293.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-03-01,0,0,7,0.0,4495791.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-04-01,0,0,7,0.0,4877713.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-05-01,0,0,7,0.0,4723951.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-06-01,0,0,7,0.0,4691989.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-07-01,0,0,7,0.0,4642257.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-08-01,0,0,7,0.0,4517469.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-09-01,0,0,7,0.0,4366330.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-10-01,0,0,7,0.0,4906244.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-11-01,0,0,7,0.0,4914182.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-12-01,0,0,7,0.0,4361109.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-01-01,0,0,7,0.0,4899089.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-02-01,0,0,7,0.0,4919893.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-03-01,0,0,7,0.0,4854707.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-04-01,0,0,7,0.0,4853603.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-05-01,0,0,7,0.0,4538773.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-06-01,0,0,7,0.0,4903707.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-07-01,0,0,7,0.0,4762194.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-08-01,0,0,7,0.0,4714444.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-09-01,0,0,7,0.0,4935472.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-10-01,0,0,7,0.0,4869065.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-11-01,0,0,7,0.0,4788560.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-12-01,0,0,7,0.0,4563860.0,0.0
-EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2023-01-01,0,0,7,0.0,4525023.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2020-02-01,24,0,108,22.2,536360.0,12872633.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2020-03-01,19,0,84,22.6,539361.0,10247852.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2020-04-01,11,0,65,16.9,531889.0,5850781.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2020-05-01,12,0,54,22.2,522248.0,6266972.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2020-06-01,5,0,42,11.9,537850.0,2689252.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2020-07-01,4,1,37,10.8,501970.0,2007879.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2020-08-01,3,0,34,8.8,517588.0,1552765.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2020-09-01,3,0,31,9.7,482336.0,1447009.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2020-10-01,4,0,28,14.3,498625.0,1994501.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2020-11-01,1,0,24,4.2,518404.0,518404.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2020-12-01,1,2,23,4.3,488259.0,488259.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2021-01-01,2,0,24,8.3,513946.0,1027892.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2021-02-01,1,0,22,4.5,520488.0,520488.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2021-03-01,1,0,21,4.8,485548.0,485548.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2021-04-01,1,0,20,5.0,515141.0,515141.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2021-05-01,1,2,19,5.3,521433.0,521433.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2021-06-01,0,0,20,0.0,531687.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2021-07-01,1,0,20,5.0,497604.0,497604.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2021-08-01,1,0,19,5.3,481648.0,481648.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2021-09-01,1,0,18,5.6,542572.0,542572.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2021-10-01,0,2,17,0.0,506582.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2021-11-01,1,0,19,5.3,491264.0,491264.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2021-12-01,0,0,18,0.0,515700.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2022-01-01,0,0,18,0.0,526449.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2022-02-01,0,0,18,0.0,542066.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2022-03-01,1,2,18,5.6,527963.0,527963.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2022-04-01,1,0,19,5.3,507274.0,507274.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2022-05-01,1,0,18,5.6,496103.0,496103.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2022-06-01,1,0,17,5.9,480936.0,480936.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2022-07-01,0,0,16,0.0,487545.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2022-08-01,0,2,16,0.0,510821.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2022-09-01,0,0,18,0.0,486359.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2022-10-01,0,0,18,0.0,491258.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2022-11-01,0,0,18,0.0,508200.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2022-12-01,1,0,18,5.6,521281.0,521281.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2023-01-01,0,2,17,0.0,482945.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2023-02-01,1,0,19,5.3,512704.0,512704.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2023-03-01,0,0,18,0.0,535672.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2023-04-01,0,0,18,0.0,484587.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2023-05-01,0,0,18,0.0,521757.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2023-06-01,0,2,18,0.0,541115.0,0.0
-EMP004,Inside Brooklin I,Brooklin,Smart,2023-07-01,0,0,20,0.0,517406.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-06-01,16,0,65,24.6,1537202.0,24595235.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-07-01,9,0,49,18.4,1554326.0,13988930.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-08-01,6,0,40,15.0,1635778.0,9814668.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-09-01,5,0,34,14.7,1624833.0,8124167.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-10-01,3,0,29,10.3,1461338.0,4384013.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-11-01,2,0,26,7.7,1509904.0,3019808.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-12-01,2,0,24,8.3,1470545.0,2941090.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-01-01,2,0,22,9.1,1583945.0,3167890.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-02-01,2,0,20,10.0,1591459.0,3182917.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-03-01,2,0,18,11.1,1604867.0,3209734.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-04-01,0,1,16,0.0,1594505.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-05-01,0,0,17,0.0,1605524.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-06-01,1,0,17,5.9,1520300.0,1520300.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-07-01,1,0,16,6.2,1599562.0,1599562.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-08-01,1,0,15,6.7,1615634.0,1615634.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-09-01,0,1,14,0.0,1531467.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-10-01,1,0,15,6.7,1467597.0,1467597.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-11-01,1,0,14,7.1,1624285.0,1624285.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-12-01,1,0,13,7.7,1510114.0,1510114.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-01-01,0,0,12,0.0,1622907.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-02-01,0,1,12,0.0,1633704.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-03-01,0,0,13,0.0,1559778.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-04-01,0,0,13,0.0,1504854.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-05-01,1,0,13,7.7,1511803.0,1511803.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-06-01,0,0,12,0.0,1602534.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-07-01,0,1,12,0.0,1602150.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-08-01,0,0,13,0.0,1458666.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-09-01,0,0,13,0.0,1555092.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-10-01,0,0,13,0.0,1516164.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-11-01,0,0,13,0.0,1470330.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-12-01,0,1,13,0.0,1568555.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-01-01,0,0,14,0.0,1467205.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-02-01,0,0,14,0.0,1461646.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-03-01,0,0,14,0.0,1608469.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-04-01,0,0,14,0.0,1464013.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-05-01,0,1,14,0.0,1640766.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-06-01,0,0,15,0.0,1606693.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-07-01,0,0,15,0.0,1633045.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-08-01,0,0,15,0.0,1599705.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-09-01,0,0,15,0.0,1556832.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-10-01,0,1,15,0.0,1469179.0,0.0
-EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-11-01,0,0,16,0.0,1543939.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2020-10-01,16,0,76,21.1,1501891.0,24030251.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2020-11-01,12,0,60,20.0,1514509.0,18174105.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2020-12-01,7,0,48,14.6,1641110.0,11487767.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-01-01,5,0,41,12.2,1608275.0,8041373.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-02-01,3,0,36,8.3,1548195.0,4644585.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-03-01,3,1,33,9.1,1665846.0,4997539.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-04-01,3,0,31,9.7,1505422.0,4516265.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-05-01,3,0,28,10.7,1602317.0,4806952.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-06-01,2,0,25,8.0,1617565.0,3235131.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-07-01,2,0,23,8.7,1630958.0,3261915.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-08-01,2,1,21,9.5,1608466.0,3216931.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-09-01,1,0,20,5.0,1672418.0,1672418.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-10-01,2,0,19,10.5,1546514.0,3093027.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-11-01,0,0,17,0.0,1528497.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-12-01,0,0,17,0.0,1608333.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-01-01,1,1,17,5.9,1506216.0,1506216.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-02-01,1,0,17,5.9,1553002.0,1553002.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-03-01,1,0,16,6.2,1654784.0,1654784.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-04-01,0,0,15,0.0,1674390.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-05-01,1,0,15,6.7,1656549.0,1656549.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-06-01,0,1,14,0.0,1678790.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-07-01,1,0,15,6.7,1665334.0,1665334.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-08-01,0,0,14,0.0,1689800.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-09-01,0,0,14,0.0,1520887.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-10-01,0,0,14,0.0,1686296.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-11-01,0,1,14,0.0,1660501.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-12-01,0,0,15,0.0,1574254.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-01-01,0,0,15,0.0,1545711.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-02-01,0,0,15,0.0,1645740.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-03-01,0,0,15,0.0,1681220.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-04-01,0,1,15,0.0,1581465.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-05-01,0,0,16,0.0,1516596.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-06-01,0,0,16,0.0,1536676.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-07-01,0,0,16,0.0,1626104.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-08-01,0,0,16,0.0,1513447.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-09-01,1,1,16,6.2,1626078.0,1626078.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-10-01,1,0,16,6.2,1595517.0,1595517.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-11-01,0,0,15,0.0,1662532.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-12-01,1,0,15,6.7,1667472.0,1667472.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2024-01-01,1,0,14,7.1,1571966.0,1571966.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2024-02-01,0,1,13,0.0,1632639.0,0.0
-EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2024-03-01,0,0,14,0.0,1533511.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2021-01-01,13,0,54,24.1,1422877.0,18497404.0
-EMP007,Classic Santana,Santana,Alto Padrão,2021-02-01,7,0,41,17.1,1431153.0,10018070.0
-EMP007,Classic Santana,Santana,Alto Padrão,2021-03-01,5,0,34,14.7,1445152.0,7225761.0
-EMP007,Classic Santana,Santana,Alto Padrão,2021-04-01,5,0,29,17.2,1494491.0,7472453.0
-EMP007,Classic Santana,Santana,Alto Padrão,2021-05-01,3,0,24,12.5,1508892.0,4526675.0
-EMP007,Classic Santana,Santana,Alto Padrão,2021-06-01,1,0,21,4.8,1524838.0,1524838.0
-EMP007,Classic Santana,Santana,Alto Padrão,2021-07-01,1,0,20,5.0,1435116.0,1435116.0
-EMP007,Classic Santana,Santana,Alto Padrão,2021-08-01,2,0,19,10.5,1530421.0,3060842.0
-EMP007,Classic Santana,Santana,Alto Padrão,2021-09-01,1,0,17,5.9,1467000.0,1467000.0
-EMP007,Classic Santana,Santana,Alto Padrão,2021-10-01,1,0,16,6.2,1395049.0,1395049.0
-EMP007,Classic Santana,Santana,Alto Padrão,2021-11-01,1,0,15,6.7,1384388.0,1384388.0
-EMP007,Classic Santana,Santana,Alto Padrão,2021-12-01,0,0,14,0.0,1414355.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2022-01-01,0,0,14,0.0,1473249.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2022-02-01,1,0,14,7.1,1382639.0,1382639.0
-EMP007,Classic Santana,Santana,Alto Padrão,2022-03-01,0,0,13,0.0,1383497.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2022-04-01,0,1,13,0.0,1367340.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2022-05-01,0,0,14,0.0,1388863.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2022-06-01,0,0,14,0.0,1417759.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2022-07-01,1,0,14,7.1,1358304.0,1358304.0
-EMP007,Classic Santana,Santana,Alto Padrão,2022-08-01,0,0,13,0.0,1497374.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2022-09-01,0,1,13,0.0,1510944.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2022-10-01,0,0,14,0.0,1519597.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2022-11-01,0,0,14,0.0,1498616.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2022-12-01,0,0,14,0.0,1488015.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2023-01-01,0,0,14,0.0,1418894.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2023-02-01,0,1,14,0.0,1439761.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2023-03-01,0,0,15,0.0,1435738.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2023-04-01,1,0,15,6.7,1487871.0,1487871.0
-EMP007,Classic Santana,Santana,Alto Padrão,2023-05-01,0,0,14,0.0,1444729.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2023-06-01,0,0,14,0.0,1448468.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2023-07-01,0,1,14,0.0,1448560.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2023-08-01,0,0,15,0.0,1395474.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2023-09-01,0,0,15,0.0,1354783.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2023-10-01,0,0,15,0.0,1410040.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2023-11-01,0,0,15,0.0,1373023.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2023-12-01,0,0,15,0.0,1514045.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2024-01-01,1,0,15,6.7,1495500.0,1495500.0
-EMP007,Classic Santana,Santana,Alto Padrão,2024-02-01,0,0,14,0.0,1442308.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2024-03-01,0,0,14,0.0,1458481.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2024-04-01,0,0,14,0.0,1487499.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2024-05-01,0,1,14,0.0,1403032.0,0.0
-EMP007,Classic Santana,Santana,Alto Padrão,2024-06-01,0,0,15,0.0,1417542.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2021-06-01,31,0,130,23.8,1733920.0,53751505.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2021-07-01,25,0,99,25.3,1875133.0,46878332.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2021-08-01,9,0,74,12.2,1676953.0,15092578.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2021-09-01,11,0,65,16.9,1688394.0,18572337.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2021-10-01,5,0,54,9.3,1695945.0,8479724.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2021-11-01,4,2,49,8.2,1718015.0,6872061.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2021-12-01,5,0,47,10.6,1746083.0,8730414.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2022-01-01,3,0,42,7.1,1874207.0,5622620.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2022-02-01,4,0,39,10.3,1871315.0,7485261.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2022-03-01,3,0,35,8.6,1848027.0,5544082.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2022-04-01,1,2,32,3.1,1692433.0,1692433.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2022-05-01,2,0,33,6.1,1803930.0,3607860.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2022-06-01,2,0,31,6.5,1782195.0,3564390.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2022-07-01,2,0,29,6.9,1716869.0,3433738.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2022-08-01,1,0,27,3.7,1726658.0,1726658.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2022-09-01,2,2,26,7.7,1749452.0,3498903.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2022-10-01,0,0,26,0.0,1679877.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2022-11-01,1,0,26,3.8,1790933.0,1790933.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2022-12-01,2,0,25,8.0,1688731.0,3377462.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2023-01-01,0,0,23,0.0,1761929.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2023-02-01,0,2,23,0.0,1729553.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2023-03-01,1,0,25,4.0,1684263.0,1684263.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2023-04-01,1,0,24,4.2,1711193.0,1711193.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2023-05-01,0,0,23,0.0,1806810.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2023-06-01,1,0,23,4.3,1759787.0,1759787.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2023-07-01,1,2,22,4.5,1746406.0,1746406.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2023-08-01,1,0,23,4.3,1840213.0,1840213.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2023-09-01,0,0,22,0.0,1870320.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2023-10-01,1,0,22,4.5,1864342.0,1864342.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2023-11-01,0,0,21,0.0,1694750.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2023-12-01,0,2,21,0.0,1782836.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2024-01-01,0,0,23,0.0,1842723.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2024-02-01,1,0,23,4.3,1699318.0,1699318.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2024-03-01,0,0,22,0.0,1690813.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2024-04-01,1,0,22,4.5,1803158.0,1803158.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2024-05-01,0,2,21,0.0,1771321.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2024-06-01,1,0,23,4.3,1742062.0,1742062.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2024-07-01,0,0,22,0.0,1837072.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2024-08-01,0,0,22,0.0,1757794.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2024-09-01,0,0,22,0.0,1721662.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2024-10-01,0,2,22,0.0,1706169.0,0.0
-EMP008,Infinity Brooklin,Brooklin,Premium,2024-11-01,1,0,24,4.2,1855659.0,1855659.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-02-01,23,0,98,23.5,1957712.0,45027373.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-03-01,13,0,75,17.3,1891070.0,24583911.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-04-01,8,0,62,12.9,1776559.0,14212470.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-05-01,9,0,54,16.7,1931161.0,17380446.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-06-01,5,0,45,11.1,1954742.0,9773708.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-07-01,6,1,40,15.0,1929879.0,11579274.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-08-01,3,0,35,8.6,1802347.0,5407042.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-09-01,2,0,32,6.2,1919336.0,3838672.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-10-01,3,0,30,10.0,1923707.0,5771121.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-11-01,2,0,27,7.4,1950698.0,3901395.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-12-01,2,1,25,8.0,1769796.0,3539592.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-01-01,1,0,24,4.2,1943540.0,1943540.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-02-01,1,0,23,4.3,1931933.0,1931933.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-03-01,1,0,22,4.5,1779072.0,1779072.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-04-01,1,0,21,4.8,1913690.0,1913690.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-05-01,1,1,20,5.0,1895063.0,1895063.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-06-01,1,0,20,5.0,1803129.0,1803129.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-07-01,2,0,19,10.5,1825300.0,3650600.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-08-01,0,0,17,0.0,1852763.0,0.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-09-01,1,0,17,5.9,1967348.0,1967348.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-10-01,0,2,16,0.0,1863125.0,0.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-11-01,0,0,18,0.0,1888052.0,0.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-12-01,0,0,18,0.0,1908168.0,0.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-01-01,0,0,18,0.0,1961496.0,0.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-02-01,0,0,18,0.0,1879748.0,0.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-03-01,0,2,18,0.0,1886933.0,0.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-04-01,1,0,20,5.0,1964298.0,1964298.0
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-05-01,0,0,19,0.0,1962221.0,0.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-05-01,24,0,123,19.5,548438.0,13162501.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-06-01,21,0,99,21.2,538874.0,11316357.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-07-01,12,0,78,15.4,522648.0,6271774.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-08-01,12,0,66,18.2,510048.0,6120582.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-09-01,5,0,54,9.3,536512.0,2682561.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-10-01,4,1,49,8.2,484206.0,1936824.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-11-01,4,0,46,8.7,519117.0,2076469.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-12-01,3,0,42,7.1,544179.0,1632537.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-01-01,3,0,39,7.7,532230.0,1596689.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-02-01,3,0,36,8.3,513536.0,1540607.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-03-01,2,2,33,6.1,493133.0,986265.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-04-01,1,0,33,3.0,495461.0,495461.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-05-01,0,0,32,0.0,543851.0,0.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-06-01,2,0,32,6.2,507650.0,1015299.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-07-01,3,0,30,10.0,484760.0,1454281.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-08-01,2,2,27,7.4,527383.0,1054766.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-09-01,1,0,27,3.7,489495.0,489495.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-10-01,1,0,26,3.8,549226.0,549226.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-11-01,3,0,25,12.0,488298.0,1464894.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-12-01,1,0,22,4.5,533046.0,533046.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-01-01,0,2,21,0.0,497345.0,0.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-02-01,0,0,23,0.0,496398.0,0.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-03-01,0,0,23,0.0,520916.0,0.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-04-01,0,0,23,0.0,488208.0,0.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-05-01,0,0,23,0.0,518265.0,0.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-06-01,1,2,23,4.3,512785.0,512785.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-07-01,1,0,24,4.2,494075.0,494075.0
-EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-08-01,0,0,23,0.0,495824.0,0.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2022-09-01,15,0,80,18.8,1722138.0,25832069.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2022-10-01,13,0,65,20.0,1671673.0,21731755.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2022-11-01,9,0,52,17.3,1589812.0,14308309.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2022-12-01,7,0,43,16.3,1631613.0,11421291.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-01-01,4,0,36,11.1,1588228.0,6352912.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-02-01,2,1,32,6.2,1606331.0,3212663.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-03-01,3,0,31,9.7,1724014.0,5172042.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-04-01,3,0,28,10.7,1635090.0,4905271.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-05-01,2,0,25,8.0,1738926.0,3477853.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-06-01,2,0,23,8.7,1767547.0,3535094.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-07-01,1,1,21,4.8,1727304.0,1727304.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-08-01,1,0,21,4.8,1627969.0,1627969.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-09-01,1,0,20,5.0,1586789.0,1586789.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-10-01,1,0,19,5.3,1602342.0,1602342.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-11-01,1,0,18,5.6,1674396.0,1674396.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-12-01,0,1,17,0.0,1775478.0,0.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-01-01,1,0,18,5.6,1639646.0,1639646.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-02-01,1,0,17,5.9,1665444.0,1665444.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-03-01,0,0,16,0.0,1717880.0,0.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-04-01,1,0,16,6.2,1671819.0,1671819.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-05-01,0,1,15,0.0,1647163.0,0.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-06-01,1,0,16,6.2,1787443.0,1787443.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-07-01,0,0,15,0.0,1770286.0,0.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-08-01,0,0,15,0.0,1688554.0,0.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-09-01,0,0,15,0.0,1675208.0,0.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-10-01,0,1,15,0.0,1588820.0,0.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-11-01,0,0,16,0.0,1719881.0,0.0
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-12-01,0,0,16,0.0,1639317.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2023-01-01,11,0,51,21.6,1877286.0,20650141.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2023-02-01,8,0,40,20.0,1774390.0,14195121.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2023-03-01,4,0,32,12.5,1660596.0,6642383.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2023-04-01,4,0,28,14.3,1861560.0,7446241.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2023-05-01,2,0,24,8.3,1717945.0,3435890.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2023-06-01,1,0,22,4.5,1780780.0,1780780.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2023-07-01,2,0,21,9.5,1702774.0,3405547.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2023-08-01,2,0,19,10.5,1658937.0,3317874.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2023-09-01,1,0,17,5.9,1791175.0,1791175.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2023-10-01,2,0,16,12.5,1805647.0,3611295.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2023-11-01,0,0,14,0.0,1772871.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2023-12-01,0,0,14,0.0,1667006.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2024-01-01,1,0,14,7.1,1675043.0,1675043.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2024-02-01,0,0,13,0.0,1791766.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2024-03-01,0,0,13,0.0,1721229.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2024-04-01,0,0,13,0.0,1736253.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2024-05-01,0,0,13,0.0,1783523.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2024-06-01,1,0,13,7.7,1763255.0,1763255.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2024-07-01,0,0,12,0.0,1820797.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2024-08-01,0,0,12,0.0,1704685.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2024-09-01,0,0,12,0.0,1767812.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2024-10-01,0,0,12,0.0,1790351.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2024-11-01,0,0,12,0.0,1680382.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2024-12-01,0,0,12,0.0,1673325.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2025-01-01,0,0,12,0.0,1810889.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2025-02-01,0,0,12,0.0,1754008.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2025-03-01,0,0,12,0.0,1835791.0,0.0
-EMP012,Verdi Aclimação,Aclimação,Premium,2025-04-01,0,0,12,0.0,1812301.0,0.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2023-04-01,23,0,101,22.8,578235.0,13299407.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2023-05-01,14,0,78,17.9,558124.0,7813737.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2023-06-01,10,0,64,15.6,565108.0,5651079.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2023-07-01,9,0,54,16.7,591742.0,5325677.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2023-08-01,5,0,45,11.1,611500.0,3057499.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2023-09-01,4,1,40,10.0,600468.0,2401870.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2023-10-01,4,0,37,10.8,569926.0,2279703.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2023-11-01,3,0,33,9.1,587824.0,1763473.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2023-12-01,3,0,30,10.0,564768.0,1694303.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2024-01-01,3,0,27,11.1,593686.0,1781059.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2024-02-01,1,1,24,4.2,620297.0,620297.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2024-03-01,2,0,24,8.3,623780.0,1247560.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2024-04-01,1,0,22,4.5,615642.0,615642.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2024-05-01,1,0,21,4.8,614336.0,614336.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2024-06-01,1,0,20,5.0,554050.0,554050.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2024-07-01,1,2,19,5.3,595801.0,595801.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2024-08-01,1,0,20,5.0,557032.0,557032.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2024-09-01,1,0,19,5.3,603267.0,603267.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2024-10-01,1,0,18,5.6,556166.0,556166.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2024-11-01,0,0,17,0.0,574825.0,0.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2024-12-01,1,2,17,5.9,575083.0,575083.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2025-01-01,0,0,18,0.0,598012.0,0.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2025-02-01,0,0,18,0.0,568678.0,0.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2025-03-01,1,0,18,5.6,553109.0,553109.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2025-04-01,0,0,17,0.0,621392.0,0.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2025-05-01,1,2,17,5.9,610919.0,610919.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2025-06-01,0,0,18,0.0,587112.0,0.0
-EMP013,Inside Brooklin II,Brooklin,Smart,2025-07-01,1,0,18,5.6,598133.0,598133.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2023-07-01,22,0,108,20.4,1841631.0,40515888.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2023-08-01,21,0,86,24.4,1916237.0,40240977.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2023-09-01,9,0,65,13.8,1825887.0,16432981.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2023-10-01,8,0,56,14.3,1809989.0,14479915.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2023-11-01,4,0,48,8.3,1752153.0,7008612.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2023-12-01,4,1,44,9.1,1746439.0,6985757.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-01-01,4,0,41,9.8,1832895.0,7331579.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-02-01,4,0,37,10.8,1902569.0,7610275.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-03-01,4,0,33,12.1,1965109.0,7860436.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-04-01,3,0,29,10.3,1852494.0,5557483.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-05-01,1,2,26,3.8,1976065.0,1976065.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-06-01,2,0,27,7.4,1796880.0,3593759.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-07-01,1,0,25,4.0,1885603.0,1885603.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-08-01,1,0,24,4.2,1863179.0,1863179.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-09-01,1,0,23,4.3,1794241.0,1794241.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-10-01,1,2,22,4.5,1786208.0,1786208.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-11-01,1,0,23,4.3,1755869.0,1755869.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-12-01,2,0,22,9.1,1970859.0,3941717.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-01-01,1,0,20,5.0,1906432.0,1906432.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-02-01,1,0,19,5.3,1778530.0,1778530.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-03-01,0,2,18,0.0,1795027.0,0.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-04-01,1,0,20,5.0,1868908.0,1868908.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-05-01,1,0,19,5.3,1763806.0,1763806.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-06-01,1,0,18,5.6,1949238.0,1949238.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-07-01,0,0,17,0.0,1951901.0,0.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-08-01,0,2,17,0.0,1967685.0,0.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-09-01,0,0,19,0.0,1896811.0,0.0
-EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-10-01,0,0,19,0.0,1872184.0,0.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2023-10-01,14,0,69,20.3,1227678.0,17187487.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2023-11-01,11,0,55,20.0,1209805.0,13307850.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2023-12-01,7,0,44,15.9,1181522.0,8270655.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-01-01,7,0,37,18.9,1203542.0,8424794.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-02-01,2,0,30,6.7,1303408.0,2606817.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-03-01,3,1,28,10.7,1247058.0,3741174.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-04-01,4,0,26,15.4,1299210.0,5196842.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-05-01,2,0,22,9.1,1223740.0,2447480.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-06-01,2,0,20,10.0,1210956.0,2421912.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-07-01,2,0,18,11.1,1307748.0,2615497.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-08-01,1,1,16,6.2,1303309.0,1303309.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-09-01,1,0,16,6.2,1305954.0,1305954.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-10-01,1,0,15,6.7,1279078.0,1279078.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-11-01,1,0,14,7.1,1276335.0,1276335.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-12-01,1,0,13,7.7,1193797.0,1193797.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-01-01,0,1,12,0.0,1308103.0,0.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-02-01,0,0,13,0.0,1221732.0,0.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-03-01,0,0,13,0.0,1286364.0,0.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-04-01,1,0,13,7.7,1300390.0,1300390.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-05-01,0,0,12,0.0,1249008.0,0.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-06-01,0,1,12,0.0,1268687.0,0.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-07-01,0,0,13,0.0,1209812.0,0.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-08-01,0,0,13,0.0,1292115.0,0.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-09-01,1,0,13,7.7,1185627.0,1185627.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-10-01,0,0,12,0.0,1321100.0,0.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-11-01,0,1,12,0.0,1222801.0,0.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-12-01,0,0,13,0.0,1184919.0,0.0
-EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2026-01-01,0,0,13,0.0,1317022.0,0.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2024-03-01,28,0,137,20.4,1954493.0,54725810.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2024-04-01,24,0,109,22.0,2058049.0,49393176.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2024-05-01,13,0,85,15.3,1965917.0,25556915.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2024-06-01,10,0,72,13.9,2035859.0,20358591.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2024-07-01,6,0,62,9.7,2070788.0,12424725.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2024-08-01,6,2,56,10.7,1884209.0,11305253.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2024-09-01,7,0,52,13.5,2051723.0,14362059.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2024-10-01,4,0,45,8.9,1991352.0,7965409.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2024-11-01,3,0,41,7.3,1919567.0,5758700.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2024-12-01,2,0,38,5.3,2080081.0,4160163.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2025-01-01,1,2,36,2.8,1898906.0,1898906.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2025-02-01,3,0,37,8.1,2051012.0,6153035.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2025-03-01,1,0,34,2.9,2119767.0,2119767.0
-EMP016,Infinity Perdizes,Perdizes,Premium,2025-04-01,2,0,33,6.1,1916371.0,3832742.0
-EMP017,Inside Perdizes,Perdizes,Smart,2024-06-01,33,0,144,22.9,507282.0,16740315.0
-EMP017,Inside Perdizes,Perdizes,Smart,2024-07-01,24,0,111,21.6,521504.0,12516100.0
-EMP017,Inside Perdizes,Perdizes,Smart,2024-08-01,11,0,87,12.6,543959.0,5983544.0
-EMP017,Inside Perdizes,Perdizes,Smart,2024-09-01,11,0,76,14.5,506607.0,5572674.0
-EMP017,Inside Perdizes,Perdizes,Smart,2024-10-01,6,0,65,9.2,493852.0,2963111.0
-EMP017,Inside Perdizes,Perdizes,Smart,2024-11-01,6,2,59,10.2,482024.0,2892142.0
-EMP017,Inside Perdizes,Perdizes,Smart,2024-12-01,4,0,55,7.3,536183.0,2144733.0
-EMP017,Inside Perdizes,Perdizes,Smart,2025-01-01,7,0,51,13.7,510759.0,3575311.0
-EMP017,Inside Perdizes,Perdizes,Smart,2025-02-01,5,0,44,11.4,530110.0,2650550.0
-EMP017,Inside Perdizes,Perdizes,Smart,2025-03-01,4,0,39,10.3,534911.0,2139644.0
-EMP017,Inside Perdizes,Perdizes,Smart,2025-04-01,2,2,35,5.7,488531.0,977062.0
-EMP017,Inside Perdizes,Perdizes,Smart,2025-05-01,3,0,35,8.6,482114.0,1446343.0
-EMP017,Inside Perdizes,Perdizes,Smart,2025-06-01,2,0,32,6.2,531775.0,1063550.0
-EMP017,Inside Perdizes,Perdizes,Smart,2025-07-01,2,0,30,6.7,511299.0,1022598.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2024-09-01,31,0,152,20.4,2024035.0,62745077.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2024-10-01,30,0,121,24.8,2101704.0,63051133.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2024-11-01,14,0,91,15.4,2042305.0,28592271.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2024-12-01,11,0,77,14.3,2183349.0,24016835.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-01-01,6,0,66,9.1,1973627.0,11841763.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-02-01,4,2,60,6.7,1989858.0,7959433.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-03-01,5,0,58,8.6,2130637.0,10653185.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-04-01,3,0,53,5.7,2048354.0,6145063.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-05-01,6,0,50,12.0,2178623.0,13071740.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-06-01,5,0,44,11.4,1981098.0,9905491.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-07-01,1,2,39,2.6,2035114.0,2035114.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-08-01,2,0,40,5.0,2233809.0,4467619.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-09-01,2,0,38,5.3,2135476.0,4270953.0
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-10-01,1,0,36,2.8,2157974.0,2157974.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-01-01,18,0,87,20.7,1705300.0,30695403.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-02-01,15,0,69,21.7,1747595.0,26213926.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-03-01,8,0,54,14.8,1640446.0,13123570.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-04-01,6,0,46,13.0,1650481.0,9902886.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-05-01,3,0,40,7.5,1758615.0,5275844.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-06-01,3,1,37,8.1,1785578.0,5356735.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-07-01,3,0,35,8.6,1670142.0,5010426.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-08-01,3,0,32,9.4,1656229.0,4968686.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-09-01,4,0,29,13.8,1640089.0,6560355.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-10-01,3,0,25,12.0,1840146.0,5520439.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-11-01,1,1,22,4.5,1789912.0,1789912.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-12-01,1,0,22,4.5,1825718.0,1825718.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2026-01-01,1,0,21,4.8,1708173.0,1708173.0
-EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2026-02-01,1,0,20,5.0,1813302.0,1813302.0
-EMP020,Classic Moema,Moema,Alto Padrão,2025-05-01,24,0,101,23.8,1634117.0,39218809.0
-EMP020,Classic Moema,Moema,Alto Padrão,2025-06-01,17,0,77,22.1,1673997.0,28457957.0
-EMP020,Classic Moema,Moema,Alto Padrão,2025-07-01,11,0,60,18.3,1556823.0,17125053.0
-EMP020,Classic Moema,Moema,Alto Padrão,2025-08-01,8,0,49,16.3,1552386.0,12419090.0
-EMP020,Classic Moema,Moema,Alto Padrão,2025-09-01,3,0,41,7.3,1721582.0,5164745.0
-EMP020,Classic Moema,Moema,Alto Padrão,2025-10-01,3,1,38,7.9,1585511.0,4756534.0
-EMP020,Classic Moema,Moema,Alto Padrão,2025-11-01,4,0,36,11.1,1677152.0,6708609.0
-EMP020,Classic Moema,Moema,Alto Padrão,2025-12-01,3,0,32,9.4,1643683.0,4931050.0
-EMP020,Classic Moema,Moema,Alto Padrão,2026-01-01,4,0,29,13.8,1587438.0,6349753.0
-EMP020,Classic Moema,Moema,Alto Padrão,2026-02-01,2,0,25,8.0,1747552.0,3495105.0
-EMP020,Classic Moema,Moema,Alto Padrão,2026-03-01,1,1,23,4.3,1581410.0,1581410.0
-EMP020,Classic Moema,Moema,Alto Padrão,2026-04-01,1,0,23,4.3,1681640.0,1681640.0
-EMP020,Classic Moema,Moema,Alto Padrão,2026-05-01,1,0,22,4.5,1720850.0,1720850.0
-EMP020,Classic Moema,Moema,Alto Padrão,2026-06-01,0,0,21,0.0,1691428.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-03-01,22,0,128,17.11,1453125.0,31968750.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-04-01,15,0,106,14.33,1460391.0,21905859.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-05-01,12,0,91,13.16,1467656.0,17611875.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-06-01,8,0,79,10.25,1474922.0,11799375.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-07-01,6,0,71,9.08,1482188.0,8893125.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-08-01,5,0,65,7.46,1489453.0,7447266.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-09-01,5,0,60,7.59,1496719.0,7483594.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-10-01,4,0,55,6.58,1503984.0,6015938.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-11-01,2,0,51,4.84,1511250.0,3022500.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2018-12-01,2,0,49,4.75,1518516.0,3037031.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-01-01,2,0,47,4.39,1525781.0,3051562.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-02-01,2,0,45,3.49,1533047.0,3066094.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-03-01,1,0,43,3.01,1540312.0,1540312.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-04-01,1,0,42,2.2,1547578.0,1547578.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-05-01,1,0,41,1.65,1554844.0,1554844.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-06-01,1,0,40,2.57,1562109.0,1562109.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-07-01,1,0,39,2.33,1569375.0,1569375.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-08-01,1,0,38,1.73,1576641.0,1576641.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-09-01,0,0,37,1.11,1583906.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-10-01,0,0,37,0.97,1591172.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-11-01,1,0,37,1.4,1598438.0,1598438.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2019-12-01,1,0,36,1.54,1605703.0,1605703.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-01-01,1,0,35,1.43,1612969.0,1612969.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-02-01,0,0,34,1.19,1620234.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-03-01,0,0,34,0.91,1627500.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-04-01,0,0,34,0.5,1634766.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-05-01,0,0,34,0.5,1642031.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-06-01,0,0,34,1.13,1649297.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-07-01,0,0,34,0.65,1656563.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-08-01,0,0,34,0.5,1663828.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-09-01,0,0,34,0.5,1671094.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-10-01,0,0,34,0.65,1678359.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-11-01,0,0,34,0.5,1685625.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2020-12-01,0,0,34,0.5,1692891.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-01-01,0,0,34,0.5,1700156.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-02-01,0,0,34,0.62,1707422.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-03-01,0,0,34,0.55,1714688.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-04-01,0,0,34,0.5,1721953.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-05-01,0,0,34,0.62,1729219.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-06-01,0,0,34,0.5,1736484.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-07-01,0,0,34,0.5,1743750.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-08-01,0,0,34,0.65,1751016.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-09-01,0,0,34,0.5,1758281.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-10-01,0,0,34,0.8,1765547.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-11-01,0,0,34,0.51,1772812.0,0.0
+EMP001,Alta Vista Brooklin,Brooklin,Alto Padrão,2021-12-01,0,0,34,0.5,1780078.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-05-01,15,0,96,15.89,1479167.0,22187500.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-06-01,11,0,81,13.52,1486562.0,16352188.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-07-01,8,0,70,11.58,1493958.0,11951667.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-08-01,7,0,62,11.04,1501354.0,10509479.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-09-01,5,0,55,8.76,1508750.0,7543750.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-10-01,4,0,50,8.29,1516146.0,6064583.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-11-01,3,0,46,6.86,1523542.0,4570625.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2019-12-01,3,0,43,6.2,1530938.0,4592812.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-01-01,2,0,40,4.99,1538333.0,3076667.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-02-01,2,0,38,4.44,1545729.0,3091458.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-03-01,1,0,36,3.74,1553125.0,1553125.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-04-01,1,0,35,2.81,1560521.0,1560521.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-05-01,1,0,34,3.18,1567917.0,1567917.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-06-01,1,0,33,2.15,1575312.0,1575312.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-07-01,0,0,32,1.45,1582708.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-08-01,1,0,32,2.12,1590104.0,1590104.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-09-01,0,0,31,1.18,1597500.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-10-01,1,0,31,2.13,1604896.0,1604896.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-11-01,1,0,30,1.98,1612292.0,1612292.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2020-12-01,1,0,29,1.77,1619688.0,1619688.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-01-01,0,0,28,0.83,1627083.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-02-01,0,0,28,0.5,1634479.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-03-01,0,0,28,1.47,1641875.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-04-01,0,0,28,0.64,1649271.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-05-01,0,0,28,1.37,1656667.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-06-01,0,0,28,1.31,1664062.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-07-01,0,0,28,1.09,1671458.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-08-01,0,0,28,0.5,1678854.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-09-01,0,0,28,0.5,1686250.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-10-01,0,0,28,0.98,1693646.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-11-01,0,0,28,0.5,1701042.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2021-12-01,0,0,28,0.5,1708438.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-01-01,0,0,28,0.5,1715833.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-02-01,0,0,28,1.01,1723229.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-03-01,0,0,28,0.64,1730625.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-04-01,0,0,28,0.5,1738021.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-05-01,0,0,28,0.5,1745417.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-06-01,0,0,28,0.5,1752813.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-07-01,0,0,28,1.04,1760208.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-08-01,0,0,28,0.5,1767604.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-09-01,0,0,28,0.5,1775000.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-10-01,0,0,28,0.85,1782396.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-11-01,0,0,28,0.64,1789792.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2022-12-01,0,0,28,0.57,1797188.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2023-01-01,0,0,28,0.57,1804583.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2023-02-01,0,0,28,0.5,1811979.0,0.0
+EMP002,Insígnia Campo Belo,Campo Belo,Alto Padrão,2023-03-01,0,0,28,0.5,1819375.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2019-08-01,4,0,16,26.81,4250000.0,17000000.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2019-09-01,3,0,12,23.76,4271250.0,12813750.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2019-10-01,2,0,9,21.08,4292500.0,8585000.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2019-11-01,1,0,7,18.05,4313750.0,4313750.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2019-12-01,1,0,6,15.9,4335000.0,4335000.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-01-01,1,0,5,14.47,4356250.0,4356250.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-02-01,1,0,4,12.59,4377500.0,4377500.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-03-01,0,0,3,11.22,4398750.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-04-01,0,0,3,10.08,4420000.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-05-01,0,0,3,9.09,4441250.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-06-01,0,0,3,7.27,4462500.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-07-01,0,0,3,6.46,4483750.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-08-01,0,0,3,5.27,4505000.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-09-01,0,0,3,5.32,4526250.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-10-01,0,0,3,3.91,4547500.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-11-01,0,0,3,4.03,4568750.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2020-12-01,0,0,3,3.69,4590000.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-01-01,0,0,3,2.9,4611250.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-02-01,0,0,3,3.0,4632500.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-03-01,0,0,3,1.85,4653750.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-04-01,0,0,3,1.58,4675000.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-05-01,0,0,3,2.51,4696250.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-06-01,0,0,3,1.61,4717500.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-07-01,0,0,3,1.07,4738750.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-08-01,0,0,3,1.5,4760000.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-09-01,0,0,3,1.72,4781250.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-10-01,0,0,3,0.76,4802500.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-11-01,0,0,3,1.26,4823750.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2021-12-01,0,0,3,0.5,4845000.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-01-01,0,0,3,0.5,4866250.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-02-01,0,0,3,0.86,4887500.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-03-01,0,0,3,0.81,4908750.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-04-01,0,0,3,0.89,4930000.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-05-01,0,0,3,0.97,4951250.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-06-01,0,0,3,1.3,4972500.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-07-01,0,0,3,0.57,4993750.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-08-01,0,0,3,0.5,5015000.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-09-01,0,0,3,0.92,5036250.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-10-01,0,0,3,0.5,5057500.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-11-01,0,0,3,0.5,5078750.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2022-12-01,0,0,3,0.5,5100000.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2023-01-01,0,0,3,0.5,5121250.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2023-02-01,0,0,3,1.07,5142500.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2023-03-01,0,0,3,0.86,5163750.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2023-04-01,0,0,3,0.64,5185000.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2023-05-01,0,0,3,0.5,5206250.0,0.0
+EMP003,Verdi Alto de Pinheiros,Pinheiros,Premium,2023-06-01,0,0,3,0.5,5227500.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2020-02-01,26,0,120,21.44,450000.0,11700000.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2020-03-01,19,0,94,19.73,452250.0,8592750.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2020-04-01,14,0,75,18.04,454500.0,6363000.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2020-05-01,10,0,61,16.21,456750.0,4567500.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2020-06-01,7,0,51,14.07,459000.0,3213000.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2020-07-01,6,0,44,13.67,461250.0,2767500.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2020-08-01,5,0,38,12.07,463500.0,2317500.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2020-09-01,4,0,33,10.65,465750.0,1863000.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2020-10-01,3,0,29,9.7,468000.0,1404000.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2020-11-01,2,0,26,8.48,470250.0,940500.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2020-12-01,2,0,24,7.39,472500.0,945000.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2021-01-01,1,0,22,6.8,474750.0,474750.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2021-02-01,1,0,21,6.73,477000.0,477000.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2021-03-01,1,0,20,5.0,479250.0,479250.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2021-04-01,1,0,19,4.61,481500.0,481500.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2021-05-01,1,0,18,4.01,483750.0,483750.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2021-06-01,1,0,17,3.56,486000.0,486000.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2021-07-01,1,0,16,4.38,488250.0,488250.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2021-08-01,1,0,15,3.79,490500.0,490500.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2021-09-01,0,0,14,3.12,492750.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2021-10-01,0,0,14,2.27,495000.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2021-11-01,0,0,14,2.6,497250.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2021-12-01,0,0,14,2.33,499500.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2022-01-01,0,0,14,1.67,501750.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2022-02-01,0,0,14,1.87,504000.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2022-03-01,0,0,14,1.65,506250.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2022-04-01,0,0,14,1.82,508500.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2022-05-01,0,0,14,1.71,510750.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2022-06-01,0,0,14,0.7,513000.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2022-07-01,0,0,14,1.08,515250.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2022-08-01,0,0,14,1.35,517500.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2022-09-01,0,0,14,1.08,519750.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2022-10-01,0,0,14,1.53,522000.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2022-11-01,0,0,14,1.15,524250.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2022-12-01,0,0,14,0.5,526500.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2023-01-01,0,0,14,0.5,528750.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2023-02-01,0,0,14,0.95,531000.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2023-03-01,0,0,14,0.5,533250.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2023-04-01,0,0,14,0.77,535500.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2023-05-01,0,0,14,1.26,537750.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2023-06-01,0,0,14,0.68,540000.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2023-07-01,0,0,14,0.5,542250.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2023-08-01,0,0,14,0.72,544500.0,0.0
+EMP004,Inside Brooklin I,Brooklin,Smart,2023-09-01,0,0,14,0.5,546750.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-06-01,15,0,72,20.82,1361111.0,20416667.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-07-01,10,0,57,17.2,1367917.0,13679167.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-08-01,7,0,47,15.67,1374722.0,9623056.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-09-01,5,0,40,13.52,1381528.0,6907639.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-10-01,4,0,35,10.68,1388333.0,5553333.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-11-01,3,0,31,8.97,1395139.0,4185417.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2020-12-01,2,0,28,7.71,1401944.0,2803889.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-01-01,2,0,26,6.45,1408750.0,2817500.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-02-01,1,0,24,5.6,1415556.0,1415556.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-03-01,1,0,23,5.65,1422361.0,1422361.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-04-01,1,0,22,4.01,1429167.0,1429167.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-05-01,1,0,21,3.77,1435972.0,1435972.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-06-01,1,0,20,4.03,1442778.0,1442778.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-07-01,0,0,19,2.34,1449583.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-08-01,1,0,19,3.13,1456389.0,1456389.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-09-01,0,0,18,2.0,1463194.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-10-01,0,0,18,1.46,1470000.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-11-01,0,0,18,2.08,1476806.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2021-12-01,0,0,18,1.76,1483611.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-01-01,0,0,18,1.95,1490417.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-02-01,0,0,18,1.58,1497222.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-03-01,0,0,18,1.54,1504028.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-04-01,0,0,18,0.64,1510833.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-05-01,0,0,18,0.5,1517639.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-06-01,0,0,18,1.16,1524444.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-07-01,0,0,18,1.17,1531250.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-08-01,0,0,18,1.38,1538056.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-09-01,0,0,18,0.5,1544861.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-10-01,0,0,18,0.5,1551667.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-11-01,0,0,18,0.92,1558472.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2022-12-01,0,0,18,0.5,1565278.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-01-01,0,0,18,1.08,1572083.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-02-01,0,0,18,0.95,1578889.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-03-01,0,0,18,0.5,1585694.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-04-01,0,0,18,0.74,1592500.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-05-01,0,0,18,0.73,1599306.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-06-01,0,0,18,0.5,1606111.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-07-01,0,0,18,0.93,1612917.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-08-01,0,0,18,0.5,1619722.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-09-01,0,0,18,0.8,1626528.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-10-01,0,0,18,0.5,1633333.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-11-01,0,0,18,0.88,1640139.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2023-12-01,0,0,18,0.5,1646944.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2024-01-01,0,0,18,0.5,1653750.0,0.0
+EMP005,Insígnia Mooca,Mooca,Alto Padrão,2024-02-01,0,0,18,0.88,1660556.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2020-10-01,13,0,84,15.8,1404762.0,18261905.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2020-11-01,10,0,71,14.53,1411786.0,14117857.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2020-12-01,8,0,61,12.63,1418810.0,11350476.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-01-01,6,0,53,10.42,1425833.0,8555000.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-02-01,4,0,47,9.1,1432857.0,5731429.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-03-01,3,0,43,7.62,1439881.0,4319643.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-04-01,3,0,40,6.34,1446905.0,4340714.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-05-01,2,0,37,5.5,1453929.0,2907857.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-06-01,2,0,35,5.24,1460952.0,2921905.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-07-01,2,0,33,4.7,1467976.0,2935952.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-08-01,1,0,31,4.19,1475000.0,1475000.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-09-01,1,0,30,3.7,1482024.0,1482024.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-10-01,1,0,29,2.23,1489048.0,1489048.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-11-01,1,0,28,2.47,1496071.0,1496071.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2021-12-01,0,0,27,1.5,1503095.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-01-01,1,0,27,1.97,1510119.0,1510119.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-02-01,0,0,26,1.58,1517143.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-03-01,1,0,26,2.05,1524167.0,1524167.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-04-01,0,0,25,1.07,1531190.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-05-01,0,0,25,0.58,1538214.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-06-01,0,0,25,0.5,1545238.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-07-01,0,0,25,1.31,1552262.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-08-01,0,0,25,1.0,1559286.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-09-01,0,0,25,0.5,1566310.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-10-01,0,0,25,0.5,1573333.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-11-01,0,0,25,0.92,1580357.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2022-12-01,0,0,25,0.5,1587381.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-01-01,0,0,25,1.0,1594405.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-02-01,0,0,25,0.79,1601429.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-03-01,0,0,25,0.5,1608452.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-04-01,0,0,25,0.5,1615476.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-05-01,0,0,25,1.13,1622500.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-06-01,0,0,25,0.5,1629524.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-07-01,0,0,25,0.5,1636548.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-08-01,0,0,25,0.81,1643571.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-09-01,0,0,25,1.0,1650595.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-10-01,0,0,25,1.05,1657619.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-11-01,0,0,25,0.69,1664643.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2023-12-01,0,0,25,0.5,1671667.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2024-01-01,0,0,25,0.5,1678690.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2024-02-01,0,0,25,0.7,1685714.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2024-03-01,0,0,25,0.5,1692738.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2024-04-01,0,0,25,0.5,1699762.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2024-05-01,0,0,25,0.88,1706786.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2024-06-01,0,0,25,0.5,1713810.0,0.0
+EMP006,Reserva Chácara Klabin,Chácara Klabin,Alto Padrão,2024-07-01,0,0,25,0.5,1720833.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2021-01-01,9,0,60,15.31,1266667.0,11400000.0
+EMP007,Classic Santana,Santana,Alto Padrão,2021-02-01,6,0,51,12.57,1273000.0,7638000.0
+EMP007,Classic Santana,Santana,Alto Padrão,2021-03-01,5,0,45,10.85,1279333.0,6396667.0
+EMP007,Classic Santana,Santana,Alto Padrão,2021-04-01,4,0,40,9.28,1285667.0,5142667.0
+EMP007,Classic Santana,Santana,Alto Padrão,2021-05-01,3,0,36,8.73,1292000.0,3876000.0
+EMP007,Classic Santana,Santana,Alto Padrão,2021-06-01,3,0,33,7.72,1298333.0,3895000.0
+EMP007,Classic Santana,Santana,Alto Padrão,2021-07-01,2,0,30,6.48,1304667.0,2609333.0
+EMP007,Classic Santana,Santana,Alto Padrão,2021-08-01,2,0,28,6.2,1311000.0,2622000.0
+EMP007,Classic Santana,Santana,Alto Padrão,2021-09-01,1,0,26,4.58,1317333.0,1317333.0
+EMP007,Classic Santana,Santana,Alto Padrão,2021-10-01,1,0,25,3.81,1323667.0,1323667.0
+EMP007,Classic Santana,Santana,Alto Padrão,2021-11-01,1,0,24,4.15,1330000.0,1330000.0
+EMP007,Classic Santana,Santana,Alto Padrão,2021-12-01,1,0,23,2.71,1336333.0,1336333.0
+EMP007,Classic Santana,Santana,Alto Padrão,2022-01-01,1,0,22,3.42,1342667.0,1342667.0
+EMP007,Classic Santana,Santana,Alto Padrão,2022-02-01,0,0,21,1.64,1349000.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2022-03-01,1,0,21,2.78,1355333.0,1355333.0
+EMP007,Classic Santana,Santana,Alto Padrão,2022-04-01,0,0,20,1.14,1361667.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2022-05-01,0,0,20,2.19,1368000.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2022-06-01,0,0,20,1.45,1374333.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2022-07-01,0,0,20,1.99,1380667.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2022-08-01,0,0,20,0.5,1387000.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2022-09-01,0,0,20,1.07,1393333.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2022-10-01,0,0,20,1.59,1399667.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2022-11-01,0,0,20,0.83,1406000.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2022-12-01,0,0,20,0.91,1412333.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2023-01-01,0,0,20,0.95,1418667.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2023-02-01,0,0,20,0.53,1425000.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2023-03-01,0,0,20,0.74,1431333.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2023-04-01,0,0,20,0.63,1437667.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2023-05-01,0,0,20,1.07,1444000.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2023-06-01,0,0,20,0.5,1450333.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2023-07-01,0,0,20,0.5,1456667.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2023-08-01,0,0,20,1.07,1463000.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2023-09-01,0,0,20,0.96,1469333.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2023-10-01,0,0,20,0.5,1475667.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2023-11-01,0,0,20,0.52,1482000.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2023-12-01,0,0,20,0.5,1488333.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2024-01-01,0,0,20,0.5,1494667.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2024-02-01,0,0,20,0.5,1501000.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2024-03-01,0,0,20,0.5,1507333.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2024-04-01,0,0,20,0.5,1513667.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2024-05-01,0,0,20,0.5,1520000.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2024-06-01,0,0,20,0.99,1526333.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2024-07-01,0,0,20,1.01,1532667.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2024-08-01,0,0,20,0.57,1539000.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2024-09-01,0,0,20,0.5,1545333.0,0.0
+EMP007,Classic Santana,Santana,Alto Padrão,2024-10-01,0,0,20,0.5,1551667.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2021-06-01,38,0,144,26.67,1555556.0,59111111.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2021-07-01,24,0,106,22.75,1563333.0,37520000.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2021-08-01,17,0,82,21.11,1571111.0,26708889.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2021-09-01,12,0,65,18.55,1578889.0,18946667.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2021-10-01,9,0,53,16.6,1586667.0,14280000.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2021-11-01,6,0,44,14.38,1594444.0,9566667.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2021-12-01,5,0,38,12.56,1602222.0,8011111.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2022-01-01,4,0,33,10.81,1610000.0,6440000.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2022-02-01,3,0,29,10.3,1617778.0,4853333.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2022-03-01,2,0,26,9.07,1625556.0,3251111.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2022-04-01,2,0,24,6.85,1633333.0,3266667.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2022-05-01,1,0,22,5.95,1641111.0,1641111.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2022-06-01,1,0,21,5.7,1648889.0,1648889.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2022-07-01,1,0,20,5.68,1656667.0,1656667.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2022-08-01,1,0,19,5.35,1664444.0,1664444.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2022-09-01,1,1,18,3.57,1672222.0,1672222.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2022-10-01,1,1,18,3.77,1680000.0,1680000.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2022-11-01,1,1,18,3.05,1687778.0,1687778.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2022-12-01,1,1,18,3.57,1695556.0,1695556.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2023-01-01,1,0,18,3.07,1703333.0,1703333.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2023-02-01,0,0,17,2.78,1711111.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2023-03-01,0,0,17,1.99,1718889.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2023-04-01,0,0,17,1.69,1726667.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2023-05-01,0,0,17,1.29,1734444.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2023-06-01,0,0,17,0.8,1742222.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2023-07-01,0,0,17,1.87,1750000.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2023-08-01,0,0,17,1.66,1757778.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2023-09-01,0,0,17,1.83,1765556.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2023-10-01,0,0,17,1.72,1773333.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2023-11-01,0,0,17,0.97,1781111.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2023-12-01,0,0,17,1.22,1788889.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2024-01-01,0,0,17,1.41,1796667.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2024-02-01,0,0,17,1.21,1804444.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2024-03-01,0,0,17,0.5,1812222.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2024-04-01,0,0,17,0.51,1820000.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2024-05-01,0,0,17,0.5,1827778.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2024-06-01,0,0,17,1.19,1835556.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2024-07-01,0,0,17,0.64,1843333.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2024-08-01,0,0,17,0.5,1851111.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2024-09-01,0,0,17,0.69,1858889.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2024-10-01,0,0,17,0.58,1866667.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2024-11-01,0,0,17,0.5,1874444.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2024-12-01,0,0,17,0.5,1882222.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2025-01-01,0,0,17,0.61,1890000.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2025-02-01,0,0,17,0.5,1897778.0,0.0
+EMP008,Infinity Brooklin,Brooklin,Premium,2025-03-01,0,0,17,0.74,1905556.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-02-01,22,0,108,20.46,1648148.0,36259259.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-03-01,15,0,86,17.25,1656389.0,24845833.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-04-01,11,0,71,14.9,1664630.0,18310926.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-05-01,8,0,60,13.33,1672870.0,13382963.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-06-01,6,0,52,10.87,1681111.0,10086667.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-07-01,4,0,46,8.96,1689352.0,6757407.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-08-01,3,0,42,7.51,1697593.0,5092778.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-09-01,3,0,39,7.48,1705833.0,5117500.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-10-01,2,0,36,6.32,1714074.0,3428148.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-11-01,2,0,34,5.62,1722315.0,3444630.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2022-12-01,1,0,32,4.17,1730556.0,1730556.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-01-01,1,0,31,3.45,1738796.0,1738796.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-02-01,1,0,30,2.74,1747037.0,1747037.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-03-01,1,0,29,2.8,1755278.0,1755278.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-04-01,1,0,28,2.77,1763519.0,1763519.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-05-01,1,0,27,2.14,1771759.0,1771759.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-06-01,0,0,26,1.92,1780000.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-07-01,1,0,26,2.37,1788241.0,1788241.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-08-01,0,0,25,1.33,1796481.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-09-01,0,0,25,1.39,1804722.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-10-01,0,0,25,1.64,1812963.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-11-01,0,0,25,0.92,1821204.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2023-12-01,0,0,25,1.15,1829444.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-01-01,0,0,25,1.41,1837685.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-02-01,0,0,25,1.45,1845926.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-03-01,0,0,25,0.5,1854167.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-04-01,0,0,25,1.28,1862407.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-05-01,0,0,25,0.57,1870648.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-06-01,0,0,25,0.5,1878889.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-07-01,0,0,25,0.5,1887130.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-08-01,0,0,25,1.18,1895370.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-09-01,0,0,25,0.5,1903611.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-10-01,0,0,25,0.5,1911852.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-11-01,0,0,25,0.59,1920093.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2024-12-01,0,0,25,0.5,1928333.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2025-01-01,0,0,25,0.5,1936574.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2025-02-01,0,0,25,0.5,1944815.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2025-03-01,0,0,25,0.5,1953056.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2025-04-01,0,0,25,0.5,1961296.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2025-05-01,0,0,25,0.5,1969537.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2025-06-01,0,0,25,0.51,1977778.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2025-07-01,0,0,25,0.5,1986019.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2025-08-01,0,0,25,0.5,1994259.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2025-09-01,0,0,25,0.88,2002500.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2025-10-01,0,0,25,0.5,2010741.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2025-11-01,0,0,25,0.52,2018981.0,0.0
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,Alto Padrão,2025-12-01,0,0,25,0.5,2027222.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-05-01,29,0,136,21.48,455882.0,13220588.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-06-01,21,0,107,19.48,458162.0,9621397.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-07-01,15,0,86,17.68,460441.0,6906618.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-08-01,11,0,71,15.75,462721.0,5089926.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-09-01,8,0,60,14.02,465000.0,3720000.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-10-01,7,0,52,12.63,467279.0,3270956.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-11-01,5,0,45,11.84,469559.0,2347794.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2022-12-01,4,0,40,10.3,471838.0,1887353.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-01-01,3,0,36,9.48,474118.0,1422353.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-02-01,3,0,33,8.75,476397.0,1429191.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-03-01,2,0,30,8.18,478676.0,957353.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-04-01,2,0,28,6.44,480956.0,961912.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-05-01,2,0,26,6.89,483235.0,966471.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-06-01,1,0,24,6.01,485515.0,485515.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-07-01,1,0,23,4.64,487794.0,487794.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-08-01,1,0,22,5.32,490074.0,490074.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-09-01,1,0,21,4.94,492353.0,492353.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-10-01,1,0,20,3.25,494632.0,494632.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-11-01,1,0,19,3.21,496912.0,496912.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2023-12-01,1,0,18,3.67,499191.0,499191.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-01-01,1,0,17,3.29,501471.0,501471.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-02-01,0,0,16,2.18,503750.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-03-01,0,0,16,1.97,506029.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-04-01,0,0,16,2.0,508309.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-05-01,0,0,16,1.98,510588.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-06-01,0,0,16,2.0,512868.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-07-01,0,0,16,1.47,515147.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-08-01,0,0,16,1.47,517426.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-09-01,0,0,16,1.77,519706.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-10-01,0,0,16,0.59,521985.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-11-01,0,0,16,0.81,524265.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2024-12-01,0,0,16,1.41,526544.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2025-01-01,0,0,16,1.6,528824.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2025-02-01,0,0,16,0.95,531103.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2025-03-01,0,0,16,0.91,533382.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2025-04-01,0,0,16,0.5,535662.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2025-05-01,0,0,16,0.67,537941.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2025-06-01,0,0,16,0.74,540221.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2025-07-01,0,0,16,0.5,542500.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2025-08-01,0,0,16,0.5,544779.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2025-09-01,0,0,16,0.5,547059.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2025-10-01,0,0,16,0.5,549338.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2025-11-01,0,0,16,0.5,551618.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2025-12-01,0,0,16,0.5,553897.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2026-01-01,0,0,16,0.5,556176.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2026-02-01,0,0,16,0.5,558456.0,0.0
+EMP010,Inside Chácara Klabin,Chácara Klabin,Smart,2026-03-01,0,0,16,1.01,560735.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2022-09-01,18,0,88,20.86,1500000.0,27000000.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2022-10-01,13,0,70,18.18,1507500.0,19597500.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2022-11-01,9,0,57,15.29,1515000.0,13635000.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2022-12-01,6,0,48,12.57,1522500.0,9135000.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-01-01,5,0,42,11.43,1530000.0,7650000.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-02-01,4,0,37,9.95,1537500.0,6150000.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-03-01,3,0,33,8.85,1545000.0,4635000.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-04-01,2,0,30,7.23,1552500.0,3105000.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-05-01,2,0,28,5.78,1560000.0,3120000.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-06-01,1,0,26,5.16,1567500.0,1567500.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-07-01,1,0,25,4.55,1575000.0,1575000.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-08-01,1,0,24,4.34,1582500.0,1582500.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-09-01,1,0,23,3.69,1590000.0,1590000.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-10-01,1,0,22,2.9,1597500.0,1597500.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-11-01,1,0,21,3.44,1605000.0,1605000.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2023-12-01,1,0,20,2.53,1612500.0,1612500.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-01-01,0,0,19,1.68,1620000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-02-01,0,0,19,1.22,1627500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-03-01,0,0,19,1.08,1635000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-04-01,0,0,19,1.03,1642500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-05-01,0,0,19,0.74,1650000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-06-01,0,0,19,0.64,1657500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-07-01,0,0,19,0.66,1665000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-08-01,0,0,19,0.5,1672500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-09-01,0,0,19,1.39,1680000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-10-01,0,0,19,0.5,1687500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-11-01,0,0,19,0.69,1695000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2024-12-01,0,0,19,0.5,1702500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2025-01-01,0,0,19,1.27,1710000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2025-02-01,0,0,19,0.5,1717500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2025-03-01,0,0,19,0.5,1725000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2025-04-01,0,0,19,1.14,1732500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2025-05-01,0,0,19,0.96,1740000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2025-06-01,0,0,19,0.87,1747500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2025-07-01,0,0,19,0.5,1755000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2025-08-01,0,0,19,0.5,1762500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2025-09-01,0,0,19,0.59,1770000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2025-10-01,0,0,19,0.97,1777500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2025-11-01,0,0,19,0.5,1785000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2025-12-01,0,0,19,0.5,1792500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2026-01-01,0,0,19,0.5,1800000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2026-02-01,0,0,19,0.7,1807500.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2026-03-01,0,0,19,0.5,1815000.0,0.0
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,Alto Padrão,2026-04-01,0,0,19,0.5,1822500.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2023-01-01,13,0,56,22.52,1571429.0,20428571.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2023-02-01,8,0,43,19.45,1579286.0,12634286.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2023-03-01,6,0,35,16.91,1587143.0,9522857.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2023-04-01,5,0,29,15.58,1595000.0,7975000.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2023-05-01,3,0,24,13.28,1602857.0,4808571.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2023-06-01,3,0,21,12.12,1610714.0,4832143.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2023-07-01,2,0,18,10.07,1618571.0,3237143.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2023-08-01,1,0,16,9.32,1626429.0,1626429.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2023-09-01,1,0,15,8.3,1634286.0,1634286.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2023-10-01,1,0,14,6.62,1642143.0,1642143.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2023-11-01,1,0,13,6.2,1650000.0,1650000.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2023-12-01,1,0,12,5.16,1657857.0,1657857.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2024-01-01,0,0,11,4.39,1665714.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2024-02-01,1,0,11,5.21,1673571.0,1673571.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2024-03-01,0,0,10,3.7,1681429.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2024-04-01,0,0,10,3.99,1689286.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2024-05-01,0,0,10,2.76,1697143.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2024-06-01,0,0,10,3.06,1705000.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2024-07-01,0,0,10,2.87,1712857.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2024-08-01,0,0,10,2.35,1720714.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2024-09-01,0,0,10,1.93,1728571.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2024-10-01,0,0,10,1.64,1736429.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2024-11-01,0,0,10,1.36,1744286.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2024-12-01,0,0,10,2.07,1752143.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2025-01-01,0,0,10,1.78,1760000.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2025-02-01,0,0,10,1.86,1767857.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2025-03-01,0,0,10,0.5,1775714.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2025-04-01,0,0,10,1.3,1783571.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2025-05-01,0,0,10,1.53,1791429.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2025-06-01,0,0,10,0.5,1799286.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2025-07-01,0,0,10,0.5,1807143.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2025-08-01,0,0,10,1.03,1815000.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2025-09-01,0,0,10,0.73,1822857.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2025-10-01,0,0,10,1.09,1830714.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2025-11-01,0,0,10,0.5,1838571.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2025-12-01,0,0,10,0.95,1846429.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2026-01-01,0,0,10,0.5,1854286.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2026-02-01,0,0,10,0.5,1862143.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2026-03-01,0,0,10,0.5,1870000.0,0.0
+EMP012,Verdi Aclimação,Aclimação,Premium,2026-04-01,0,0,10,0.87,1877857.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2023-04-01,30,0,112,26.94,517857.0,15535714.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2023-05-01,20,0,82,24.03,520446.0,10408929.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2023-06-01,14,0,62,22.4,523036.0,7322500.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2023-07-01,9,0,48,19.52,525625.0,4730625.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2023-08-01,7,0,39,18.21,528214.0,3697500.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2023-09-01,5,0,32,15.9,530804.0,2654018.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2023-10-01,4,0,27,14.23,533393.0,2133571.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2023-11-01,3,0,23,12.94,535982.0,1607946.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2023-12-01,2,0,20,11.42,538571.0,1077143.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2024-01-01,2,0,18,10.95,541161.0,1082321.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2024-02-01,2,0,16,9.55,543750.0,1087500.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2024-03-01,1,0,14,8.21,546339.0,546339.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2024-04-01,1,0,13,8.38,548929.0,548929.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2024-05-01,1,0,12,6.85,551518.0,551518.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2024-06-01,1,0,11,6.41,554107.0,554107.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2024-07-01,1,0,10,6.35,556696.0,556696.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2024-08-01,0,0,9,5.38,559286.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2024-09-01,0,0,9,4.12,561875.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2024-10-01,0,0,9,4.91,564464.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2024-11-01,0,0,9,4.04,567054.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2024-12-01,0,0,9,3.24,569643.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2025-01-01,0,0,9,2.63,572232.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2025-02-01,0,0,9,3.32,574821.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2025-03-01,0,0,9,2.79,577411.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2025-04-01,0,0,9,2.43,580000.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2025-05-01,0,0,9,2.75,582589.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2025-06-01,0,0,9,2.4,585179.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2025-07-01,0,0,9,1.28,587768.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2025-08-01,0,0,9,1.36,590357.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2025-09-01,0,0,9,1.13,592946.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2025-10-01,0,0,9,1.75,595536.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2025-11-01,0,0,9,0.57,598125.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2025-12-01,0,0,9,1.27,600714.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2026-01-01,0,0,9,1.47,603304.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2026-02-01,0,0,9,1.56,605893.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2026-03-01,0,0,9,0.68,608482.0,0.0
+EMP013,Inside Brooklin II,Brooklin,Smart,2026-04-01,0,0,9,1.33,611071.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2023-07-01,20,0,120,16.77,1633333.0,32666667.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2023-08-01,13,0,100,13.45,1641500.0,21339500.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2023-09-01,10,0,87,11.93,1649667.0,16496667.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2023-10-01,8,0,77,10.87,1657833.0,13262667.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2023-11-01,6,0,69,8.47,1666000.0,9996000.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2023-12-01,5,0,63,7.37,1674167.0,8370833.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-01-01,4,0,58,7.05,1682333.0,6729333.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-02-01,3,0,54,6.15,1690500.0,5071500.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-03-01,3,0,51,5.25,1698667.0,5096000.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-04-01,2,0,48,4.66,1706833.0,3413667.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-05-01,2,0,46,3.85,1715000.0,3430000.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-06-01,1,0,44,2.92,1723167.0,1723167.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-07-01,1,0,43,2.64,1731333.0,1731333.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-08-01,1,0,42,2.02,1739500.0,1739500.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-09-01,1,0,41,2.8,1747667.0,1747667.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-10-01,1,0,40,2.04,1755833.0,1755833.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-11-01,1,0,39,1.53,1764000.0,1764000.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2024-12-01,1,0,38,1.42,1772167.0,1772167.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-01-01,1,0,37,1.98,1780333.0,1780333.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-02-01,0,0,36,0.64,1788500.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-03-01,0,0,36,1.16,1796667.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-04-01,0,0,36,0.93,1804833.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-05-01,0,0,36,1.0,1813000.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-06-01,0,0,36,0.5,1821167.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-07-01,0,0,36,1.24,1829333.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-08-01,0,0,36,1.27,1837500.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-09-01,0,0,36,0.66,1845667.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-10-01,0,0,36,0.82,1853833.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-11-01,0,0,36,1.12,1862000.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2025-12-01,0,0,36,0.76,1870167.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2026-01-01,0,0,36,0.5,1878333.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2026-02-01,0,0,36,0.51,1886500.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2026-03-01,0,0,36,0.54,1894667.0,0.0
+EMP014,Insígnia Perdizes,Perdizes,Alto Padrão,2026-04-01,0,0,36,0.5,1902833.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2023-10-01,17,0,76,22.53,1105263.0,18789474.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2023-11-01,11,0,59,19.49,1110789.0,12218684.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2023-12-01,8,0,48,16.17,1116316.0,8930526.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-01-01,5,0,40,13.43,1121842.0,5609211.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-02-01,4,0,35,12.81,1127368.0,4509474.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-03-01,3,0,31,10.93,1132895.0,3398684.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-04-01,2,0,28,8.44,1138421.0,2276842.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-05-01,2,0,26,8.41,1143947.0,2287895.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-06-01,2,0,24,7.28,1149474.0,2298947.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-07-01,1,0,22,5.84,1155000.0,1155000.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-08-01,1,0,21,5.17,1160526.0,1160526.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-09-01,1,0,20,4.21,1166053.0,1166053.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-10-01,1,0,19,3.12,1171579.0,1171579.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-11-01,1,0,18,3.05,1177105.0,1177105.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2024-12-01,1,0,17,3.32,1182632.0,1182632.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-01-01,0,0,16,1.76,1188158.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-02-01,0,0,16,1.94,1193684.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-03-01,0,0,16,1.76,1199211.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-04-01,0,0,16,1.74,1204737.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-05-01,0,0,16,2.11,1210263.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-06-01,0,0,16,1.08,1215789.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-07-01,0,0,16,0.93,1221316.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-08-01,0,0,16,1.39,1226842.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-09-01,0,0,16,0.85,1232368.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-10-01,0,0,16,0.5,1237895.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-11-01,0,0,16,0.68,1243421.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2025-12-01,0,0,16,0.5,1248947.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2026-01-01,0,0,16,0.5,1254474.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2026-02-01,0,0,16,0.56,1260000.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2026-03-01,0,0,16,0.5,1265526.0,0.0
+EMP015,Classic Jundiaí,Jundiaí,Alto Padrão,2026-04-01,0,0,16,1.11,1271053.0,0.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2024-03-01,33,0,152,21.99,1763158.0,58184211.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2024-04-01,23,0,119,19.48,1771974.0,40755395.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2024-05-01,16,0,96,16.27,1780789.0,28492632.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2024-06-01,12,0,80,15.23,1789605.0,21475263.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2024-07-01,9,0,68,12.73,1798421.0,16185789.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2024-08-01,7,0,59,12.35,1807237.0,12650658.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2024-09-01,5,0,52,9.77,1816053.0,9080263.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2024-10-01,4,0,47,8.96,1824868.0,7299474.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2024-11-01,3,0,43,7.4,1833684.0,5501053.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2024-12-01,3,0,40,7.84,1842500.0,5527500.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2025-01-01,2,0,37,6.28,1851316.0,3702632.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2025-02-01,2,0,35,5.69,1860132.0,3720263.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2025-03-01,1,0,33,4.26,1868947.0,1868947.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2025-04-01,2,0,32,4.73,1877763.0,3755526.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2025-05-01,1,0,30,3.43,1886579.0,1886579.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2025-06-01,1,0,29,4.03,1895395.0,1895395.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2025-07-01,1,0,28,2.6,1904211.0,1904211.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2025-08-01,1,0,27,2.25,1913026.0,1913026.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2025-09-01,0,1,26,1.72,1921842.0,0.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2025-10-01,1,1,27,2.11,1930658.0,1930658.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2025-11-01,1,1,27,2.02,1939474.0,1939474.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2025-12-01,0,0,27,1.07,1948289.0,0.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2026-01-01,1,0,27,1.96,1957105.0,1957105.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2026-02-01,0,0,26,1.32,1965921.0,0.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2026-03-01,0,0,26,1.29,1974737.0,0.0
+EMP016,Infinity Perdizes,Perdizes,Premium,2026-04-01,0,0,26,1.05,1983553.0,0.0
+EMP017,Inside Perdizes,Perdizes,Smart,2024-06-01,39,0,160,24.35,450000.0,17550000.0
+EMP017,Inside Perdizes,Perdizes,Smart,2024-07-01,26,0,121,21.34,452250.0,11758500.0
+EMP017,Inside Perdizes,Perdizes,Smart,2024-08-01,18,0,95,19.22,454500.0,8181000.0
+EMP017,Inside Perdizes,Perdizes,Smart,2024-09-01,14,0,77,18.29,456750.0,6394500.0
+EMP017,Inside Perdizes,Perdizes,Smart,2024-10-01,11,0,63,16.67,459000.0,5049000.0
+EMP017,Inside Perdizes,Perdizes,Smart,2024-11-01,7,0,52,14.24,461250.0,3228750.0
+EMP017,Inside Perdizes,Perdizes,Smart,2024-12-01,6,0,45,12.66,463500.0,2781000.0
+EMP017,Inside Perdizes,Perdizes,Smart,2025-01-01,5,0,39,11.95,465750.0,2328750.0
+EMP017,Inside Perdizes,Perdizes,Smart,2025-02-01,4,1,34,10.45,468000.0,1872000.0
+EMP017,Inside Perdizes,Perdizes,Smart,2025-03-01,3,1,31,8.84,470250.0,1410750.0
+EMP017,Inside Perdizes,Perdizes,Smart,2025-04-01,2,1,29,8.11,472500.0,945000.0
+EMP017,Inside Perdizes,Perdizes,Smart,2025-05-01,2,1,28,8.11,474750.0,949500.0
+EMP017,Inside Perdizes,Perdizes,Smart,2025-06-01,2,1,27,7.27,477000.0,954000.0
+EMP017,Inside Perdizes,Perdizes,Smart,2025-07-01,1,1,26,5.64,479250.0,479250.0
+EMP017,Inside Perdizes,Perdizes,Smart,2025-08-01,1,1,26,5.33,481500.0,481500.0
+EMP017,Inside Perdizes,Perdizes,Smart,2025-09-01,1,1,26,4.79,483750.0,483750.0
+EMP017,Inside Perdizes,Perdizes,Smart,2025-10-01,1,0,26,4.96,486000.0,486000.0
+EMP017,Inside Perdizes,Perdizes,Smart,2025-11-01,1,0,25,3.53,488250.0,488250.0
+EMP017,Inside Perdizes,Perdizes,Smart,2025-12-01,1,0,24,3.26,490500.0,490500.0
+EMP017,Inside Perdizes,Perdizes,Smart,2026-01-01,1,0,23,3.94,492750.0,492750.0
+EMP017,Inside Perdizes,Perdizes,Smart,2026-02-01,1,0,22,2.69,495000.0,495000.0
+EMP017,Inside Perdizes,Perdizes,Smart,2026-03-01,1,0,21,3.11,497250.0,497250.0
+EMP017,Inside Perdizes,Perdizes,Smart,2026-04-01,0,0,20,2.22,499500.0,0.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2024-09-01,32,0,168,18.86,1857143.0,59428571.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2024-10-01,24,0,136,17.3,1866429.0,44794286.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2024-11-01,17,0,112,15.49,1875714.0,31887143.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2024-12-01,13,0,95,13.69,1885000.0,24505000.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-01-01,9,0,82,11.49,1894286.0,17048571.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-02-01,8,0,73,10.53,1903571.0,15228571.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-03-01,6,0,65,8.63,1912857.0,11477143.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-04-01,5,0,59,7.7,1922143.0,9610714.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-05-01,4,0,54,7.68,1931429.0,7725714.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-06-01,3,0,50,5.53,1940714.0,5822143.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-07-01,2,0,47,4.92,1950000.0,3900000.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-08-01,2,0,45,4.47,1959286.0,3918571.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-09-01,2,0,43,3.64,1968571.0,3937143.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-10-01,1,1,41,3.38,1977857.0,1977857.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-11-01,1,1,41,3.55,1987143.0,1987143.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2025-12-01,1,1,41,2.92,1996429.0,1996429.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2026-01-01,1,1,41,3.3,2005714.0,2005714.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2026-02-01,1,1,41,2.89,2015000.0,2015000.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2026-03-01,1,0,41,1.92,2024286.0,2024286.0
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,Premium,2026-04-01,1,0,40,1.56,2033571.0,2033571.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-01-01,18,0,96,18.8,1541667.0,27750000.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-02-01,12,0,78,15.74,1549375.0,18592500.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-03-01,9,0,66,14.06,1557083.0,14013750.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-04-01,7,0,57,11.83,1564792.0,10953542.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-05-01,5,0,50,10.4,1572500.0,7862500.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-06-01,4,0,45,8.82,1580208.0,6320833.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-07-01,3,0,41,7.39,1587917.0,4763750.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-08-01,3,0,38,7.33,1595625.0,4786875.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-09-01,2,0,35,6.16,1603333.0,3206667.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-10-01,1,0,33,4.45,1611042.0,1611042.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-11-01,2,0,32,4.88,1618750.0,3237500.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2025-12-01,1,0,30,3.74,1626458.0,1626458.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2026-01-01,1,0,29,3.86,1634167.0,1634167.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2026-02-01,1,0,28,3.29,1641875.0,1641875.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2026-03-01,1,0,27,2.37,1649583.0,1649583.0
+EMP019,Loomi Vila Olímpia,Vila Olímpia,Alto Padrão,2026-04-01,0,0,26,1.45,1657292.0,0.0
+EMP020,Classic Moema,Moema,Alto Padrão,2025-05-01,20,0,112,17.73,1446429.0,28928571.0
+EMP020,Classic Moema,Moema,Alto Padrão,2025-06-01,14,0,92,15.43,1453661.0,20351250.0
+EMP020,Classic Moema,Moema,Alto Padrão,2025-07-01,10,0,78,12.77,1460893.0,14608929.0
+EMP020,Classic Moema,Moema,Alto Padrão,2025-08-01,7,0,68,10.79,1468125.0,10276875.0
+EMP020,Classic Moema,Moema,Alto Padrão,2025-09-01,6,0,61,10.28,1475357.0,8852143.0
+EMP020,Classic Moema,Moema,Alto Padrão,2025-10-01,5,0,55,9.17,1482589.0,7412946.0
+EMP020,Classic Moema,Moema,Alto Padrão,2025-11-01,4,0,50,7.34,1489821.0,5959286.0
+EMP020,Classic Moema,Moema,Alto Padrão,2025-12-01,3,0,46,5.82,1497054.0,4491161.0
+EMP020,Classic Moema,Moema,Alto Padrão,2026-01-01,2,0,43,5.12,1504286.0,3008571.0
+EMP020,Classic Moema,Moema,Alto Padrão,2026-02-01,2,0,41,4.01,1511518.0,3023036.0
+EMP020,Classic Moema,Moema,Alto Padrão,2026-03-01,2,0,39,4.73,1518750.0,3037500.0
+EMP020,Classic Moema,Moema,Alto Padrão,2026-04-01,1,0,37,2.99,1525982.0,1525982.0
