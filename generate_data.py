@@ -311,53 +311,104 @@ print(f"vendas_mensais.csv: {len(vend_df)} linhas")
 
 
 # ── 4. Fluxo de Caixa ─────────────────────────────────────────────────────
+# Modelo realista de fluxo para incorporadora:
+#   Entradas de vendas  = parcelas mensais dos compradores ao longo da obra
+#                         (calculadas sobre VSO FINAL esperado ~90%, não o atual)
+#   Entradas financiam. = crédito bancário (CEF/SFH) liberado em tranches na obra
+#   Saídas obra         = desembolso de construção em curva S (lento→acelerado→lento)
+#   Saídas despesas     = comissões + admin, concentradas no lançamento depois lineares
+#
+# Princípio: total entradas ≈ total saídas + margem → projeto viável por construção.
 fc_rows = []
 
 for _, row in emp.iterrows():
     eid    = row["id"]
     prm    = emp_params[eid]
     lancamento = row["lancamento"]
-    fim    = min(HOJE, row["entrega_prevista"] + pd.DateOffset(months=6))
+    # Série vai até entrega + 9 meses para capturar recebimentos pós-entrega
+    fim    = row["entrega_prevista"] + pd.DateOffset(months=9)
     meses  = pd.date_range(lancamento, fim, freq="MS")
     n      = len(meses)
     if n == 0:
         continue
 
     vgv_total  = prm["vgv_total"]
-    custo_total = vgv_total * (1 - prm["margem_bruta_pct"]) * 0.92
 
-    # Curva de recebimento de compradores: S-curve de 60 meses
+    # VSO final esperado ao término da obra
+    vso_final  = rnd(0.88, 0.97)
+    vgv_final  = vgv_total * vso_final
+
+    # Custo total de construção
+    custo_total = vgv_total * (1 - prm["margem_bruta_pct"]) * 0.90
+
     t = np.arange(n)
-    rec_curve  = np.exp(-((t - n * 0.35) ** 2) / (2 * (n * 0.25) ** 2))
-    rec_curve  = rec_curve / rec_curve.sum()
-    total_rec  = vgv_total * prm["vso"] * 0.85   # 85% recebido em parcelas
-    ent_vendas = rec_curve * total_rec
 
-    # Financiamento bancário: concentrado nos meses de obra (30-70% do ciclo)
-    fin_share = np.where((t >= n * 0.25) & (t <= n * 0.75), 1.0, 0.0)
-    if fin_share.sum() > 0:
-        fin_share = fin_share / fin_share.sum()
-    total_fin  = custo_total * rnd(0.25, 0.45)
-    ent_fin    = fin_share * total_fin
+    # ── Entradas de vendas ─────────────────────────────────────────────────
+    # 30% em parcelas mensais durante obra (distribuídas uniformemente)
+    # + entrada (sinal) de 5% concentrada no lançamento
+    parcela_total = vgv_final * 0.30
+    ent_vendas    = np.ones(n) * (parcela_total / n)
+    n_launch      = max(1, int(n * 0.08))
+    ent_vendas[:n_launch] += (vgv_final * 0.05) / n_launch  # sinal de lançamento
 
-    # Saídas de obra: curva S de desembolso de construção
-    obra_curve = (t / n) ** 0.8 * np.exp(-((t - n * 0.55) ** 2) / (2 * (n * 0.30) ** 2))
-    if obra_curve.sum() > 0:
-        obra_curve = obra_curve / obra_curve.sum()
-    sai_obra   = obra_curve * custo_total
+    # ── Entradas de financiamento ──────────────────────────────────────────
+    # Crédito de produção (SFH/CEF): ~25-35% do custo, 4 tranches na fase de obra
+    cred_producao = custo_total * rnd(0.25, 0.35)
+    fin_obra = np.zeros(n)
+    for tranche in [0.20, 0.40, 0.60, 0.78]:
+        idx = min(int(n * tranche), n - 1)
+        fin_obra[idx] += cred_producao / 4
 
-    # Saídas de despesas: distribuídas uniformemente com leve concentração no início
-    sai_desp = np.ones(n)
-    sai_desp[:max(1,int(n*0.15))] *= 1.6   # spike no lançamento (despesas comerciais)
-    sai_desp = sai_desp / sai_desp.sum()
+    # Repasse bancário do comprador (~60% do VGV): distribuído suavemente
+    # nos 6 meses próximos à entrega (entregas escalonadas por unidade)
+    cred_entrega   = vgv_final * 0.60
+    n_repasse      = max(6, int(n * 0.18))   # ≥ 6 meses para diluir
+    idx_ini_rep    = max(0, n - n_repasse)
+    fin_entrega    = np.zeros(n)
+    # Curva crescente → pico na entrega → queda nos meses finais
+    repasse_w      = np.linspace(0.5, 1.0, n_repasse // 2 + 1)
+    repasse_w      = np.concatenate([repasse_w, np.linspace(1.0, 0.3, n_repasse - len(repasse_w) + 1)[1:]])
+    repasse_w      = repasse_w[:n_repasse] / repasse_w[:n_repasse].sum()
+    fin_entrega[idx_ini_rep:idx_ini_rep + n_repasse] = repasse_w * cred_entrega
+
+    ent_fin = fin_obra + fin_entrega
+
+    ent_fin = fin_obra + fin_entrega
+
+    # ── Saídas de obra ────────────────────────────────────────────────────
+    # Curva S realista: aceleração no início/meio, desaceleração no final
+    # Fundação+Estrutura (0-38%): ~36% do custo
+    # Alvenaria+Instalações (38-78%): ~43% do custo → fase mais intensa
+    # Acabamento+Entrega (78-100%): ~21% do custo
+    s_curve = np.zeros(n)
+    for i, tv in enumerate(t):
+        frac = tv / max(n - 1, 1)
+        # Densidade: trapézio com pico entre 30-70% do ciclo
+        if frac < 0.15:
+            densidade = frac / 0.15 * 0.8
+        elif frac < 0.70:
+            densidade = 0.8 + (frac - 0.15) / 0.55 * 0.4
+        elif frac < 0.85:
+            densidade = 1.2 - (frac - 0.70) / 0.15 * 0.4
+        else:
+            densidade = 0.8 * (1 - (frac - 0.85) / 0.15)
+        s_curve[i] = max(densidade, 0.05)
+
+    s_curve = s_curve / s_curve.sum()
+    sai_obra = s_curve * custo_total
+
+    # ── Saídas de despesas ────────────────────────────────────────────────
+    # Comissões: 60% no lançamento, 40% distribuídas ao longo das vendas
     total_desp  = vgv_total * (prm["desp_com_rate"] + prm["desp_adm_rate"])
-    sai_despesas = sai_desp * total_desp
+    sai_desp    = np.ones(n) * (total_desp * 0.40 / n)
+    n_launch    = max(1, int(n * 0.08))
+    sai_desp[:n_launch] += (total_desp * 0.60) / n_launch
 
     for i, mes in enumerate(meses):
-        et = ent_vendas[i]
-        ef = ent_fin[i]
-        so = sai_obra[i]
-        sd = sai_despesas[i]
+        et      = ent_vendas[i]
+        ef      = ent_fin[i]
+        so      = sai_obra[i]
+        sd      = sai_desp[i]
         ent_tot = et + ef
         sai_tot = so + sd
         saldo   = ent_tot - sai_tot

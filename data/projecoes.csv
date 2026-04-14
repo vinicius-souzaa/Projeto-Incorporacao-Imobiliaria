@@ -1,145 +1,145 @@
 id_empreendimento,nome,bairro,status,linha,data,avanco_projetado_pct,receita_projetada,custo_projetado,ebitda_projetado,margem_projetada_pct
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-04-01,60.4,3547894.0,2484366.0,754322.0,21.3
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-05-01,62.9,3547894.0,2484366.0,754322.0,21.3
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-06-01,65.3,3547894.0,2484366.0,754322.0,21.3
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-07-01,67.7,3547894.0,2484366.0,754322.0,21.3
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-08-01,70.2,3547894.0,2484366.0,754322.0,21.3
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-09-01,72.6,3547894.0,2484366.0,754322.0,21.3
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-10-01,75.0,3547894.0,2484366.0,754322.0,21.3
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-11-01,77.4,3547894.0,2484366.0,754322.0,21.3
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-12-01,79.9,3547894.0,2484366.0,754322.0,21.3
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2027-01-01,82.3,3547894.0,2484366.0,754322.0,21.3
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2027-02-01,84.7,3547894.0,2484366.0,754322.0,21.3
-EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2027-03-01,87.2,3547894.0,2484366.0,754322.0,21.3
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-04-01,56.9,1321370.0,916533.0,270824.0,20.5
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-05-01,59.8,1321370.0,916533.0,270824.0,20.5
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-06-01,62.6,1321370.0,916533.0,270824.0,20.5
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-07-01,65.5,1321370.0,916533.0,270824.0,20.5
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-08-01,68.4,1321370.0,916533.0,270824.0,20.5
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-09-01,71.3,1321370.0,916533.0,270824.0,20.5
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-10-01,74.2,1321370.0,916533.0,270824.0,20.5
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-11-01,77.0,1321370.0,916533.0,270824.0,20.5
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-12-01,79.9,1321370.0,916533.0,270824.0,20.5
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2027-01-01,82.8,1321370.0,916533.0,270824.0,20.5
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2027-02-01,85.7,1321370.0,916533.0,270824.0,20.5
-EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2027-03-01,88.5,1321370.0,916533.0,270824.0,20.5
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-04-01,65.4,3646071.0,2305897.0,974430.0,26.7
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-05-01,68.8,3646071.0,2305897.0,974430.0,26.7
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-06-01,72.1,3646071.0,2305897.0,974430.0,26.7
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-07-01,75.5,3646071.0,2305897.0,974430.0,26.7
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-08-01,78.9,3646071.0,2305897.0,974430.0,26.7
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-09-01,82.3,3646071.0,2305897.0,974430.0,26.7
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-10-01,85.7,3646071.0,2305897.0,974430.0,26.7
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-11-01,89.1,3646071.0,2305897.0,974430.0,26.7
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-12-01,92.4,3646071.0,2305897.0,974430.0,26.7
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2027-01-01,95.8,3646071.0,2305897.0,974430.0,26.7
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2027-02-01,99.2,3646071.0,2305897.0,974430.0,26.7
-EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2027-03-01,100.0,3646071.0,2305897.0,974430.0,26.7
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-04-01,70.4,1351246.0,792168.0,447749.0,33.1
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-05-01,72.9,1351246.0,792168.0,447749.0,33.1
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-06-01,75.3,1351246.0,792168.0,447749.0,33.1
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-07-01,77.8,1351246.0,792168.0,447749.0,33.1
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-08-01,80.2,1351246.0,792168.0,447749.0,33.1
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-09-01,82.6,1351246.0,792168.0,447749.0,33.1
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-10-01,85.1,1351246.0,792168.0,447749.0,33.1
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-11-01,87.5,1351246.0,792168.0,447749.0,33.1
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-12-01,89.9,1351246.0,792168.0,447749.0,33.1
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2027-01-01,92.4,1351246.0,792168.0,447749.0,33.1
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2027-02-01,94.8,1351246.0,792168.0,447749.0,33.1
-EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2027-03-01,97.3,1351246.0,792168.0,447749.0,33.1
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-04-01,55.1,1236343.0,881256.0,222265.0,18.0
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-05-01,58.1,1236343.0,881256.0,222265.0,18.0
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-06-01,61.2,1236343.0,881256.0,222265.0,18.0
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-07-01,64.2,1236343.0,881256.0,222265.0,18.0
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-08-01,67.3,1236343.0,881256.0,222265.0,18.0
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-09-01,70.3,1236343.0,881256.0,222265.0,18.0
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-10-01,73.4,1236343.0,881256.0,222265.0,18.0
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-11-01,76.4,1236343.0,881256.0,222265.0,18.0
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-12-01,79.5,1236343.0,881256.0,222265.0,18.0
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2027-01-01,82.5,1236343.0,881256.0,222265.0,18.0
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2027-02-01,85.6,1236343.0,881256.0,222265.0,18.0
-EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2027-03-01,88.6,1236343.0,881256.0,222265.0,18.0
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-04-01,48.6,4455465.0,2969943.0,1046103.0,23.5
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-05-01,52.1,4455465.0,2969943.0,1046103.0,23.5
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-06-01,55.7,4455465.0,2969943.0,1046103.0,23.5
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-07-01,59.3,4455465.0,2969943.0,1046103.0,23.5
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-08-01,62.9,4455465.0,2969943.0,1046103.0,23.5
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-09-01,66.4,4455465.0,2969943.0,1046103.0,23.5
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-10-01,70.0,4455465.0,2969943.0,1046103.0,23.5
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-11-01,73.6,4455465.0,2969943.0,1046103.0,23.5
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-12-01,77.1,4455465.0,2969943.0,1046103.0,23.5
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2027-01-01,80.7,4455465.0,2969943.0,1046103.0,23.5
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2027-02-01,84.3,4455465.0,2969943.0,1046103.0,23.5
-EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2027-03-01,87.9,4455465.0,2969943.0,1046103.0,23.5
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-04-01,41.0,2035796.0,1319645.0,547069.0,26.9
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-05-01,44.1,2035796.0,1319645.0,547069.0,26.9
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-06-01,47.1,2035796.0,1319645.0,547069.0,26.9
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-07-01,50.1,2035796.0,1319645.0,547069.0,26.9
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-08-01,53.2,2035796.0,1319645.0,547069.0,26.9
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-09-01,56.2,2035796.0,1319645.0,547069.0,26.9
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-10-01,59.2,2035796.0,1319645.0,547069.0,26.9
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-11-01,62.3,2035796.0,1319645.0,547069.0,26.9
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-12-01,65.3,2035796.0,1319645.0,547069.0,26.9
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2027-01-01,68.3,2035796.0,1319645.0,547069.0,26.9
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2027-02-01,71.3,2035796.0,1319645.0,547069.0,26.9
-EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2027-03-01,74.4,2035796.0,1319645.0,547069.0,26.9
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-04-01,10.3,1901965.0,1144373.0,527584.0,27.7
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-05-01,12.5,1901965.0,1144373.0,527584.0,27.7
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-06-01,14.8,1901965.0,1144373.0,527584.0,27.7
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-07-01,17.1,1901965.0,1144373.0,527584.0,27.7
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-08-01,19.3,1901965.0,1144373.0,527584.0,27.7
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-09-01,21.6,1901965.0,1144373.0,527584.0,27.7
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-10-01,23.9,1901965.0,1144373.0,527584.0,27.7
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-11-01,26.1,1901965.0,1144373.0,527584.0,27.7
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-12-01,28.4,1901965.0,1144373.0,527584.0,27.7
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2027-01-01,30.7,1901965.0,1144373.0,527584.0,27.7
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2027-02-01,32.9,1901965.0,1144373.0,527584.0,27.7
-EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2027-03-01,35.2,1901965.0,1144373.0,527584.0,27.7
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-04-01,7.8,314847.0,213965.0,45358.0,14.4
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-05-01,9.7,314847.0,213965.0,45358.0,14.4
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-06-01,11.5,314847.0,213965.0,45358.0,14.4
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-07-01,13.4,314847.0,213965.0,45358.0,14.4
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-08-01,15.2,314847.0,213965.0,45358.0,14.4
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-09-01,17.1,314847.0,213965.0,45358.0,14.4
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-10-01,18.9,314847.0,213965.0,45358.0,14.4
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-11-01,20.8,314847.0,213965.0,45358.0,14.4
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-12-01,22.6,314847.0,213965.0,45358.0,14.4
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2027-01-01,24.5,314847.0,213965.0,45358.0,14.4
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2027-02-01,26.3,314847.0,213965.0,45358.0,14.4
-EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2027-03-01,28.2,314847.0,213965.0,45358.0,14.4
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-04-01,7.5,4977897.0,3155914.0,1263456.0,25.4
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-05-01,11.1,4977897.0,3155914.0,1263456.0,25.4
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-06-01,14.6,4977897.0,3155914.0,1263456.0,25.4
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-07-01,18.2,4977897.0,3155914.0,1263456.0,25.4
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-08-01,21.7,4977897.0,3155914.0,1263456.0,25.4
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-09-01,25.2,4977897.0,3155914.0,1263456.0,25.4
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-10-01,28.8,4977897.0,3155914.0,1263456.0,25.4
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-11-01,32.3,4977897.0,3155914.0,1263456.0,25.4
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-12-01,35.9,4977897.0,3155914.0,1263456.0,25.4
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2027-01-01,39.4,4977897.0,3155914.0,1263456.0,25.4
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2027-02-01,42.9,4977897.0,3155914.0,1263456.0,25.4
-EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2027-03-01,46.5,4977897.0,3155914.0,1263456.0,25.4
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-04-01,4.8,997881.0,698948.0,162237.0,16.3
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-05-01,6.7,997881.0,698948.0,162237.0,16.3
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-06-01,8.5,997881.0,698948.0,162237.0,16.3
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-07-01,10.4,997881.0,698948.0,162237.0,16.3
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-08-01,12.2,997881.0,698948.0,162237.0,16.3
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-09-01,14.1,997881.0,698948.0,162237.0,16.3
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-10-01,15.9,997881.0,698948.0,162237.0,16.3
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-11-01,17.7,997881.0,698948.0,162237.0,16.3
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-12-01,19.6,997881.0,698948.0,162237.0,16.3
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2027-01-01,21.4,997881.0,698948.0,162237.0,16.3
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2027-02-01,23.3,997881.0,698948.0,162237.0,16.3
-EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2027-03-01,25.1,997881.0,698948.0,162237.0,16.3
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-04-01,5.5,1303009.0,873663.0,212796.0,16.3
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-05-01,9.1,1303009.0,873663.0,212796.0,16.3
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-06-01,12.6,1303009.0,873663.0,212796.0,16.3
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-07-01,16.2,1303009.0,873663.0,212796.0,16.3
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-08-01,19.7,1303009.0,873663.0,212796.0,16.3
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-09-01,23.3,1303009.0,873663.0,212796.0,16.3
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-10-01,26.8,1303009.0,873663.0,212796.0,16.3
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-11-01,30.4,1303009.0,873663.0,212796.0,16.3
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-12-01,33.9,1303009.0,873663.0,212796.0,16.3
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2027-01-01,37.5,1303009.0,873663.0,212796.0,16.3
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2027-02-01,41.0,1303009.0,873663.0,212796.0,16.3
-EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2027-03-01,44.6,1303009.0,873663.0,212796.0,16.3
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-04-01,61.1,4459369.0,3122615.0,948112.0,21.3
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-05-01,64.1,4459369.0,3122615.0,948112.0,21.3
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-06-01,67.2,4459369.0,3122615.0,948112.0,21.3
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-07-01,70.2,4459369.0,3122615.0,948112.0,21.3
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-08-01,73.3,4459369.0,3122615.0,948112.0,21.3
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-09-01,76.3,4459369.0,3122615.0,948112.0,21.3
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-10-01,79.4,4459369.0,3122615.0,948112.0,21.3
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-11-01,82.4,4459369.0,3122615.0,948112.0,21.3
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2026-12-01,85.5,4459369.0,3122615.0,948112.0,21.3
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2027-01-01,88.6,4459369.0,3122615.0,948112.0,21.3
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2027-02-01,91.6,4459369.0,3122615.0,948112.0,21.3
+EMP009,Insígnia Alto da Lapa,Alto da Lapa,em_obra,Alto Padrão,2027-03-01,94.7,4459369.0,3122615.0,948112.0,21.3
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-04-01,57.5,1628134.0,1129312.0,333697.0,20.5
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-05-01,61.1,1628134.0,1129312.0,333697.0,20.5
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-06-01,64.6,1628134.0,1129312.0,333697.0,20.5
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-07-01,68.2,1628134.0,1129312.0,333697.0,20.5
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-08-01,71.7,1628134.0,1129312.0,333697.0,20.5
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-09-01,75.3,1628134.0,1129312.0,333697.0,20.5
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-10-01,78.8,1628134.0,1129312.0,333697.0,20.5
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-11-01,82.4,1628134.0,1129312.0,333697.0,20.5
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2026-12-01,85.9,1628134.0,1129312.0,333697.0,20.5
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2027-01-01,89.5,1628134.0,1129312.0,333697.0,20.5
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2027-02-01,93.0,1628134.0,1129312.0,333697.0,20.5
+EMP010,Inside Chácara Klabin,Chácara Klabin,em_obra,Smart,2027-03-01,96.6,1628134.0,1129312.0,333697.0,20.5
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-04-01,65.8,4063056.0,2569611.0,1085871.0,26.7
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-05-01,69.5,4063056.0,2569611.0,1085871.0,26.7
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-06-01,73.3,4063056.0,2569611.0,1085871.0,26.7
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-07-01,77.1,4063056.0,2569611.0,1085871.0,26.7
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-08-01,80.8,4063056.0,2569611.0,1085871.0,26.7
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-09-01,84.6,4063056.0,2569611.0,1085871.0,26.7
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-10-01,88.4,4063056.0,2569611.0,1085871.0,26.7
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-11-01,92.1,4063056.0,2569611.0,1085871.0,26.7
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2026-12-01,95.9,4063056.0,2569611.0,1085871.0,26.7
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2027-01-01,99.7,4063056.0,2569611.0,1085871.0,26.7
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2027-02-01,100.0,4063056.0,2569611.0,1085871.0,26.7
+EMP011,Loomi Chácara Sto. Antônio,Chácara Sto. Antônio,em_obra,Alto Padrão,2027-03-01,100.0,4063056.0,2569611.0,1085871.0,26.7
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-04-01,71.3,1849635.0,1084348.0,612895.0,33.1
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-05-01,74.7,1849635.0,1084348.0,612895.0,33.1
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-06-01,78.0,1849635.0,1084348.0,612895.0,33.1
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-07-01,81.3,1849635.0,1084348.0,612895.0,33.1
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-08-01,84.7,1849635.0,1084348.0,612895.0,33.1
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-09-01,88.0,1849635.0,1084348.0,612895.0,33.1
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-10-01,91.4,1849635.0,1084348.0,612895.0,33.1
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-11-01,94.7,1849635.0,1084348.0,612895.0,33.1
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2026-12-01,98.0,1849635.0,1084348.0,612895.0,33.1
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2027-01-01,100.0,1849635.0,1084348.0,612895.0,33.1
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2027-02-01,100.0,1849635.0,1084348.0,612895.0,33.1
+EMP012,Verdi Aclimação,Aclimação,em_obra,Premium,2027-03-01,100.0,1849635.0,1084348.0,612895.0,33.1
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-04-01,54.6,1067712.0,761057.0,191949.0,18.0
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-05-01,57.3,1067712.0,761057.0,191949.0,18.0
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-06-01,59.9,1067712.0,761057.0,191949.0,18.0
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-07-01,62.5,1067712.0,761057.0,191949.0,18.0
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-08-01,65.2,1067712.0,761057.0,191949.0,18.0
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-09-01,67.8,1067712.0,761057.0,191949.0,18.0
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-10-01,70.4,1067712.0,761057.0,191949.0,18.0
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-11-01,73.1,1067712.0,761057.0,191949.0,18.0
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2026-12-01,75.7,1067712.0,761057.0,191949.0,18.0
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2027-01-01,78.4,1067712.0,761057.0,191949.0,18.0
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2027-02-01,81.0,1067712.0,761057.0,191949.0,18.0
+EMP013,Inside Brooklin II,Brooklin,em_obra,Smart,2027-03-01,83.6,1067712.0,761057.0,191949.0,18.0
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-04-01,47.6,3296379.0,2197315.0,773960.0,23.5
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-05-01,50.3,3296379.0,2197315.0,773960.0,23.5
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-06-01,52.9,3296379.0,2197315.0,773960.0,23.5
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-07-01,55.6,3296379.0,2197315.0,773960.0,23.5
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-08-01,58.2,3296379.0,2197315.0,773960.0,23.5
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-09-01,60.9,3296379.0,2197315.0,773960.0,23.5
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-10-01,63.5,3296379.0,2197315.0,773960.0,23.5
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-11-01,66.1,3296379.0,2197315.0,773960.0,23.5
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2026-12-01,68.8,3296379.0,2197315.0,773960.0,23.5
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2027-01-01,71.4,3296379.0,2197315.0,773960.0,23.5
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2027-02-01,74.1,3296379.0,2197315.0,773960.0,23.5
+EMP014,Insígnia Perdizes,Perdizes,em_obra,Alto Padrão,2027-03-01,76.7,3296379.0,2197315.0,773960.0,23.5
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-04-01,41.3,2199264.0,1425608.0,590997.0,26.9
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-05-01,44.6,2199264.0,1425608.0,590997.0,26.9
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-06-01,47.8,2199264.0,1425608.0,590997.0,26.9
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-07-01,51.1,2199264.0,1425608.0,590997.0,26.9
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-08-01,54.4,2199264.0,1425608.0,590997.0,26.9
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-09-01,57.7,2199264.0,1425608.0,590997.0,26.9
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-10-01,60.9,2199264.0,1425608.0,590997.0,26.9
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-11-01,64.2,2199264.0,1425608.0,590997.0,26.9
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2026-12-01,67.5,2199264.0,1425608.0,590997.0,26.9
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2027-01-01,70.8,2199264.0,1425608.0,590997.0,26.9
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2027-02-01,74.0,2199264.0,1425608.0,590997.0,26.9
+EMP015,Classic Jundiaí,Jundiaí,em_obra,Alto Padrão,2027-03-01,77.3,2199264.0,1425608.0,590997.0,26.9
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-04-01,10.3,1911731.0,1150249.0,530293.0,27.7
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-05-01,12.6,1911731.0,1150249.0,530293.0,27.7
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-06-01,14.8,1911731.0,1150249.0,530293.0,27.7
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-07-01,17.1,1911731.0,1150249.0,530293.0,27.7
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-08-01,19.4,1911731.0,1150249.0,530293.0,27.7
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-09-01,21.7,1911731.0,1150249.0,530293.0,27.7
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-10-01,23.9,1911731.0,1150249.0,530293.0,27.7
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-11-01,26.2,1911731.0,1150249.0,530293.0,27.7
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2026-12-01,28.5,1911731.0,1150249.0,530293.0,27.7
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2027-01-01,30.8,1911731.0,1150249.0,530293.0,27.7
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2027-02-01,33.1,1911731.0,1150249.0,530293.0,27.7
+EMP016,Infinity Perdizes,Perdizes,lancamento,Premium,2027-03-01,35.3,1911731.0,1150249.0,530293.0,27.7
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-04-01,8.0,344164.0,233888.0,49582.0,14.4
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-05-01,10.0,344164.0,233888.0,49582.0,14.4
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-06-01,12.1,344164.0,233888.0,49582.0,14.4
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-07-01,14.1,344164.0,233888.0,49582.0,14.4
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-08-01,16.1,344164.0,233888.0,49582.0,14.4
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-09-01,18.1,344164.0,233888.0,49582.0,14.4
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-10-01,20.1,344164.0,233888.0,49582.0,14.4
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-11-01,22.2,344164.0,233888.0,49582.0,14.4
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2026-12-01,24.2,344164.0,233888.0,49582.0,14.4
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2027-01-01,26.2,344164.0,233888.0,49582.0,14.4
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2027-02-01,28.2,344164.0,233888.0,49582.0,14.4
+EMP017,Inside Perdizes,Perdizes,lancamento,Smart,2027-03-01,30.3,344164.0,233888.0,49582.0,14.4
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-04-01,6.5,3528266.0,2236869.0,895520.0,25.4
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-05-01,9.0,3528266.0,2236869.0,895520.0,25.4
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-06-01,11.5,3528266.0,2236869.0,895520.0,25.4
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-07-01,14.0,3528266.0,2236869.0,895520.0,25.4
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-08-01,16.5,3528266.0,2236869.0,895520.0,25.4
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-09-01,19.1,3528266.0,2236869.0,895520.0,25.4
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-10-01,21.6,3528266.0,2236869.0,895520.0,25.4
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-11-01,24.1,3528266.0,2236869.0,895520.0,25.4
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2026-12-01,26.6,3528266.0,2236869.0,895520.0,25.4
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2027-01-01,29.1,3528266.0,2236869.0,895520.0,25.4
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2027-02-01,31.6,3528266.0,2236869.0,895520.0,25.4
+EMP018,Insígnia Itaim Bibi,Itaim Bibi,lancamento,Premium,2027-03-01,34.1,3528266.0,2236869.0,895520.0,25.4
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-04-01,5.4,1285969.0,900734.0,209075.0,16.3
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-05-01,7.7,1285969.0,900734.0,209075.0,16.3
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-06-01,10.1,1285969.0,900734.0,209075.0,16.3
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-07-01,12.5,1285969.0,900734.0,209075.0,16.3
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-08-01,14.9,1285969.0,900734.0,209075.0,16.3
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-09-01,17.2,1285969.0,900734.0,209075.0,16.3
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-10-01,19.6,1285969.0,900734.0,209075.0,16.3
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-11-01,22.0,1285969.0,900734.0,209075.0,16.3
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2026-12-01,24.4,1285969.0,900734.0,209075.0,16.3
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2027-01-01,26.7,1285969.0,900734.0,209075.0,16.3
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2027-02-01,29.1,1285969.0,900734.0,209075.0,16.3
+EMP019,Loomi Vila Olímpia,Vila Olímpia,lancamento,Alto Padrão,2027-03-01,31.5,1285969.0,900734.0,209075.0,16.3
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-04-01,4.4,878345.0,588927.0,143444.0,16.3
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-05-01,6.8,878345.0,588927.0,143444.0,16.3
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-06-01,9.2,878345.0,588927.0,143444.0,16.3
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-07-01,11.6,878345.0,588927.0,143444.0,16.3
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-08-01,14.0,878345.0,588927.0,143444.0,16.3
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-09-01,16.4,878345.0,588927.0,143444.0,16.3
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-10-01,18.7,878345.0,588927.0,143444.0,16.3
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-11-01,21.1,878345.0,588927.0,143444.0,16.3
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2026-12-01,23.5,878345.0,588927.0,143444.0,16.3
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2027-01-01,25.9,878345.0,588927.0,143444.0,16.3
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2027-02-01,28.3,878345.0,588927.0,143444.0,16.3
+EMP020,Classic Moema,Moema,lancamento,Alto Padrão,2027-03-01,30.7,878345.0,588927.0,143444.0,16.3

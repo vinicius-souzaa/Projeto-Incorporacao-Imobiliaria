@@ -204,10 +204,11 @@ fc_f   = fc[fc["id_empreendimento"].isin(ids_f)]
 bud_f  = bud[bud["id_empreendimento"].isin(ids_f)]
 proj_f = proj[proj["id_empreendimento"].isin(ids_f)]
 
-# Aplicar filtro de período nos datasets temporais
+# Aplicar filtro de período nos datasets históricos
 vend_f = vend_f[(vend_f["data"] >= dt_ini) & (vend_f["data"] <= dt_fim)]
 fc_f   = fc_f[(fc_f["data"] >= dt_ini) & (fc_f["data"] <= dt_fim)]
-proj_f = proj_f[(proj_f["data"] >= dt_ini) & (proj_f["data"] <= dt_fim)]
+# Projeções são dados futuros — não aplicar dt_fim (cortaria os meses projetados)
+proj_f = proj_f[proj_f["data"] >= dt_ini]
 
 if len(dre_f)==0:
     st.warning("⚠️ Nenhum empreendimento encontrado para os filtros selecionados.")
@@ -822,10 +823,12 @@ elif "Fluxo" in pg:
                        annotation_text="Linha de necessidade de capital",annotation_font_size=9)
         fig2.update_layout(**L(h=280),xaxis=AX(),yaxis=AX(fmt=",.0f"))
         st.plotly_chart(fig2, use_container_width=True)
-        if meses_neg>0:
-            ins(f"<strong>{meses_neg} meses</strong> com saldo negativo — revisar cronograma de recebimentos ou acionar financiamento bancário (SFH/SFI).", "bad")
+        if meses_acum_neg>0:
+            ins(f"<strong>{meses_acum_neg} meses</strong> com saldo acumulado negativo — revisar cronograma de recebimentos ou acionar financiamento bancário (SFH/SFI).", "bad")
+        elif meses_fluxo_neg>0:
+            ins(f"<strong>{meses_fluxo_neg} meses</strong> com fluxo mensal negativo (saídas > entradas no período), mas saldo acumulado positivo — comportamento normal na fase de desaceleração de vendas.", "warn")
         else:
-            ins("Saldo acumulado positivo em todos os meses — empreendimento auto-financiado pelo fluxo de vendas.", "ok")
+            ins("Fluxo mensal positivo em todos os meses — empreendimento auto-financiado pelo fluxo de vendas.", "ok")
 
     st.markdown("---")
     col3,col4 = st.columns(2)
